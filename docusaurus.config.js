@@ -6,25 +6,25 @@
  */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Computerization',
+  tagline: 'C社 << Computerization << 世外信息化社',
+  url: 'https://computerization.github.io',
+  baseUrl: '/docusaurus/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'Computerization', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Computerization',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Computerization Logo',
         src: 'img/logo.svg',
       },
       links: [
         {to: 'docs/doc1', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Computerization',
           label: 'GitHub',
           position: 'right',
         },
@@ -46,8 +46,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/Computerization',
             },
           ],
         },
@@ -63,9 +63,9 @@ module.exports = {
       ],
       logo: {
         alt: 'Facebook Open Source Logo',
-        src: 'https://docusaurus.io/img/oss_logo.png',
+        src: 'img/logo.svg',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Computerization. Built with Docusaurus.`,
     },
   },
   presets: [
