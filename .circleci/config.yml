@@ -15,7 +15,7 @@ jobs:
             - yarn-packages-v1-
       - run:
           name: Install dependencies
-          command: cd website && yarn install
+          command: yarn install
       - save_cache:
           paths:
             - ~/.cache/yarn
@@ -43,7 +43,7 @@ jobs:
             - yarn-packages-v1-
       - run:
           name: Install dependencies
-          command: cd website && yarn install
+          command: yarn install
       - save_cache:
           paths:
             - ~/.cache/yarn
