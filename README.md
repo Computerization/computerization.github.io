@@ -1,4 +1,5 @@
 # Website
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FComputerization%2Fdocusaurus.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FComputerization%2Fdocusaurus?ref=badge_shield)
 
