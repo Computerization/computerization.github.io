@@ -9,7 +9,7 @@ This website is built using Docusaurus 2, a modern static website generator.
 
 All documents (e.g. `.md` files inside `docs/` and `blog/` path) is licensed under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) as in [LICENSE-docs](/LICENSE-docs).
 
-The rest codes, unless stated otherwise, are licensed under [AGPL](/LICENSE).
+The rest codes, unless stated otherwise, are licensed under [GNU Affero General Public License v3.0](/LICENSE).
 
 
 ### Installation
