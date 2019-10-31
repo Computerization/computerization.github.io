@@ -6,8 +6,21 @@
  */
 
 module.exports = {
-  docs: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+  docs: [
+    {
+      type: 'category',
+      label: '关于我们',
+      items: ['about-us'],
+    },
+    {
+      type: 'category',
+      label: '我们的活动',
+      items: ['activities', 'what-is-sam', 'matlab-and-modeling'],
+    },
+    {
+      type: 'category',
+      label: 'Docusaurus 文档',
+      items: ['docusaurus/doc1', 'docusaurus/doc2', 'docusaurus/doc3', 'docusaurus/mdx'],
+    },
+  ]
 };
