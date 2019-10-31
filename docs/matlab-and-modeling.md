@@ -1,6 +1,7 @@
 ---
 id: matlab-and-modeling
 title: MATLAB与数学建模
+license: Creative Commons Attribution 4.0 International License
 ---
 
 MATLAB的教学是C社与数学社合作开展的**数学建模系列课程**中的一部分

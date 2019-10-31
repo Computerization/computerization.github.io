@@ -1,6 +1,7 @@
 ---
 id: what-is-sam
 title: SAM是什么
+license: Creative Commons Attribution 4.0 International License
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.

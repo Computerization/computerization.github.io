@@ -1,6 +1,7 @@
 ---
 id: activities
 title: C社都做些什么
+license: Creative Commons Attribution 4.0 International License
 ---
 
 ### 定期活动

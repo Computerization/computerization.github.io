@@ -1,6 +1,7 @@
 ---
 id: about-us
 title: C社是什么
+license: Creative Commons Attribution 4.0 International License
 ---
 
 我们是一个长期在幕后工作的，以面向社团的知识性服务为主的，一个小而精的CS社团
