@@ -45,6 +45,10 @@ jobs:
       - run:
           name: Deploy to GitHub Pages
           command: GIT_USER=yechs yarn run deploy
+          # Set environment variables so that project is deployed correctly
+          environment:
+            ORGANIZATION_NAME: Computerization
+            PROJECT_NAME: computerization.github.io
 
 
 workflows:
