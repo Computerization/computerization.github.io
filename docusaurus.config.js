@@ -9,10 +9,10 @@ module.exports = {
   title: 'Computerization',
   tagline: 'C社 << Computerization << 世外信息化社',
   url: 'https://computerization.github.io',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Computerization', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'computerization.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Computerization',
