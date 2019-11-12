@@ -29,16 +29,6 @@ jobs:
             - build
             - node_modules
 
-  deploy-staging:
-    docker:
-      - image: circleci/node:12.10.0
-    steps:
-      - checkout
-      - attach_workspace:
-          at: .
-      - store_artifacts:
-          path: ./build
-
   deploy-gh-pages:
     docker:
       - image: circleci/node:12.10.0
@@ -65,12 +55,6 @@ workflows:
           filters:
             branches:
               ignore: gh-pages
-      - deploy-staging:
-          requires:
-            - build
-          filters:
-            branches:
-              ignore: master
       - deploy-gh-pages:
           requires:
             - build
