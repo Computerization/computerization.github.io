@@ -12,7 +12,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Computerization', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'computerization.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Computerization',
