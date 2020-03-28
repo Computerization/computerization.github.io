@@ -21,6 +21,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
+        {to: 'team',  label: 'Team', position: 'left'},
         {to: 'docs/about-us', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {

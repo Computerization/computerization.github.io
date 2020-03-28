@@ -1,0 +1,29 @@
+.alumnusContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.alumnusContainer .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 180px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.alumnusContainer .link img {
+  max-height: 110px;
+  padding: 20px;
+  width: 110px;
+  align-self: center;
+}
+
+.alumnusContainer .link .caption {
+  line-height: 20px;
+  height: 20px;
+}
