@@ -8,6 +8,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import AlumniTimeline from "../components/AlumniTimeline";
+import styles from "./alumni.module.css"
 
 const alumni = [
   {
@@ -95,13 +96,16 @@ const alumni = [
 export default () => {
   return (
     <Layout
-      title="Team Members"
-      description="Description will go into a meta tag in <head />"
+      title="Our Alumni"
+      description="The alumni directory of Computerization club"
     >
       <main>
         <div className="container margin-vert--lg">
-          <div className="text--center">
-            <h2>Our Alumni</h2>
+          <div className={styles.content}>
+            <h1>Our Alumni</h1>
+            <p className="text--large">
+              If you are an alumnus or an alumna of the Computerization club and would like us to update your listing or link to your homepage, please open an issue or pull request at the <a href="https://github.com/Computerization/docusaurus/issues">Computerization/docusaurus</a> repository, or drop us a WeChat message.
+            </p>
           </div>
           <AlumniTimeline alumni={alumni} />
         </div>
