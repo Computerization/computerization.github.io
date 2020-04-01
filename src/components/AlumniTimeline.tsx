@@ -4,12 +4,11 @@ import Members from "./Members";
 
 const AlumniOfClass = ({classOf, alumni}) => {
   return (
-    <li>
-      <div>
-        <p>{classOf}</p>
-        <div>
+    <li className={styles.event}>
+      <label className={styles.icon}></label>
+      <div className={styles.body}>
+        <p className={styles.date}>Class of {classOf}</p>
           <Members members={alumni} />
-        </div>
       </div>
     </li>
   )
@@ -47,8 +46,8 @@ const AlumniTimeline = ({alumni}) => {
   );
 
   return (
-    <div>
-      <ul>
+    <div className={styles.container}>
+      <ul className={styles.timeline}>
         {listItems}
       </ul>
     </div>
