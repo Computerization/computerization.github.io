@@ -12,88 +12,84 @@ import AlumniTimeline from "../components/AlumniTimeline";
 const alumni = [
   {
     classOf: 2020,
-    infoLink: 'https://github.com/yechs',
-    image: 'https://avatars3.githubusercontent.com/u/49149993',
-    name: 'Ye Shu'
-  },
-  {
-    classOf: 2020,
-    infoLink: 'https://github.com/yechs',
-    image: 'https://avatars3.githubusercontent.com/u/49149993',
-    name: 'Ye Shu'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
+    members: [
+      {
+        infoLink: 'https://github.com/yechs',
+        image: 'https://avatars3.githubusercontent.com/u/49149993',
+        name: 'Ye Shu'
+      },
+      {
+        infoLink: 'https://github.com/yechs',
+        image: 'https://avatars3.githubusercontent.com/u/49149993',
+        name: 'Ye Shu'
+      },
+    ]
   },
   {
     classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
-  {
-    classOf: 2017,
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    name: 'Sam Zhou'
-  },
+    members: [
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      },
+      {
+        infoLink: 'https://developersam.com',
+        image: 'https://avatars3.githubusercontent.com/u/4290500',
+        name: 'Sam Zhou'
+      }
+    ]
+  }
 ];
 
 export default () => {
