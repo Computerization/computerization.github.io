@@ -7,90 +7,107 @@
 
 import React from 'react';
 import Layout from '@theme/Layout';
-import Members from '../components/Members';
+import AlumniTimeline from "../components/AlumniTimeline";
 
-const members = [
+const alumni = [
   {
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    classOf: 2020,
+    infoLink: 'https://github.com/yechs',
+    image: 'https://avatars3.githubusercontent.com/u/49149993',
+    name: 'Ye Shu'
   },
   {
-    infoLink: 'https://developersam.com',
-    image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    classOf: 2020,
+    infoLink: 'https://github.com/yechs',
+    image: 'https://avatars3.githubusercontent.com/u/49149993',
+    name: 'Ye Shu'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
   },
   {
+    classOf: 2017,
     infoLink: 'https://developersam.com',
     image: 'https://avatars3.githubusercontent.com/u/4290500',
-    caption: 'Sam Zhou'
+    name: 'Sam Zhou'
+  },
+  {
+    classOf: 2017,
+    infoLink: 'https://developersam.com',
+    image: 'https://avatars3.githubusercontent.com/u/4290500',
+    name: 'Sam Zhou'
+  },
+  {
+    classOf: 2017,
+    infoLink: 'https://developersam.com',
+    image: 'https://avatars3.githubusercontent.com/u/4290500',
+    name: 'Sam Zhou'
   },
 ];
-
-const alumnus = members;
 
 export default () => {
   return (
     <Layout
       title="Team Members"
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <main>
         <div className="container margin-vert--lg">
           <div className="text--center">
-            <h2>Our Members</h2>
+            <h2>Our Alumni</h2>
           </div>
-          <Members members={members} />
-        </div>
-        <div className="container margin-vert--lg">
-          <div className="text--center">
-            <h2>Our Alumnus</h2>
-          </div>
-          <Members members={alumnus} />
+          <AlumniTimeline alumni={alumni} />
         </div>
       </main>
     </Layout>

@@ -4,13 +4,13 @@ import styles from './Members.module.css';
 type Member = {
   readonly infoLink: string;
   readonly image: string;
-  readonly caption: string;
+  readonly name: string;
 };
 
-const UserLink = ({infoLink, image, caption}: Member): ReactElement => (
+const UserLink = ({infoLink, image, name}: Member): ReactElement => (
   <a className={styles.link} href={infoLink} key={infoLink}>
-    <img src={image} alt={caption} title={caption} />
-    <span className={styles.caption}>{caption}</span>
+    <img src={image} alt={name} title={name} />
+    <span className={styles.caption}>{name}</span>
   </a>
 );
 
