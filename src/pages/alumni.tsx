@@ -30,6 +30,17 @@ const alumni = [
         name: 'Sam Zhou'
       },
     ]
+  },
+  {
+    classOf: 2016,
+    members: [
+      {
+        infoLink: 'https://www.linkedin.com/in/jiameng-lily-du/',
+        image: "/img/alumni/Jiameng_Du.png",
+        // Planning to implement a useBaseUrl hook on the URL at the component level
+        name: '杜佳梦'
+      },
+    ]
   }
 ];
 
