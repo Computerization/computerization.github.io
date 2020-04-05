@@ -16,7 +16,7 @@ The rest codes, unless stated otherwise, are licensed under [GNU Affero General 
 
 ### Re-Using the Documents
 
-As for a human-readable exaplnation (and not a substitute for the [license](/LICENSE-docs) itself) by [Creative Commons](https://creativecommons.org/licenses/by/4.0/):
+As for a human-readable explanation (and not a substitute for the [license](/LICENSE-docs) itself) by [Creative Commons](https://creativecommons.org/licenses/by/4.0/):
 
 > You are free to:  
 >
