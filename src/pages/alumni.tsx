@@ -15,9 +15,13 @@ const alumni = [
     classOf: 2020,
     members: [
       {
-        infoLink: 'https://github.com/yechs',
+        name: 'Ye Shu',
         image: 'https://avatars3.githubusercontent.com/u/49149993',
-        name: 'Ye Shu'
+        website: null,
+        github: 'https://github.com/yechs',
+        linkedin: 'https://www.linkedin.com/in/yechs/',
+        bio: 'Current 12th grade student.',
+        favoredLink: 'github'
       },
     ]
   },
@@ -25,9 +29,13 @@ const alumni = [
     classOf: 2017,
     members: [
       {
-        infoLink: 'https://developersam.com',
+        name: 'Sam Zhou',
         image: 'https://avatars3.githubusercontent.com/u/4290500',
-        name: 'Sam Zhou'
+        website: 'https://developersam.com',
+        github: null,
+        linkedin: null,
+        bio: null,
+        favoredLink: 'website'
       },
     ]
   },
@@ -35,10 +43,14 @@ const alumni = [
     classOf: 2016,
     members: [
       {
-        infoLink: 'https://www.linkedin.com/in/jiameng-lily-du/',
+        name: '杜佳梦',
         image: "/img/alumni/Jiameng_Du.png",
         // Planning to implement a useBaseUrl hook on the URL at the component level
-        name: '杜佳梦'
+        website: null,
+        github: null,
+        linkedin: 'https://www.linkedin.com/in/jiameng-lily-du/',
+        bio: null,
+        favoredLink: 'linkedin'
       },
     ]
   }
