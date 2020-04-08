@@ -66,6 +66,16 @@ const alumni = [
         bio: "CMU ECE+CS Class of 2020",
         favoredLink: 'linkedin'
       },
+      {
+        name: '昂国昊',
+        image: "/img/alumni/Guohao_Ang.jpg",
+        // Planning to implement a useBaseUrl hook on the URL at the component level
+        website: null,
+        github: null,
+        linkedin: 'https://www.linkedin.com/in/guohao-ang-b35a32118/',
+        bio: "UCB CS+Applied Math Class of 2020 / Googler",
+        favoredLink: 'linkedin'
+      }
     ]
   }
 ];
