@@ -44,12 +44,12 @@ const alumni = [
     members: [
       {
         name: '杜佳梦',
-        image: "/img/alumni/Jiameng_Du.png",
+        image: "/img/alumni/Jiameng_Du.jpg",
         // Planning to implement a useBaseUrl hook on the URL at the component level
         website: null,
         github: null,
         linkedin: 'https://www.linkedin.com/in/jiameng-lily-du/',
-        bio: null,
+        bio: "CMU ECE+CS Class of 2020",
         favoredLink: 'linkedin'
       },
     ]
