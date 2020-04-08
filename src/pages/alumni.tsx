@@ -46,9 +46,9 @@ const alumni = [
         name: 'Sam Zhou',
         image: 'https://avatars3.githubusercontent.com/u/4290500',
         website: 'https://developersam.com',
-        github: null,
-        linkedin: null,
-        bio: null,
+        github: 'https://github.com/SamChou19815',
+        linkedin: 'https://www.linkedin.com/in/sam-zhou-30b91610b/',
+        bio: 'Facebook SWE Intern | Cornell Engineering \'21',
         favoredLink: 'website'
       },
     ]
