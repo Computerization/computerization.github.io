@@ -26,6 +26,20 @@ const alumni = [
     ]
   },
   {
+    classOf: 2019,
+    members: [
+      {
+        name: 'Yuchen Zhong',
+        image: '/img/alumni/Yuchen_Zhong.jpg',
+        website: 'https://davidzyc.github.io/',
+        github: 'https://github.com/davidzyc',
+        linkedin: null,
+        bio: 'ex-OIer / UTSG Math+CS 23\'',
+        favoredLink: 'github'
+      },
+    ]
+  },
+  {
     classOf: 2017,
     members: [
       {
