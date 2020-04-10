@@ -82,6 +82,14 @@ const alumni = [
         linkedin: 'https://www.linkedin.com/in/guohao-ang-b35a32118/',
         bio: "UCB CS+Applied Math Class of 2020 / Googler",
         favoredLink: 'linkedin'
+      },
+      {
+        name: '杨霁初',
+        image: "/img/alumni/Jichu_Yang.jpg",
+        // Planning to implement a useBaseUrl hook on the URL at the component level
+        website: 'https://benjester.github.io/',
+        bio: "Duke 2020'",
+        favoredLink: 'website'
       }
     ]
   }
