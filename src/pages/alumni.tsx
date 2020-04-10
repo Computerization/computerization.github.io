@@ -40,6 +40,20 @@ const alumni = [
     ]
   },
   {
+    classOf: 2018,
+    members: [
+      {
+        name: 'Rachel Gu',
+        image: '/img/alumni/Rachel_Gu.png',
+        website: null,
+        linkedin: null,
+        bio: 'UPenn Engineering \'2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist',
+        email: 'mailto:gubeini@seas.upenn.edu',
+        favoredLink: 'email'
+      }
+    ]
+  },
+  {
     classOf: 2017,
     members: [
       {
