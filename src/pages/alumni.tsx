@@ -51,6 +51,13 @@ const alumni = [
         bio: 'Facebook SWE Intern | Cornell Engineering \'21',
         favoredLink: 'website'
       },
+      {
+        name: '张秦子',
+        image: '/img/alumni/Qinzi_Zhang.jpg',
+        email: 'mailto:zhangbcu@bc.edu',
+        bio: 'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
+        favoredLink: 'email'
+      }
     ]
   },
   {
