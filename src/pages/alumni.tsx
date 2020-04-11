@@ -71,6 +71,13 @@ const alumni = [
         email: 'mailto:zhangbcu@bc.edu',
         bio: 'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
         favoredLink: 'email'
+      },
+      {
+        name: 'Sam Hu',
+        image: null,
+        email: 'mailto:huruiyangsam@gmail.com',
+        bio: 'Brandeis / CoSi & Math Major',
+        favoredLink: 'email'
       }
     ]
   },
