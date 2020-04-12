@@ -50,6 +50,13 @@ const alumni = [
         bio: 'UPenn Engineering \'2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist',
         email: 'mailto:gubeini@seas.upenn.edu',
         favoredLink: 'email'
+      },
+      {
+        name: 'Eric Zhang',
+        image: '/img/alumni/Eric_Zhang.jpg',
+        bio: 'NYU, Math & CS double major',
+        email: 'mailto:yz4801@nyu.edu',
+        favoredLink: 'email'
       }
     ]
   },
