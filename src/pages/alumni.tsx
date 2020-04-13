@@ -37,6 +37,12 @@ const alumni = [
         bio: 'ex-OIer / UTSG Math+CS 23\'',
         favoredLink: 'github'
       },
+      {
+        name: 'Jimmy Gan',
+        image: '/img/alumni/Jimmy_Gan.jpg',
+        bio: 'Rochester 2023 | Intended ECE & CS double major	| Currently working on Hardware Security, Side-channel Attack',
+        email: 'jimmygan1012@gmail.com'
+      }
     ]
   },
   {
