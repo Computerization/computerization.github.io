@@ -91,7 +91,14 @@ const alumni = [
         email: 'mailto:huruiyangsam@gmail.com',
         bio: 'Brandeis / CoSi & Math Major',
         favoredLink: 'email'
-      }
+      },
+      {
+        name: 'Tim Zhu H.Maru',
+        image: '/img/alumni/Tim_Zhu.jpg',
+        bio: 'Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement',
+        email: 'mailto:hmaru8088@gmail.com',
+        favoredLink: 'email',
+      },
     ]
   },
   {
