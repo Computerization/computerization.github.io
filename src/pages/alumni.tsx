@@ -41,7 +41,8 @@ const alumni = [
         name: 'Jimmy Gan',
         image: '/img/alumni/Jimmy_Gan.jpg',
         bio: 'Rochester 2023 | Intended ECE & CS double major	| Currently working on Hardware Security, Side-channel Attack',
-        email: 'jimmygan1012@gmail.com'
+        email: 'mailto:jimmygan1012@gmail.com',
+        favoredLink: 'email'
       }
     ]
   },
