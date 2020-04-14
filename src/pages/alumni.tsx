@@ -49,6 +49,13 @@ const alumni = [
     classOf: 2018,
     members: [
       {
+        name: 'Yudi Yang',
+        image: '/img/alumni/Yudi_Yang.jpg',
+        bio: 'UR MATH+CS 22\'',
+        github: 'https://github.com/2000jedi',
+        favoredLink: 'github'
+      },
+      {
         name: 'Rachel Gu',
         image: '/img/alumni/Rachel_Gu.png',
         website: null,
