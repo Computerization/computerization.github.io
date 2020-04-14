@@ -81,6 +81,14 @@ You may want to read the [Docusaurus v2 documents](https://v2.docusaurus.io/) be
     └── img
 ```
 
+### Handling Static Assets
+
+To save bandwidth & make loading faster, images will need to be optimized first. You can refer to Google's [PageSpeed Insights: Optimize Images](https://developers.google.com/speed/docs/insights/OptimizeImages). Alternatively, you can use the following command in Linux with [ImageMagick](https://imagemagick.org/index.php) installed.
+
+```shell
+$ convert in.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB out.jpg
+```
+
 ## Building & Deploying
 
 ### Build
