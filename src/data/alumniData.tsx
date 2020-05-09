@@ -123,7 +123,6 @@ const alumni: alumniData = [
       {
         name: '杜佳梦',
         image: "/img/alumni/Jiameng_Du.jpg",
-        // Planning to implement a useBaseUrl hook on the URL at the component level
         website: null,
         github: null,
         linkedin: 'https://www.linkedin.com/in/jiameng-lily-du/',
@@ -133,7 +132,6 @@ const alumni: alumniData = [
       {
         name: '昂国昊',
         image: "/img/alumni/Guohao_Ang.jpg",
-        // Planning to implement a useBaseUrl hook on the URL at the component level
         website: null,
         github: null,
         linkedin: 'https://www.linkedin.com/in/guohao-ang-b35a32118/',
@@ -143,7 +141,6 @@ const alumni: alumniData = [
       {
         name: '杨霁初',
         image: "/img/alumni/Jichu_Yang.jpg",
-        // Planning to implement a useBaseUrl hook on the URL at the component level
         website: 'https://benjester.github.io/',
         bio: "Duke 2020'",
         favoredLink: 'website'

@@ -9,6 +9,9 @@ const UserLink = ({ name, image, website, github, linkedin, email, bio, favoredL
 
   // If `image` does not exist, substitute for Default image
   if (image) {
+    if (image.startsWith("/")) {
+      image = useBaseUrl(image);
+    }
     userImage = <img src={image} alt={name} title={name} />;
   } else {
     userImage = (
