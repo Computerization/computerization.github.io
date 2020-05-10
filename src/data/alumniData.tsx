@@ -10,7 +10,7 @@
 
 import type { Member } from "../components/Members";
 
-export type alumniOfYear = {
+type alumniOfYear = {
   readonly classOf: number;
   readonly members: readonly Member[]
 };
@@ -25,7 +25,6 @@ const alumni: alumniData = [
       {
         name: 'Ye Shu',
         image: 'https://avatars3.githubusercontent.com/u/49149993',
-        website: null,
         github: 'https://github.com/yechs',
         linkedin: 'https://www.linkedin.com/in/yechs/',
         bio: 'Current 12th grade student.',
@@ -41,7 +40,6 @@ const alumni: alumniData = [
         image: '/img/alumni/Yuchen_Zhong.jpg',
         website: 'https://davidzyc.github.io/',
         github: 'https://github.com/davidzyc',
-        linkedin: null,
         bio: 'ex-OIer / UTSG Math+CS 23\'',
         favoredLink: 'github'
       },
@@ -67,8 +65,6 @@ const alumni: alumniData = [
       {
         name: 'Rachel Gu',
         image: '/img/alumni/Rachel_Gu.png',
-        website: null,
-        linkedin: null,
         bio: 'UPenn Engineering \'2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist',
         email: 'mailto:gubeini@seas.upenn.edu',
         favoredLink: 'email'
@@ -103,7 +99,6 @@ const alumni: alumniData = [
       },
       {
         name: 'Sam Hu',
-        image: null,
         email: 'mailto:huruiyangsam@gmail.com',
         bio: 'Brandeis / CoSi & Math Major',
         favoredLink: 'email'
@@ -123,8 +118,6 @@ const alumni: alumniData = [
       {
         name: '杜佳梦',
         image: "/img/alumni/Jiameng_Du.jpg",
-        website: null,
-        github: null,
         linkedin: 'https://www.linkedin.com/in/jiameng-lily-du/',
         bio: "CMU ECE+CS Class of 2020",
         favoredLink: 'linkedin'
@@ -132,8 +125,6 @@ const alumni: alumniData = [
       {
         name: '昂国昊',
         image: "/img/alumni/Guohao_Ang.jpg",
-        website: null,
-        github: null,
         linkedin: 'https://www.linkedin.com/in/guohao-ang-b35a32118/',
         bio: "UCB CS+Applied Math Class of 2020 / Googler",
         favoredLink: 'linkedin'

@@ -4,15 +4,19 @@ import styles from './Members.module.css';
 import MemberCard from "./MemberCard";
 
 export type Member = {
-  // should implement a few custom types later
   readonly name: string;
-  readonly bio?: string; // should be shorter than 120 characters
+  readonly bio?: string; // ideally ≤ 120 characters
+  // URL of profile image ("src" attribute in <img>);
+  // if null/undefined, a default image will be shown
   readonly image?: string;
+  // Below 4 are contact methods; Each should be a link ("href" attribute in <a>)
   readonly website?: string;
   readonly github?: string;
   readonly linkedin?: string;
-  readonly email?: string; // should begin with "mailto:"
-  readonly favoredLink?: "website" | "github" | "linkedin" | "email";
+  readonly email?: string;
+  // Below is the preferred contact method;
+  // clicking the profile image leads to this type of link
+  readonly favoredLink: "website" | "github" | "linkedin" | "email";
 };
 
 type MembersProps = { readonly members: readonly Member[] };

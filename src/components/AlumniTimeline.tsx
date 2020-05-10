@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import styles from './AlumniTimeline.module.css';
 import MemberList from "./Members";
 
-import type { alumniData, alumniOfYear } from "../data/alumniData";
+import type { alumniData } from "../data/alumniData";
 
 type AlumniProps = {
   readonly alumni: alumniData;
@@ -13,7 +13,7 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => {
     <div className={styles.container}>
       <ul className={styles.timeline}>
         {
-          alumni.map(({ classOf, members }: alumniOfYear): ReactElement => (
+          alumni.map(({ classOf, members }): ReactElement => (
             <li className={styles.event} key={classOf}>
               <label className={styles.icon}></label>
               <div className={styles.body}>
