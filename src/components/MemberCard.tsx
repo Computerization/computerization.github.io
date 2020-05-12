@@ -2,20 +2,16 @@ import React, { ReactElement } from 'react';
 import styles from './MemberCard.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-type Member = {
-  readonly name: string;
-  readonly image: string;
-  readonly website: string;
-  readonly github: string;
-  readonly linkedin: string;
-  readonly email: string;
-  readonly bio: string;
-  readonly favoredLink: string;
-};
+import type { Member } from "../components/Members"
 
-const UserLink = ({name, image, website, github, linkedin, email, bio, favoredLink}: Member): ReactElement => {
+const UserLink = ({ name, image, website, github, linkedin, email, bio, favoredLink }: Member): ReactElement => {
   let userImage: ReactElement;
+
+  // If `image` does not exist, substitute for Default image
   if (image) {
+    if (image.startsWith("/")) {
+      image = useBaseUrl(image);
+    }
     userImage = <img src={image} alt={name} title={name} />;
   } else {
     userImage = (
