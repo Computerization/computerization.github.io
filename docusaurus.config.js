@@ -21,9 +21,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'alumni',  label: 'Alumni', position: 'left'},
-        {to: 'docs/about-us', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'alumni', label: 'Alumni', position: 'left' },
+        { to: 'docs/about-us', label: 'Docs', position: 'left' },
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/Computerization',
           label: 'GitHub',

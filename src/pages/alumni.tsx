@@ -23,7 +23,13 @@ export default function Alumni(): ReactElement {
           <div className={styles.content}>
             <h1>Our Alumni</h1>
             <p className="text--large">
-              If you are an alumnus or an alumna of the Computerization club and would like us to update your listing or link to your homepage, please open an issue or pull request at the <a href="https://github.com/Computerization/docusaurus/issues">Computerization/docusaurus</a> repository, or drop us a WeChat message.
+              If you are an alumnus or an alumna of the Computerization club and
+              would like us to update your listing or link to your homepage,
+              please open an issue or pull request at the{' '}
+              <a href="https://github.com/Computerization/docusaurus/issues">
+                Computerization/docusaurus
+              </a>{' '}
+              repository, or drop us a WeChat message.
             </p>
           </div>
           <AlumniTimeline alumni={alumni} />

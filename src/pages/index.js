@@ -62,7 +62,7 @@ function Home() {
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                styles.getStarted
               )}
               to={useBaseUrl('docs/about-us')}
             >

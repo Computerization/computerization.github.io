@@ -11,8 +11,8 @@ type AlumniProps = {
 const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
   <div className={styles.container}>
     <ul className={styles.timeline}>
-      {
-        alumni.map(({ classOf, members }): ReactElement => (
+      {alumni.map(
+        ({ classOf, members }): ReactElement => (
           <li className={styles.event} key={classOf}>
             <span className={styles.icon} />
             <div className={styles.body}>
@@ -20,8 +20,8 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
               <MemberList members={members} />
             </div>
           </li>
-        ))
-      }
+        )
+      )}
     </ul>
   </div>
 );

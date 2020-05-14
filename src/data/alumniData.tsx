@@ -17,7 +17,6 @@ type alumniOfYear = {
 
 export type alumniData = alumniOfYear[];
 
-
 const alumni: alumniData = [
   {
     classOf: 2020,
@@ -40,13 +39,14 @@ const alumni: alumniData = [
         image: '/img/alumni/Yuchen_Zhong.jpg',
         website: 'https://davidzyc.github.io/',
         github: 'https://github.com/davidzyc',
-        bio: 'ex-OIer / UTSG Math+CS 23\'',
+        bio: "ex-OIer / UTSG Math+CS 23'",
         favoredLink: 'github',
       },
       {
         name: 'Jimmy Gan',
         image: '/img/alumni/Jimmy_Gan.jpg',
-        bio: 'Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack',
+        bio:
+          'Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack',
         email: 'mailto:jimmygan1012@gmail.com',
         favoredLink: 'email',
       },
@@ -58,14 +58,15 @@ const alumni: alumniData = [
       {
         name: 'Yudi Yang',
         image: '/img/alumni/Yudi_Yang.jpg',
-        bio: 'UR MATH+CS 22\'',
+        bio: "UR MATH+CS 22'",
         github: 'https://github.com/2000jedi',
         favoredLink: 'github',
       },
       {
         name: 'Rachel Gu',
         image: '/img/alumni/Rachel_Gu.png',
-        bio: 'UPenn Engineering \'2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist',
+        bio:
+          "UPenn Engineering '2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist",
         email: 'mailto:gubeini@seas.upenn.edu',
         favoredLink: 'email',
       },
@@ -87,14 +88,15 @@ const alumni: alumniData = [
         website: 'https://developersam.com',
         github: 'https://github.com/SamChou19815',
         linkedin: 'https://www.linkedin.com/in/sam-zhou-30b91610b/',
-        bio: 'Facebook SWE Intern | Cornell Engineering \'21',
+        bio: "Facebook SWE Intern | Cornell Engineering '21",
         favoredLink: 'website',
       },
       {
         name: '张秦子',
         image: '/img/alumni/Qinzi_Zhang.jpg',
         email: 'mailto:zhangbcu@bc.edu',
-        bio: 'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
+        bio:
+          'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
         favoredLink: 'email',
       },
       {
@@ -106,7 +108,8 @@ const alumni: alumniData = [
       {
         name: 'Tim Zhu H.Maru',
         image: '/img/alumni/Tim_Zhu.jpg',
-        bio: 'Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement',
+        bio:
+          'Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement',
         email: 'mailto:hmaru8088@gmail.com',
         favoredLink: 'email',
       },

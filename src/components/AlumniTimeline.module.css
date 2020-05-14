@@ -3,7 +3,7 @@
  */
 
 .container {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
@@ -27,7 +27,7 @@
 
 .timeline::before {
   background-color: black;
-  content: "";
+  content: '';
   margin-left: -1.5px;
   position: absolute;
   top: 0;
