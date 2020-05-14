@@ -4,6 +4,7 @@ module.exports = {
   },
   extends: [
     'airbnb',
+    'prettier',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -19,8 +20,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['prettier', 'react', '@typescript-eslint'],
   rules: {
+    'prettier/prettier': 'error',
     // Allow JSX appearance in files with these extensions
     'react/jsx-filename-extension': [
       'error',

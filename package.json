@@ -7,7 +7,11 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "format": "prettier --write '**/*.{ts,js,tsx,jsx,scss,css,html}'",
+    "format:check": "prettier --check '**/*.{js,jsx,ts,tsx,html,css}'",
+    "lint": "eslint . --ext=js,jsx,ts,tsxx",
+    "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.54",
@@ -35,14 +39,17 @@
     "@typescript-eslint/parser": "^2.33.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^2.5.0 || ^1.7.0",
     "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.2"
   }
 }
