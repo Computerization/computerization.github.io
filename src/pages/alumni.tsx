@@ -7,12 +7,12 @@
 
 import React, { ReactElement } from 'react';
 import Layout from '@theme/Layout';
-import AlumniTimeline from "../components/AlumniTimeline";
-import styles from "./alumni.module.css"
+import AlumniTimeline from '../components/AlumniTimeline';
+import styles from './alumni.module.css';
 
-import alumni from "../data/alumniData"
+import alumni from '../data/alumniData';
 
-export default (): ReactElement => {
+export default function Alumni(): ReactElement {
   return (
     <Layout
       title="Our Alumni"

@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import styles from './Members.module.css';
 
-import MemberCard from "./MemberCard";
+import MemberCard from './MemberCard';
 
 export type Member = {
   readonly name: string;
@@ -16,15 +16,17 @@ export type Member = {
   readonly email?: string;
   // Below is the preferred contact method;
   // clicking the profile image leads to this type of link
-  readonly favoredLink: "website" | "github" | "linkedin" | "email";
+  readonly favoredLink: 'website' | 'github' | 'linkedin' | 'email';
 };
 
 type MembersProps = { readonly members: readonly Member[] };
 
 const MemberList = ({ members }: MembersProps): ReactElement => (
   <div className={styles.alumnusContainer}>
-    {members.map(member => (
+    {members.map((member) => (
       // Assume "name" will be unique here
+      // The props spreading syntax seems to be very intuitive here
+      // eslint-disable-next-line react/jsx-props-no-spreading
       <MemberCard key={member.name} {...member} />
     ))}
   </div>
