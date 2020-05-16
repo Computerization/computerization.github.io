@@ -7,12 +7,12 @@
 
 import React, { ReactElement } from 'react';
 import Layout from '@theme/Layout';
-import AlumniTimeline from "../components/AlumniTimeline";
-import styles from "./alumni.module.css"
+import AlumniTimeline from '../components/AlumniTimeline';
+import styles from './alumni.module.css';
 
-import alumni from "../data/alumniData"
+import alumni from '../data/alumniData';
 
-export default (): ReactElement => {
+export default function Alumni(): ReactElement {
   return (
     <Layout
       title="Our Alumni"
@@ -23,7 +23,13 @@ export default (): ReactElement => {
           <div className={styles.content}>
             <h1>Our Alumni</h1>
             <p className="text--large">
-              If you are an alumnus or an alumna of the Computerization club and would like us to update your listing or link to your homepage, please open an issue or pull request at the <a href="https://github.com/Computerization/docusaurus/issues">Computerization/docusaurus</a> repository, or drop us a WeChat message.
+              If you are an alumnus or an alumna of the Computerization club and
+              would like us to update your listing or link to your homepage,
+              please open an issue or pull request at the{' '}
+              <a href="https://github.com/Computerization/docusaurus/issues">
+                Computerization/docusaurus
+              </a>{' '}
+              repository, or drop us a WeChat message.
             </p>
           </div>
           <AlumniTimeline alumni={alumni} />

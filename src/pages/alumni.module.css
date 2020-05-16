@@ -1,12 +1,12 @@
 .content {
-    padding: 1em;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1em;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .content h1 {
-    text-align: center
+  text-align: center;
 }
 
 .content p {
-    font-size: large;
+  font-size: large;
 }
