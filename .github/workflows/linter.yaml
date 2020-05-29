@@ -1,0 +1,21 @@
+name: Syntax linter
+on: [pull_request]
+
+jobs:
+  lint:
+    name: Syntax linter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Uses Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install yarn
+        run: npm install -g yarn
+      - name: Install Dependencies
+        run: yarn install
+      - name: Check errors with ESLint
+        run: yarn lint
+      - name: Check format with Prettier
+        run: yarn format:check
