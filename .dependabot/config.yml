@@ -7,8 +7,7 @@ update_configs:
     target_branch: 'master'
     # Default reviewers requested for Pull Requests
     default_reviewers:
-      - 'yechs'
-      - 'Computerization/2019-core'
+      - 'Josh-Cena'
     # Default labels added for Pull Requests
     default_labels:
       - 'dependencies'
