@@ -1075,10 +1075,10 @@
     stringify-object "^3.3.0"
     unist-util-visit "^2.0.2"
 
-"@docusaurus/module-type-aliases@^2.0.0-alpha.58":
-  version "2.0.0-alpha.58"
-  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-alpha.58.tgz#48e214755f53b600fb1d44aeb5d0ad6c7c36e169"
-  integrity sha512-C947WGpN8eyPeBNjWBOhvpcgBcliGW462Frl39WAp/DQ32KGjDUdSmwixFFScuMokipVs3DvkR95OXqWxncsfQ==
+"@docusaurus/module-type-aliases@^2.0.0-alpha.61":
+  version "2.0.0-alpha.61"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-alpha.61.tgz#7feaf709abcc8145d53548a2f48bf5b3e098c1bd"
+  integrity sha512-Nh5UAiIumqVkDkZnxVyYermpfg9wYjHWiXtonCO8kL85lPjk89Fvh4E0+biJctVMVC3QWT5dTe9Qcj665bj7Ug==
 
 "@docusaurus/plugin-content-blog@^2.0.0-alpha.58":
   version "2.0.0-alpha.58"
