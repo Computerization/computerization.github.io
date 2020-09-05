@@ -20,7 +20,7 @@ module.exports = {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         { to: 'alumni', label: 'Alumni', position: 'left' },
         { to: 'docs/about-us', label: 'Docs', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
