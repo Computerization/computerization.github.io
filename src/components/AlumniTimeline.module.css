@@ -86,6 +86,6 @@ html[data-theme='dark'] .icon {
 }
 
 html[data-theme='dark'] .date {
-  color: black;
+  color: #18191a;
   background-color: lightgray;
 }
