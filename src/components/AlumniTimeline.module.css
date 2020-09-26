@@ -36,6 +36,10 @@
   height: 100%;
 }
 
+html[data-theme='dark'] .timeline::before {
+  background-color: lightgray;
+}
+
 .event {
   position: relative;
 }
@@ -53,6 +57,12 @@
   left: 2em;
   width: 1em;
   height: 1em;
+}
+
+html[data-theme='dark'] .icon {
+  background-color: lightgray;
+  /* #18191a is the background color by default */
+  outline: 10px solid #18191a;
 }
 
 .body {
@@ -73,4 +83,9 @@
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
+}
+
+html[data-theme='dark'] .date {
+  color: #18191a;
+  background-color: lightgray;
 }
