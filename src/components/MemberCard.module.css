@@ -9,6 +9,11 @@
   transition: 0.3s;
 }
 
+html[data-theme='dark'] .card {
+  background: slategray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
 .card .header {
   width: auto;
   height: auto;
@@ -21,6 +26,10 @@
 .card .header .name {
   color: #25a6e2;
   font-size: 2em;
+}
+
+html[data-theme='dark'] .card .header .name {
+  color: lightcyan;
 }
 
 .card .header a {
@@ -58,6 +67,10 @@
   color: #333333;
   text-align: center;
   flex-grow: 1;
+}
+
+html[data-theme='dark'] .card .bio {
+  color: white;
 }
 
 .card .links {

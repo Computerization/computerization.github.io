@@ -1,5 +1,5 @@
 /**
- * This file keeps track of all alumnis listed in the alumni page.
+ * This file keeps track of all alumni listed in the alumni page.
  *
  * It is used strictly for building the alumni network for WFLA Computerization Club
  * and has received consent for publishing these information on our website.
@@ -24,9 +24,11 @@ const alumni: alumniData = [
       {
         name: 'Ye Shu',
         image: 'https://avatars3.githubusercontent.com/u/49149993',
+        website: 'https://blog.shuye.dev/',
         github: 'https://github.com/yechs',
         linkedin: 'https://www.linkedin.com/in/yechs/',
-        bio: 'Current 12th grade student.',
+        bio:
+          "Williams College '24, Interested in information security, network, and Linux kernel",
         favoredLink: 'github',
       },
     ],
