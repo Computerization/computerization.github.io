@@ -16,7 +16,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Web 开发</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_version_control.svg',
     description: (
       <>
         在C社，学习 <a href="https://vuejs.org/">Vue</a>,{' '}
