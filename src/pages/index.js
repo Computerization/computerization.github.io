@@ -77,7 +77,11 @@ function Home() {
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
-              <h2 className="text--center">我们的活动</h2>
+              <div className="row">
+                <div className="col text--center">
+                  <h2>我们的活动</h2>
+                </div>
+              </div>
               <div className="row">
                 {features.map(({ imageUrl, title, description }, idx) => (
                   <div
@@ -101,9 +105,29 @@ function Home() {
                   </div>
                 ))}
               </div>
+              <div className="row">
+                <div className="col text--center">
+                  <div className={classnames(styles.caption)}>
+                    图片来源：
+                    <a href="https://v2.docusaurus.io/">Docusaurus 官方文档</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         )}
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              <div className="col text--center">
+                <h2>最新动态</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">我们的主页正式上线了！</div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
