@@ -15,32 +15,34 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Web 开发</>,
+    imageUrl: 'img/undraw_version_control.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        在C社，学习 <a href="https://vuejs.org/">Vue</a>,{' '}
+        <a href="https://v2.docusaurus.io">Docusaurus</a> 等多个前端框架，使用
+        GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，
+        参与社团平台搭建，充分展现你的创意与才智！
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>算法竞赛</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        在C社，与大佬交流竞赛经验与技巧，深入了解各类数据结构与算法，备赛NOIP，
+        组队参加力扣周赛、洛谷月赛等算法竞赛，在磨练中提升自己的功力！
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>人工智能探索</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        在C社，感受时代科技的前沿，探究人工智能与机器学习的奥秘，
+        亲手设计一个自己的神经网络，并训练它做一切你能想象得到的疯狂的事！
       </>
     ),
   },
@@ -66,7 +68,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/about-us')}
             >
-              Get Started
+              了解更多
             </Link>
           </div>
         </div>
@@ -75,6 +77,11 @@ function Home() {
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
+              <div className="row">
+                <div className="col text--center">
+                  <h2>我们的活动</h2>
+                </div>
+              </div>
               <div className="row">
                 {features.map(({ imageUrl, title, description }, idx) => (
                   <div
@@ -98,9 +105,29 @@ function Home() {
                   </div>
                 ))}
               </div>
+              <div className="row">
+                <div className="col text--center">
+                  <div className={classnames(styles.caption)}>
+                    图片来源：
+                    <a href="https://v2.docusaurus.io/">Docusaurus 官方文档</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         )}
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              <div className="col text--center">
+                <h2>最新动态</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">我们的主页正式上线了！</div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

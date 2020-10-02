@@ -40,3 +40,12 @@
   height: 200px;
   width: 200px;
 }
+
+.caption {
+  color: #555555;
+  font-size: 80%;
+}
+
+html[data-theme='dark'] .caption {
+  color: #aaaaaa;
+}

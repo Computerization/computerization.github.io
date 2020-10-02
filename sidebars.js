@@ -19,16 +19,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Docusaurus 文档',
-      items: [
-        'docusaurus/doc1',
-        'docusaurus/doc2',
-        'docusaurus/doc3',
-        'docusaurus/mdx',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Enspire',
       items: ['enspire/what-is-enspire'],
     },
