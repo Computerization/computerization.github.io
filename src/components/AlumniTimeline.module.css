@@ -44,25 +44,37 @@ html[data-theme='dark'] .timeline::before {
   position: relative;
 }
 
+.iconWrap {
+  background-color: white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -1.25em;
+  position: absolute;
+  top: -0.5em;
+  left: 2em;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+html[data-theme='dark'] .iconWrap {
+  /* #18191a is the background color by default */
+  background-color: #18191a;
+}
+
 .icon {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   background-color: black;
-  outline: 10px solid white;
   display: block;
-  margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
-  top: 0;
-  left: 2em;
+  top: 0.75em;
+  left: 0.75em;
   width: 1em;
   height: 1em;
 }
 
 html[data-theme='dark'] .icon {
   background-color: lightgray;
-  /* #18191a is the background color by default */
-  outline: 10px solid #18191a;
 }
 
 .body {
