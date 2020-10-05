@@ -37,14 +37,14 @@ jobs:
       - run:
           name: Configure Git Credentials
           command: |
-            git config --global user.email "chshu@protonmail.ch"
-            git config --global user.name "Ye Shu"
-            echo "machine github.com login yechs password $GITHUB__DOCUSAURUS_TOKEN" > ~/.netrc
+            git config --global user.email "computerizationbot@gmail.com"
+            git config --global user.name "computerization-bot"
+            echo "machine github.com login computerization-bot password $GITHUB_DOCUSAURUS_BOT" > ~/.netrc
       - attach_workspace:
           at: .
       - run:
           name: Deploy to GitHub Pages
-          command: GIT_USER=yechs yarn run deploy
+          command: GIT_USER=computerization-bot yarn run deploy
           # Set environment variables so that project is deployed correctly
           environment:
             ORGANIZATION_NAME: Computerization
