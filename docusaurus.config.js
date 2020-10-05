@@ -63,7 +63,7 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
+        alt: 'Computerization Logo',
         src: 'img/logo.svg',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Computerization. Built with Docusaurus.`,
