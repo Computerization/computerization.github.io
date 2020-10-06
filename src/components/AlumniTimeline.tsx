@@ -14,7 +14,9 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
       {alumni.map(
         ({ classOf, members }): ReactElement => (
           <li className={styles.event} key={classOf}>
-            <span className={styles.icon} />
+            <div className={styles.iconWrap}>
+              <span className={styles.icon} />
+            </div>
             <div className={styles.body}>
               <p className={styles.date}>Class of {classOf}</p>
               <MemberList members={members} />
