@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'C社 << Computerization << 世外信息化社',
   url: 'https://computerization.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon/favicon.ico',
   organizationName: 'Computerization', // Usually your GitHub org/user name.
   projectName: 'computerization.github.io', // Usually your repo name.
   themeConfig: {
