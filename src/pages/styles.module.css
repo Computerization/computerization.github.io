@@ -29,17 +29,17 @@
   justify-content: center;
 }
 
-.getStarted {
-  color: white !important;
+#getStarted {
+  color: white;
 }
 
-.getStarted:hover {
-  color: black !important;
+#getStarted:hover {
+  color: black;
 }
 
-html[data-theme='dark'] .getStarted {
-  border-color: black !important;
-  color: black !important;
+html[data-theme='dark'] #getStarted {
+  border-color: black;
+  color: black;
 }
 
 .features {
