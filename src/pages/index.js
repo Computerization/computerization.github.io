@@ -66,6 +66,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
+              id={styles.getStarted}
               to={useBaseUrl('docs/about-us')}
             >
               了解更多

@@ -29,6 +29,19 @@
   justify-content: center;
 }
 
+#getStarted {
+  color: white;
+}
+
+#getStarted:hover {
+  color: black;
+}
+
+html[data-theme='dark'] #getStarted {
+  border-color: black;
+  color: black;
+}
+
 .features {
   display: flex;
   align-items: center;
