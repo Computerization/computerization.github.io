@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{78:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Git \u4f7f\u7528\u6307\u5357\uff1a\u7406\u89e3 Git \u5de5\u4f5c\u539f\u7406","permalink":"/blog/2020/09/23/git-usage"},{"title":"Welcome","permalink":"/blog/2020/09/02/welcome"}]}')}}]);
