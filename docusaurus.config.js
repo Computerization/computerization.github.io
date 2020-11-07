@@ -1,9 +1,13 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /**
  * Copyright (c) 2017-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+const remarkMath = require('remark-math');
+const rehypeKatex = require('rehype-katex');
 
 module.exports = {
   title: 'Computerization',
@@ -69,12 +73,24 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Computerization. Built with Docusaurus.`,
     },
   },
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [[rehypeKatex, { strict: false }]],
+        },
+        blog: {
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [[rehypeKatex, { strict: false }]],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

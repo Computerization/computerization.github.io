@@ -21,7 +21,9 @@
     "node-fetch": "^2.6.1",
     "node-forge": "^0.10.0",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "rehype-katex": "^4.0.0",
+    "remark-math": "^3.0.1"
   },
   "browserslist": {
     "production": [
