@@ -6,16 +6,14 @@ license: Creative Commons Attribution 4.0 International License
 
 ### 定期活动
 
-我们有周一和周四两个定期活动session;
+2020学年，我们社团三个部门都有各自的定期活动时间：
 
-周一是各类入门级别的课程（e.g. MATLAB, LaTeX）以及和数学社合作的数学建模课程
-
-周四是NOIP和开发SAM平台的讨论
-
-这两个session主要的区别是，周一面向所有学生进行开放，以C社的核心社员讲课为主要形式；周四主要面对社团内部能力较强的社员，以讨论形式而不是授课形式为主，由社长、副社长主导
+- 周一放学是和数学社合作的**人工智能**与数学建模课程；
+- 周三放学是**算法部门**的课程，包括 NOIP、USACO 等比赛题目的讲解和一些算法、数据结构的分析；
+- 周三、周四中午是**Web团队**的开发时间，组员们一起学习前后端框架，为社团的 [GitHub 项目](https://github.com/Computerization) 做贡献。
 
 ### 不定期活动
 
-此外，在7月中下旬的时候，我们还会为Techomedia联合主办的[THE Hack 创客马拉松 ](https://thehack.org.cn)提供技术支持，主要工作为负责各类功能性网站的编写，比如选手报名平台、[选手提问平台](https://github.com/hackinit/helpq)、[硬件预约/追踪平台](https://github.com/hackinit/cog)等等
+我们还承办各类学校内的社团信息化工作，比如我们曾为Techomedia联合主办的[THE Hack 创客马拉松 ](https://thehack.org.cn)提供技术支持，主要工作为负责各类功能性网站的编写，比如选手报名平台、[选手提问平台](https://github.com/hackinit/helpq)、[硬件预约/追踪平台](https://github.com/hackinit/cog)等等。
 
-我们也不定时地会从学生会或者校内老师那里获得一些对SAM平台的新功能需求，这个时候可能会短期内进行比较高强度的开发。
+目前正处于 [Enspire](enspire/what-is-enspire) 平台的开发初期，我们也不定时地会从学生会或者校内老师那里获得一些新功能需求，这个时候可能会短期内进行比较高强度的开发。
