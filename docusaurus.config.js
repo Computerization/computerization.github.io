@@ -23,6 +23,7 @@ module.exports = {
       logo: {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo.svg',
       },
       items: [
         { to: 'alumni', label: 'Alumni', position: 'left' },
