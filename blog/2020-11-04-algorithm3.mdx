@@ -60,7 +60,7 @@ $$
 
 最后，考虑剩下的分数点。可以发现，对于过大的$n$，可以直接输出`"No"`，至于这个值如何确定？按照$n=3\implies S=\mathtt{abcbab}$，$n=4\implies S=\mathtt{abcdcbabcdcba}$这种构造方式$S$的长度为$n^2-n+1$，$n\le 21$，不过证明过于困难。为保险起见，因为$n=22$时用时是可以接受的，取$n\ge 23$时直接输出`"No"`。
 
-代码：
+## 程序
 
 ```cpp
 #include <iostream>
