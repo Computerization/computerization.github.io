@@ -8,7 +8,7 @@
  * first, before re-using their personal information elsewhere.
  */
 
-import type { Member } from '../components/Members';
+import type { Member } from '../components/MemberCard';
 
 type alumniOfYear = {
   readonly classOf: number;
