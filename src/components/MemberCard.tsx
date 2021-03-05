@@ -9,10 +9,12 @@ export type Member = {
   // if null/undefined, a default image will be shown
   readonly image?: string;
   // Below 4 are contact methods; Each should be a link ("href" attribute in <a>)
-  readonly website?: string;
-  readonly github?: string;
-  readonly linkedin?: string;
-  readonly email?: string;
+  readonly links: {
+    readonly website?: string;
+    readonly github?: string;
+    readonly linkedin?: string;
+    readonly email?: string;
+  };
   // Below is the preferred contact method;
   // clicking the profile image leads to this type of link
   readonly favoredLink: 'website' | 'github' | 'linkedin' | 'email';
@@ -21,11 +23,8 @@ export type Member = {
 const MemberCard = ({
   name,
   image,
-  website,
-  github,
-  linkedin,
-  email,
   bio,
+  links,
   favoredLink,
 }: Member): ReactElement => {
   let userImage: ReactElement;
@@ -47,9 +46,7 @@ const MemberCard = ({
   return (
     <div className={styles.card}>
       <div className={styles.header}>
-        {/* TODO: eval() is dangerous, a better solution is needed */}
-        {/* eslint-disable-next-line no-eval */}
-        <a href={eval(favoredLink)}>{userImage}</a>
+        <a href={links[favoredLink]}>{userImage}</a>
         <h3 className={styles.name}>{name}</h3>
       </div>
 
@@ -65,9 +62,9 @@ const MemberCard = ({
       <ul className={styles.links}>
         {
           // If `website` exists
-          website && (
+          links.website && (
             <li>
-              <a href={website} key={website}>
+              <a href={links.website} key={links.website}>
                 {/* Website Icon */}
                 {/* Downloaded from https://iconmonstr.com/globe-3-svg/ */}
                 <svg
@@ -84,9 +81,9 @@ const MemberCard = ({
         }
         {
           // If `github` exists
-          github && (
+          links.github && (
             <li>
-              <a href={github} key={github}>
+              <a href={links.github} key={links.github}>
                 {/* GitHub LOGO */}
                 {/* Downloaded from https://iconmonstr.com/github-1-svg/ */}
                 <svg
@@ -103,9 +100,9 @@ const MemberCard = ({
         }
         {
           // If `linkedin` exists
-          linkedin && (
+          links.linkedin && (
             <li>
-              <a href={linkedin} key={linkedin}>
+              <a href={links.linkedin} key={links.linkedin}>
                 {/* LinkedIn LOGO */}
                 {/* Downloaded from https://iconmonstr.com/linkedin-3-svg/ */}
                 <svg
@@ -122,9 +119,9 @@ const MemberCard = ({
         }
         {
           // If `email` exists
-          email && (
+          links.email && (
             <li>
-              <a href={email} key={email}>
+              <a href={links.email} key={links.email}>
                 {/* LinkedIn LOGO */}
                 {/* Downloaded from https://iconmonstr.com/email-1-svg/ */}
                 <svg
