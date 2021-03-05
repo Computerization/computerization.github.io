@@ -2,16 +2,13 @@ import React, { ReactElement } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './MemberCard.module.css';
 
-import type { Member } from './Members';
+import type { Member } from '../data/alumniData';
 
-const UserLink = ({
+const MemberCard = ({
   name,
   image,
-  website,
-  github,
-  linkedin,
-  email,
   bio,
+  links,
   favoredLink,
 }: Member): ReactElement => {
   let userImage: ReactElement;
@@ -33,9 +30,7 @@ const UserLink = ({
   return (
     <div className={styles.card}>
       <div className={styles.header}>
-        {/* TODO: eval() is dangerous, a better solution is needed */}
-        {/* eslint-disable-next-line no-eval */}
-        <a href={eval(favoredLink)}>{userImage}</a>
+        <a href={links[favoredLink]}>{userImage}</a>
         <h3 className={styles.name}>{name}</h3>
       </div>
 
@@ -51,9 +46,9 @@ const UserLink = ({
       <ul className={styles.links}>
         {
           // If `website` exists
-          website && (
+          links.website && (
             <li>
-              <a href={website} key={website}>
+              <a href={links.website} key={links.website}>
                 {/* Website Icon */}
                 {/* Downloaded from https://iconmonstr.com/globe-3-svg/ */}
                 <svg
@@ -70,9 +65,9 @@ const UserLink = ({
         }
         {
           // If `github` exists
-          github && (
+          links.github && (
             <li>
-              <a href={github} key={github}>
+              <a href={links.github} key={links.github}>
                 {/* GitHub LOGO */}
                 {/* Downloaded from https://iconmonstr.com/github-1-svg/ */}
                 <svg
@@ -89,9 +84,9 @@ const UserLink = ({
         }
         {
           // If `linkedin` exists
-          linkedin && (
+          links.linkedin && (
             <li>
-              <a href={linkedin} key={linkedin}>
+              <a href={links.linkedin} key={links.linkedin}>
                 {/* LinkedIn LOGO */}
                 {/* Downloaded from https://iconmonstr.com/linkedin-3-svg/ */}
                 <svg
@@ -108,9 +103,9 @@ const UserLink = ({
         }
         {
           // If `email` exists
-          email && (
+          links.email && (
             <li>
-              <a href={email} key={email}>
+              <a href={links.email} key={links.email}>
                 {/* LinkedIn LOGO */}
                 {/* Downloaded from https://iconmonstr.com/email-1-svg/ */}
                 <svg
@@ -130,4 +125,4 @@ const UserLink = ({
   );
 };
 
-export default UserLink;
+export default MemberCard;
