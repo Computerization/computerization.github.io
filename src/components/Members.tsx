@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import styles from './Members.module.css';
 
-import type { Member } from './MemberCard';
+import type { Member } from '../data/alumniData';
 import MemberCard from './MemberCard';
 
 type MembersProps = { readonly members: readonly Member[] };
