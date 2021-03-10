@@ -1221,10 +1221,10 @@
     url-loader "^4.1.1"
     webpack "^4.44.1"
 
-"@docusaurus/module-type-aliases@^2.0.0-alpha.69":
-  version "2.0.0-alpha.70"
-  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-alpha.70.tgz#2e50770c54cb465302d0a779fb76c163a1fc94e2"
-  integrity sha512-ESAY5ZU7uGRhZwbyxyGdvAAP+3D/oewSmtsWdvdhc8V9PPxVJCXc06zxXunfEzutVtOd4iZkQsuWgXAhtFa63g==
+"@docusaurus/module-type-aliases@^2.0.0-alpha.71":
+  version "2.0.0-alpha.71"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-alpha.71.tgz#b76a7c17992c383cbc01d3db7949ae758e2d539c"
+  integrity sha512-7f38VZ1z6rD3SuSOjovCxlLa1ZiAEbcArSf022ga8QQJmlS1dAP1o23MLE1wvurfaGiluQomzjwVAsafgHKUFw==
 
 "@docusaurus/plugin-content-blog@2.0.0-alpha.70":
   version "2.0.0-alpha.70"
