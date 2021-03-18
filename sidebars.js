@@ -15,7 +15,7 @@ module.exports = {
     {
       type: 'category',
       label: '我们的活动',
-      items: ['activities', 'what-is-sam', 'matlab-and-modeling'],
+      items: ['activities', 'what-is-sam', 'matlab-and-modeling', 'syllabus'],
     },
     {
       type: 'category',
