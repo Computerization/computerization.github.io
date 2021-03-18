@@ -30,6 +30,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     ],
+    'no-use-before-define': 'off',
     'import/no-unresolved': [
       'error',
       {
