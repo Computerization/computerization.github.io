@@ -6,21 +6,14 @@
  */
 
 module.exports = {
-  docs: [
-    {
-      type: 'category',
-      label: '关于我们',
-      items: ['about-us'],
-    },
-    {
-      type: 'category',
-      label: '我们的活动',
-      items: ['activities', 'what-is-sam', 'matlab-and-modeling', 'syllabus'],
-    },
-    {
-      type: 'category',
-      label: 'Enspire',
-      items: ['enspire/what-is-enspire'],
-    },
-  ],
+  docs: {
+    关于我们: ['about-us'],
+    我们的活动: [
+      'activities',
+      'what-is-sam',
+      'matlab-and-modeling',
+      'syllabus',
+    ],
+    Enspire: ['enspire/what-is-enspire'],
+  },
 };
