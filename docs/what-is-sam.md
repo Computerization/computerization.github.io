@@ -6,9 +6,9 @@ license: Creative Commons Attribution 4.0 International License
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
 
-SAM是一个校内信息化平台。它目前的地址是[https://sam.shuye02.com](https://sam.shuye02.com)
+SAM 是一个校内信息化平台。它目前的地址是[https://sam.shuye02.com](https://sam.shuye02.com)
 
-SAM主要由以下三大部分组成：
+SAM 主要由以下三大部分组成：
 
 ## 社团
 
@@ -24,7 +24,7 @@ SAM主要由以下三大部分组成：
 
 ### 教室预约
 
-这部分是社团活动教室的预约，只有社长有权限访问。这个功能是在2018年9月份为学生会社团部定做的，在2018年9月份中旬开放，目前处于关闭状态
+这部分是社团活动教室的预约，只有社长有权限访问。这个功能是在 2018 年 9 月份为学生会社团部定做的，在 2018 年 9 月份中旬开放，目前处于关闭状态
 
 ### 投票
 
@@ -34,6 +34,6 @@ SAM主要由以下三大部分组成：
 
 <img alt="debate voting" src={useBaseUrl('img/doc/vote_debate.png')} />
 
-此外，学生会和CAS组也使用投票平台进行五星社团、新社团、末位社团的答辩和投票
+此外，学生会和 CAS 组也使用投票平台进行五星社团、新社团、末位社团的答辩和投票
 
 <img alt="Organization Defense Voting" src={useBaseUrl('img/doc/vote_org.png')} />

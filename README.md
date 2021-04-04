@@ -4,7 +4,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FComputerization%2Fdocusaurus.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FComputerization%2Fdocusaurus?ref=badge_shield)
 
-This website is the homepage of [Computerization](https://github.com/Computerization) club, a high school student club in [Shanghai World Foreign Language Academy](http://www.wflms.cn). 
+This website is the homepage of [Computerization](https://github.com/Computerization) club, a high school student club in [Shanghai World Foreign Language Academy](http://www.wflms.cn).
 
 It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
@@ -18,12 +18,12 @@ The rest codes, unless stated otherwise, are licensed under [GNU Affero General 
 
 As for a human-readable explanation (and not a substitute for the [license](/LICENSE-docs) itself) by [Creative Commons](https://creativecommons.org/licenses/by/4.0/):
 
-> You are free to:  
+> You are free to:
 >
 > Share — copy and redistribute the material in any medium or format  
-> Adapt — remix, transform, and build upon the material for any purpose, even commercially.  
+> Adapt — remix, transform, and build upon the material for any purpose, even commercially.
 
-> Under the following terms:  
+> Under the following terms:
 >
 > Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
@@ -43,7 +43,7 @@ This command installs all depedendencies specified by the [`yarn.lock`](/yarn.lo
 $ yarn start
 ```
 
-This command starts a local development server and open up a browser window. You can preview your changes instantly with the development server as you edit the  files. Most changes are reflected live without having to restart the server.
+This command starts a local development server and open up a browser window. You can preview your changes instantly with the development server as you edit the files. Most changes are reflected live without having to restart the server.
 
 ### Directory Structure
 

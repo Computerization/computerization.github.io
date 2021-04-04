@@ -9,11 +9,11 @@ tags: [algorithm]
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-这是C社算法团队的第一次活动。我们介绍了斐波那契数列的第$n$项求解方法，主要运用了矩阵快速幂算法。
+这是 C 社算法团队的第一次活动。我们介绍了斐波那契数列的第$n$项求解方法，主要运用了矩阵快速幂算法。
 
 <!--truncate-->
 
-export const Question = ({children, color}) => (
+export const Question = ({ children, color }) => (
   <div
     style={{
       backgroundColor: color,
@@ -21,8 +21,9 @@ export const Question = ({children, color}) => (
       color: '#fff',
       padding: '1em',
       marginBottom: '1em',
-      marginTop: '1em'
-    }}>
+      marginTop: '1em',
+    }}
+  >
     {children}
   </div>
 );
@@ -32,18 +33,21 @@ export const Question = ({children, color}) => (
 <Question color="#1d85c2">
   斐波那契数列：
 
-  $$F_{n}=
-  \begin{cases}
-    0,&n=0\\
-    1,&n=1\\
-    F_{n-2}+F_{n-1},&n>1
-  \end{cases}$$
+$$
+F_{n}=
+\begin{cases}
+  0,&n=0\\
+  1,&n=1\\
+  F_{n-2}+F_{n-1},&n>1
+\end{cases}
+$$
 
-  给定$n$，求$F_{n}\text{ mod }10^9+7$。
+给定$n$，求$F_{n}\text{ mod }10^9+7$。
 
-  | 数据规模 | 内存限制 | 运行时间 |
-  | ------- | ------- | ------ |
-  | $0\le n\le 10^{19}$ | 64MB | 1.0s |
+| 数据规模            | 内存限制 | 运行时间 |
+| ------------------- | -------- | -------- |
+| $0\le n\le 10^{19}$ | 64MB     | 1.0s     |
+
 </Question>
 
 ## 题解
@@ -68,7 +72,7 @@ $$\begin{pmatrix}F_{m}\\F_{m+1}\end{pmatrix}=\begin{pmatrix}0&1\\1&1\end{pmatrix
 
 $$\begin{pmatrix}0&1\\1&1\end{pmatrix}^m=\left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{1}\right)^{a_0}\times \left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2}\right)^{a_1}\times \left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{4}\right)^{a_2}\dots$$
 
-而这些矩阵的$2^k$次方，完全可以预处理。当$m$的数量级为$10^{19}$时，$k<\log_2 10^{19}<64$，最多只需要存储63个矩阵。并且
+而这些矩阵的$2^k$次方，完全可以预处理。当$m$的数量级为$10^{19}$时，$k<\log_2 10^{19}<64$，最多只需要存储 63 个矩阵。并且
 
 $$\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^k}=\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^{k-1}}\times \begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^{k-1}}$$
 

@@ -9,11 +9,11 @@ tags: [algorithm]
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-这是C社算法团队的第五次活动。由于12月 USACO 竞赛在即，我们展开了针对性的练习。第一次活动我们从铜组开始练习，由于成员们水平较高，我们挑选了一道有一定编程水平要求的铜组题目。铜组题目只要求对循环的掌握，一定可以通过枚举得到结果，因此对算法和数据结构没有太高要求。
+这是 C 社算法团队的第五次活动。由于 12 月 USACO 竞赛在即，我们展开了针对性的练习。第一次活动我们从铜组开始练习，由于成员们水平较高，我们挑选了一道有一定编程水平要求的铜组题目。铜组题目只要求对循环的掌握，一定可以通过枚举得到结果，因此对算法和数据结构没有太高要求。
 
 <!--truncate-->
 
-export const Question = ({children, color}) => (
+export const Question = ({ children, color }) => (
   <div
     style={{
       backgroundColor: color,
@@ -21,8 +21,9 @@ export const Question = ({children, color}) => (
       color: '#fff',
       padding: '1em',
       marginBottom: '1em',
-      marginTop: '1em'
-    }}>
+      marginTop: '1em',
+    }}
+  >
     {children}
   </div>
 );
@@ -31,17 +32,18 @@ export const Question = ({children, color}) => (
 
 <Question color="#1d85c2">
 
-  **题目来源：**<a href="http://www.usaco.org/index.php?page=viewproblem2&cpid=965">**USACO 2019 December Bronze 3**</a>
+**题目来源：**<a href="http://www.usaco.org/index.php?page=viewproblem2&cpid=965">**USACO 2019 December Bronze 3**</a>
 
-  Every day, Farmer John milks his 8 dairy cows, named Bessie, Buttercup, Belinda, Beatrice, Bella, Blue, Betsy, and Sue.
+Every day, Farmer John milks his 8 dairy cows, named Bessie, Buttercup, Belinda, Beatrice, Bella, Blue, Betsy, and Sue.
 
-  The cows are rather picky, unfortunately, and require that Farmer John milks them in an order that respects $N$ constraints. Each constraint is of the form "$X$ must be milked beside $Y$", stipulating that cow $X$ must appear in the milking order either directly after cow $Y$ or directly before cow $Y$.
+The cows are rather picky, unfortunately, and require that Farmer John milks them in an order that respects $N$ constraints. Each constraint is of the form "$X$ must be milked beside $Y$", stipulating that cow $X$ must appear in the milking order either directly after cow $Y$ or directly before cow $Y$.
 
-  Please help Farmer John determine an ordering of his cows that satisfies all of these required constraints. It is guaranteed that an ordering is always possible. If several orderings work, then please output the one that is alphabetically first. That is, the first cow should have the alphabetically lowest name of all possible cows that could appear first in any valid ordering. Among all orderings starting with this same alphabetically-first cow, the second cow should be alphabetically lowest among all possible valid orderings, and so on.
+Please help Farmer John determine an ordering of his cows that satisfies all of these required constraints. It is guaranteed that an ordering is always possible. If several orderings work, then please output the one that is alphabetically first. That is, the first cow should have the alphabetically lowest name of all possible cows that could appear first in any valid ordering. Among all orderings starting with this same alphabetically-first cow, the second cow should be alphabetically lowest among all possible valid orderings, and so on.
 
-  | 数据规模 | 内存限制 | 运行时间 |
-  | ------- | ------- | ------ |
-  | $1\le N\le 7$ | 256MB | 2.0s |
+| 数据规模      | 内存限制 | 运行时间 |
+| ------------- | -------- | -------- |
+| $1\le N\le 7$ | 256MB    | 2.0s     |
+
 </Question>
 
 ## 题解
