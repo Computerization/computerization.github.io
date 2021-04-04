@@ -8,9 +8,9 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "format": "prettier --write '**/*.{ts,js,tsx,jsx,scss,css,html}'",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,html,css}'",
     "format:check": "prettier --check '**/*.{js,jsx,ts,tsx,html,css}'",
-    "lint": "eslint . --ext=js,jsx,ts,tsxx",
+    "lint": "eslint . --ext=js,jsx,ts,tsx",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install"
   },
