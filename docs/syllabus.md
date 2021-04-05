@@ -8,9 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 每年，社团的新同学们在加入前端开发部门后，都要经过一系列的培训。由于加入部门并不要求任何前置知识，因此对于一些零基础的同学们来说，是个挑战。但即使有一定编程基础，也同样要面对**完全崭新的规范和工具**，因此系统的教学必不可少。
 
-## 第一阶段：熟悉基础工具（10周）
+## 第一阶段：熟悉基础工具（10 周）
 
-### Git（3周）
+### Git（3 周）
 
 整个社团的项目都在 GitHub 上开源，实现版本控制、持续部署、代码管理，等等。因此，学习 git 技巧是成为开发者的第一步。
 
@@ -18,8 +18,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 1. **安装 git。**Unix 系统自带 git，而 Windows 系统可以在[这里](https://git-scm.com/download/win)下载。
 2. **熟悉命令行工具。**在 Windows 上，使用 PowerShell；MacOS 上，使用 Terminal。
-    - 学会 `cd` 和 `ls` 指令。
-    - 通过 `git --version` 检查 git 是否成功安装。几乎所有命令行工具都提供 `--version` 参数，可以检查安装状态。
+   - 学会 `cd` 和 `ls` 指令。
+   - 通过 `git --version` 检查 git 是否成功安装。几乎所有命令行工具都提供 `--version` 参数，可以检查安装状态。
 3. **创建 GitHub 账号。**将自己的 email 或 GitHub id 发给社长，社长将把新成员加入社团的 GitHub 组织，并授予相应的读写权限。
 4. 按照我们撰写的 [git 指南](https://github.com/Computerization/New-member-practice-commit/blob/master/README.md)**选择适合自己的 git 工具**。推荐全社团使用 Visual Studio Code 作为编辑器及 git 管理工具。
 5. Clone repo 之后，**新建 branch。**
@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 这一部分往往是最具挑战性的。如果 GitHub 连接不畅，社长将提供相应的技术帮助。我们也推荐使用代理服务器连接。这一部分的操作会在社团活动时间开展，以便社长作一对一指导。由于 New-member-practice-commit 仅仅是一个 playground，即使发生了混乱（如直接向主分支 commit），也不会导致严重的后果，但请务必保证在后续的 GitHub 使用中，不会产生类似的问题。
 
-### HTML / CSS / JavaScript（3周）
+### HTML / CSS / JavaScript（3 周）
 
 前端的基础是 HTML / CSS / JavaScript。它们分别负责了网页的结构、式样、功能。由于它们都是在浏览器中被解析的，因此这一部分不需要安装任何东西。任务是：**完成一个单页 Todo list 应用。**具体的任务要求，可以参考过往成员们的成品。
 
@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 在这一部分，大多数社员将会使用 DOM 操作（`document.innerHTML = ...`），但在后续的开发中，需要避免这种写法。社长的关注重点应放在页面布局与设计、业务逻辑规划、以及代码规范上，而非具体的操作实现上。
 
-### Vue（4周）
+### Vue（4 周）
 
 我们的 [Enspire](./enspire/what-is-enspire.md) 平台是使用 Vue 开发的，因此掌握 Vue 语法对于参与社团项目开发非常重要。
 
@@ -56,11 +56,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ---
 
-这一阶段总共将安排8小时的社团活动，总持续时间不小于8周，如果一切按计划进行，将在第三次月考后完成（考试周不安排活动或作业上传）。其中最重要的是学习各项语法，如果 GitHub 相关的技术问题始终无法解决，社长可以考虑替代方案，但保证成员们仍能参与开发。
+这一阶段总共将安排 8 小时的社团活动，总持续时间不小于 8 周，如果一切按计划进行，将在第三次月考后完成（考试周不安排活动或作业上传）。其中最重要的是学习各项语法，如果 GitHub 相关的技术问题始终无法解决，社长可以考虑替代方案，但保证成员们仍能参与开发。
 
-## 第二阶段：项目开发相关（10周）
+## 第二阶段：项目开发相关（10 周）
 
-### Vue-CLI（4周）
+### Vue-CLI（4 周）
 
 [Vue-CLI](https://cli.vuejs.org/zh/guide/) 是一套命令行工具，可以快速搭建 Vue 项目，并提供解析、集成、部署等其他功能。为了参与 Enspire 开发，需要学会 Vue-CLI 相关操作。
 
@@ -82,7 +82,7 @@ $ yarn global add @vue/cli
 
 社员们还需要对代码规范工具有所了解，比如 ESLint 和 Prettier。
 
-### 阅读源代码（4周）
+### 阅读源代码（4 周）
 
 在寒假中，社员们需要 clone [Enspire](https://github.com/Computerization/Enspire) 与 [docusaurus](https://github.com/Computerization/docusaurus) 两个 repo，运行它们，并理解源代码的逻辑。
 
@@ -90,7 +90,7 @@ Docusaurus 是我们的社团网页（也就是你现在正在浏览的）源码
 
 Enspire 使用了 TypeScript，这是一种带类型标注与静态检查的 JavaScript。开学后，社长会详细介绍 TS 语法与其优势。
 
-### GitHub 开发、集成与部署（2周）
+### GitHub 开发、集成与部署（2 周）
 
 社团的项目安装了一系列的 GitHub 工具，帮助完成集成与部署。在这一步，社员们要更加深入地了解 GitHub 的功能。包括：
 
