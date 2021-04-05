@@ -12,35 +12,35 @@
             <link>https://computerization.io/blog/2020/12/02/algorithm5</link>
             <guid>Livestock Lineup</guid>
             <pubDate>Wed, 02 Dec 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[这是C社算法团队的第五次活动。由于12月 USACO 竞赛在即，我们展开了针对性的练习。第一次活动我们从铜组开始练习，由于成员们水平较高，我们挑选了一道有一定编程水平要求的铜组题目。铜组题目只要求对循环的掌握，一定可以通过枚举得到结果，因此对算法和数据结构没有太高要求。]]></description>
+            <description><![CDATA[这是 C 社算法团队的第五次活动。由于 12 月 USACO 竞赛在即，我们展开了针对性的练习。第一次活动我们从铜组开始练习，由于成员们水平较高，我们挑选了一道有一定编程水平要求的铜组题目。铜组题目只要求对循环的掌握，一定可以通过枚举得到结果，因此对算法和数据结构没有太高要求。]]></description>
         </item>
         <item>
             <title><![CDATA[阶乘字符串]]></title>
             <link>https://computerization.io/blog/2020/11/04/algorithm3</link>
             <guid>阶乘字符串</guid>
             <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[这是C社算法团队的第三次活动。我们研究了一道上海省选的题目，主要运用了状态压缩动态规划算法。其中数学部分比较困难，尚未给出严格证明。]]></description>
+            <description><![CDATA[这是 C 社算法团队的第三次活动。我们研究了一道上海省选的题目，主要运用了状态压缩动态规划算法。其中数学部分比较困难，尚未给出严格证明。]]></description>
         </item>
         <item>
             <title><![CDATA[斐波那契数列]]></title>
             <link>https://computerization.io/blog/2020/10/10/algorithm1</link>
             <guid>斐波那契数列</guid>
             <pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[这是C社算法团队的第一次活动。我们介绍了斐波那契数列的第$n$项求解方法，主要运用了矩阵快速幂算法。]]></description>
+            <description><![CDATA[这是 C 社算法团队的第一次活动。我们介绍了斐波那契数列的第$n$项求解方法，主要运用了矩阵快速幂算法。]]></description>
         </item>
         <item>
             <title><![CDATA[Git 使用指南：理解 Git 工作原理]]></title>
             <link>https://computerization.io/blog/2020/09/23/git-usage</link>
             <guid>Git 使用指南：理解 Git 工作原理</guid>
             <pubDate>Wed, 23 Sep 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[这篇文章是从C社的新成员练手 repo 的 README.md 的第一节转移过来的，添加了一些内容，并做了相应的翻译。（原文用英文的原因，应该是sy大佬和我都更习惯用英语写技术相关的内容吧……）]]></description>
+            <description><![CDATA[这篇文章是从C 社的新成员练手 repo 的 README.md 的第一节转移过来的，添加了一些内容，并做了相应的翻译。（原文用英文的原因，应该是 sy 大佬和我都更习惯用英语写技术相关的内容吧……）]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://computerization.io/blog/2020/09/02/welcome</link>
             <guid>Welcome</guid>
             <pubDate>Wed, 02 Sep 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Computerization欢迎所有2020届新成员！]]></description>
+            <description><![CDATA[Computerization欢迎所有 2020 届新成员！]]></description>
         </item>
     </channel>
 </rss>
