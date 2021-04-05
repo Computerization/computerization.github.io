@@ -1,32 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# JavaScript Files
-FILES=$(git diff --cached --name-only --diff-filter=ACMR "*.js" "*.jsx" "*.ts" "*.tsx" | sed 's| |\\ |g')
-# Other files that should be prettified
-PRETTYFILES=$(git diff --cached --name-only --diff-filter=ACMR "*.html" "*.css" "*.md" "*.mdx" | sed 's| |\\ |g')
-
-# Quit if no action needed
-[ -z "$FILES" ] && [ -z "$PRETTYFILES" ] && exit 0
-
-if [ -n "$FILES" ]; then
-  # Run eslint on JS files
-  echo "$FILES" | xargs yarn run eslint --fix
-
-  # Prettify JS files
-  echo "$FILES" | xargs yarn run prettier --write
-
-  # Add back the modified/prettified files to staging
-  echo "$FILES" | xargs git add
-fi
-
-if [ -n "$PRETTYFILES" ]; then
-  # Prettify HTML/CSS & Markdown files
-  echo "$PRETTYFILES" | xargs yarn run prettier --write
-
-  # Add back the modified/prettified files to staging
-  echo "$PRETTYFILES" | xargs git add
-fi
-
-# Note that the `git add` may not work
-# In that case, you need a `git update-index -g` post-commit hook
+yarn run lint-staged
