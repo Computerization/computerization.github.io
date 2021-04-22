@@ -8,8 +8,8 @@ license: Creative Commons Attribution 4.0 International License
 
 ### 我们的名字
 
-**C 社 << Computerization << 信息化社**
-我们的全称是 Computerization，信息化社；
+**C 社 << Computerization << 世外信息化社**
+我们的全称是 Computerization，世外信息化社；
 不过我们更喜欢被称之为 C 社，一是因为简洁明快，二也是因为与 C 语言同名（笑）
 
 ### 我们对 CS 的看法

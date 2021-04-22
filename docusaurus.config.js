@@ -22,7 +22,7 @@ module.exports = {
     locales: ['zh-Hans', 'en'],
     localeConfigs: {
       'zh-Hans': {
-        label: '中文',
+        label: '中文（简体）',
       },
       en: {
         label: 'English',
@@ -31,14 +31,14 @@ module.exports = {
   },
   themeConfig: {
     navbar: {
-      title: '信息化社',
+      title: '世外信息化社',
       logo: {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo.svg',
       },
       items: [
-        { to: 'alumni', label: '成员', position: 'left' },
+        { to: 'alumni', label: '往届成员', position: 'left' },
         { to: 'docs/about-us', label: '文档', position: 'left' },
         { to: 'blog', label: '博客', position: 'left' },
         {
@@ -87,7 +87,7 @@ module.exports = {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
       },
-      copyright: `信息化社 © ${new Date().getFullYear()} 版权所有. 使用 Docusaurus 搭建.`,
+      copyright: `世外信息化社 © ${new Date().getFullYear()} 版权所有. 使用 Docusaurus 搭建.`,
     },
   },
   stylesheets: [
