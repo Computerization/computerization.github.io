@@ -17,7 +17,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.72",
     "@docusaurus/module-type-aliases": "^2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.73",
     "classnames": "^2.3.1",
     "node-fetch": "^2.6.1",
     "node-forge": "^0.10.0",
