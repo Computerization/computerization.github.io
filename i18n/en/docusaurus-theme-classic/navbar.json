@@ -3,9 +3,9 @@
     "message": "Computerization",
     "description": "The title in the navbar"
   },
-  "item.label.成员": {
+  "item.label.往届成员": {
     "message": "Alumni",
-    "description": "Navbar item with label 成员"
+    "description": "Navbar item with label 往届成员"
   },
   "item.label.文档": {
     "message": "Docs",
