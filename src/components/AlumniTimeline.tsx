@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import Translate from '@docusaurus/Translate';
 import styles from './AlumniTimeline.module.css';
 import MemberList from './Members';
 
@@ -18,7 +19,11 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
               <span className={styles.icon} />
             </div>
             <div className={styles.body}>
-              <p className={styles.date}>Class of {classOf}</p>
+              <p className={styles.date}>
+                <Translate id="alumni.classOf" values={{ classOf }}>
+                  {'{classOf} 届'}
+                </Translate>
+              </p>
               <MemberList members={members} />
             </div>
           </li>

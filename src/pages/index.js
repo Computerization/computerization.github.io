@@ -9,41 +9,47 @@ import React from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Web 开发</>,
+    title: <Translate id="frontpage.sec1.item1.title">Web 开发</Translate>,
     imageUrl: 'img/undraw_version_control.svg',
     description: (
-      <>
-        在C社，学习 <a href="https://vuejs.org/">Vue</a>,{' '}
-        <a href="https://v2.docusaurus.io">Docusaurus</a> 等多个前端框架，使用
-        GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，
-        参与社团平台搭建，充分展现你的创意与才智！
-      </>
+      <Translate
+        id="frontpage.sec1.item1"
+        values={{
+          link1: <a href="https://vuejs.org/">Vue</a>,
+          link2: <a href="https://v2.docusaurus.io">Docusaurus</a>,
+        }}
+      >
+        {
+          '在C社，学习 {link1}, {link2}等多个前端框架，使用 GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，参与社团平台搭建，充分展现你的创意与才智！'
+        }
+      </Translate>
     ),
   },
   {
-    title: <>算法竞赛</>,
+    title: <Translate id="frontpage.sec1.item2.title">算法竞赛</Translate>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
-      <>
+      <Translate id="frontpage.sec1.item2">
         在C社，与大佬交流竞赛经验与技巧，深入了解各类数据结构与算法，备赛NOIP，
         组队参加力扣周赛、洛谷月赛等算法竞赛，在磨练中提升自己的功力！
-      </>
+      </Translate>
     ),
   },
   {
-    title: <>人工智能探索</>,
+    title: <Translate id="frontpage.sec1.item3.title">人工智能探索</Translate>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
-      <>
+      <Translate id="frontpage.sec1.item3">
         在C社，感受时代科技的前沿，探究人工智能与机器学习的奥秘，
         亲手设计一个自己的神经网络，并训练它做一切你能想象得到的疯狂的事！
-      </>
+      </Translate>
     ),
   },
 ];
@@ -69,7 +75,7 @@ function Home() {
               id={styles.getStarted}
               to={useBaseUrl('docs/about-us')}
             >
-              了解更多
+              <Translate id="frontpage.button">了解更多</Translate>
             </Link>
           </div>
         </div>
@@ -80,7 +86,9 @@ function Home() {
             <div className="container">
               <div className="row">
                 <div className="col text--center">
-                  <h2>我们的活动</h2>
+                  <h2>
+                    <Translate id="frontpage.sec1">我们的活动</Translate>
+                  </h2>
                 </div>
               </div>
               <div className="row">
@@ -109,8 +117,12 @@ function Home() {
               <div className="row">
                 <div className="col text--center">
                   <div className={classnames(styles.caption)}>
-                    图片来源：
-                    <a href="https://v2.docusaurus.io/">Docusaurus 官方文档</a>
+                    <Translate id="frontpage.sec1.imgsrc">图片来源：</Translate>
+                    <a href="https://v2.docusaurus.io/">
+                      <Translate id="frontpage.sec1.imgsrc.link">
+                        Docusaurus 官方文档
+                      </Translate>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -121,11 +133,17 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col text--center">
-                <h2>最新动态</h2>
+                <h2>
+                  <Translate id="frontpage.sec2.title">最新动态</Translate>
+                </h2>
               </div>
             </div>
             <div className="row">
-              <div className="col">我们的主页正式上线了！</div>
+              <div className="col">
+                <Translate id="frontpage.sec2.item1">
+                  我们的主页正式上线了！
+                </Translate>
+              </div>
             </div>
           </div>
         </section>

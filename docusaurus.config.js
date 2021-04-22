@@ -17,18 +17,34 @@ module.exports = {
   favicon: 'img/favicon/favicon.ico',
   organizationName: 'Computerization', // Usually your GitHub org/user name.
   projectName: 'computerization.github.io', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en'],
+    localeConfigs: {
+      'zh-Hans': {
+        label: '中文',
+      },
+      en: {
+        label: 'English',
+      },
+    },
+  },
   themeConfig: {
     navbar: {
-      title: 'Computerization',
+      title: '信息化社',
       logo: {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo.svg',
       },
       items: [
-        { to: 'alumni', label: 'Alumni', position: 'left' },
-        { to: 'docs/about-us', label: 'Docs', position: 'left' },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'alumni', label: '成员', position: 'left' },
+        { to: 'docs/about-us', label: '文档', position: 'left' },
+        { to: 'blog', label: '博客', position: 'left' },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/Computerization',
           label: 'GitHub',
@@ -40,16 +56,16 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Docs',
+              label: '文档',
               to: 'docs/about-us',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
               label: 'GitHub',
@@ -58,10 +74,10 @@ module.exports = {
           ],
         },
         {
-          title: 'Social',
+          title: '社交',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: 'blog',
             },
           ],
@@ -71,7 +87,7 @@ module.exports = {
         alt: 'Computerization Logo',
         src: 'img/logo.svg',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Computerization. Built with Docusaurus.`,
+      copyright: `信息化社 © ${new Date().getFullYear()} 版权所有. 使用 Docusaurus 搭建.`,
     },
   },
   stylesheets: [
