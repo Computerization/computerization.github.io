@@ -8,6 +8,8 @@
 
 const remarkMath = require('remark-math');
 const rehypeKatex = require('rehype-katex');
+const githubTheme = require('prism-react-renderer/themes/github');
+const draculaTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'Computerization',
@@ -88,6 +90,10 @@ module.exports = {
         src: 'img/logo.svg',
       },
       copyright: `世外信息化社 © ${new Date().getFullYear()} 版权所有. 使用 Docusaurus 搭建.`,
+    },
+    prism: {
+      theme: githubTheme,
+      darkTheme: draculaTheme,
     },
   },
   stylesheets: [
