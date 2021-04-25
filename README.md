@@ -6,7 +6,7 @@
 
 This website is the homepage of [Computerization](https://github.com/Computerization) club, a high school student club in [Shanghai World Foreign Language Academy](http://www.wflms.cn).
 
-It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+It is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Licensing & Re-Using the Contents
 
@@ -39,7 +39,7 @@ This command installs all depedendencies specified by the [`yarn.lock`](/yarn.lo
 
 ### Local Development
 
-```
+```shell
 $ yarn start
 ```
 
@@ -47,7 +47,7 @@ This command starts a local development server and opens up a browser window. Yo
 
 ### Other locales
 
-```
+```shell
 $ yarn start --locale en
 ```
 
@@ -76,9 +76,9 @@ You may want to read the [Docusaurus v2 documentation](https://docusaurus.io/) b
 │       # Markdown files for documentation
 │       # Refer to https://docusaurus.io/docs/markdown-features for available features
 ├── i18n
-│   |   # Internationalization support
-|   └── en
-│       |   # All data needed for the English translation
+│   │   # Internationalization support
+│   └── en
+│       │   # All data needed for the English translation
 │       ├── docusaurus-plugin-content-blog
 │       │       # All blog pages translated in English; for best tracking, the directory structure should be the same as /blog/
 │       ├── docusaurus-plugin-content-docs
@@ -91,12 +91,12 @@ You may want to read the [Docusaurus v2 documentation](https://docusaurus.io/) b
 ├── src
 │   │   # All pages except those in docs or blog goes here
 │   ├── components
-│   │   # React components that are reused
+│   │       # React components that are reused
 │   ├── css
-│   │   # Global CSS files for theming
-│   │   # (though most of the CSS are written at the component-level)
+│   │       # Global CSS files for theming
+│   │       # (though most of the CSS are written at the component-level)
 │   └── pages
-│       # React codes for actual pages
+│           # React codes for actual pages
 └── static
     │   # All static files goes here
     │   # Refer to https://docusaurus.io/docs/static-assets
