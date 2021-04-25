@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://computerization.io/blog</id>
+    <title>Computerization Blog</title>
+    <updated>2020-12-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://computerization.io/blog"/>
+    <subtitle>Computerization Blog</subtitle>
+    <icon>https://computerization.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Livestock Lineup]]></title>
+        <id>Livestock Lineup</id>
+        <link href="https://computerization.io/en/blog/2020/12/02/algorithm5"/>
+        <updated>2020-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the fifth activity of Computerization algorithm team. Because the December USACO contest is almost there, we had some targeted practicing, starting with Bronze problems. Because members already have decent understanding, we chose a tough one. Bronze division problems only require mastery of loops, so a brute-force enumaration will always work, with no requirement of algorithms or data structures.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Factorial string]]></title>
+        <id>Factorial string</id>
+        <link href="https://computerization.io/en/blog/2020/11/04/algorithm3"/>
+        <updated>2020-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first activity of Computerization algorithm team. We discussed a problem from Shanghai NOI regional selection, which leverages state compression dynamic programming. The mathematics is beyond our capacity to be rigorously proven.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fibonacci sequence]]></title>
+        <id>Fibonacci sequence</id>
+        <link href="https://computerization.io/en/blog/2020/10/10/algorithm1"/>
+        <updated>2020-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first activity of Computerization algorithm team. We introduced the method to find the $n$th term of the Fibonacci sequence, which mainly uses matrix exponentiation.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git usage guide: understanding working principles of Git]]></title>
+        <id>Git usage guide: understanding working principles of Git</id>
+        <link href="https://computerization.io/en/blog/2020/09/23/git-usage"/>
+        <updated>2020-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article is migrated from the first section of the README.md file in the new member practice commit repo.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>Welcome</id>
+        <link href="https://computerization.io/en/blog/2020/09/02/welcome"/>
+        <updated>2020-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Computerization welcome all new members of class 2020!]]></summary>
+    </entry>
+</feed>
