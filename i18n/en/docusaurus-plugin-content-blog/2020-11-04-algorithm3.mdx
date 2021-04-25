@@ -1,0 +1,113 @@
+---
+title: Factorial string
+author: DoremySwee
+authorTitle: Member of algorithm team
+authorURL: https://github.com/DoremySwee
+authorImageURL: https://avatars0.githubusercontent.com/u/66953201?s=400&u=58b3bbef3de5713252ff2d597346a72432399daf&v=4
+tags: [algorithm]
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+This is the first activity of Computerization algorithm team. We discussed a problem from Shanghai NOI regional selection, which leverages state compression dynamic programming. The mathematics is beyond our capacity to be rigorously proven.
+
+<!--truncate-->
+
+export const Question = ({ children, color }) => (
+  <div
+    style={{
+      backgroundColor: color,
+      borderRadius: '10px',
+      color: '#fff',
+      padding: '1em',
+      marginBottom: '1em',
+      marginTop: '1em',
+    }}
+  >
+    {children}
+  </div>
+);
+
+## Problem
+
+<Question color="#1d85c2">
+  <a href="https://www.luogu.com.cn/problem/P3989">Problem link</a>
+
+Given a string $S$ composed of the first $n$ lower-case letters, $S$ is a _factorial string_ if all the permutations of the first $n$ lower-case letters (there are $n!$ of them)（共$n!$种）are subsequences (not necessarily consecutive) of $S$.
+
+Given this definition, we can easily verify if a sequence is factorial by bashing, but it's too slow. Please design an algorithm that verifies if a string is factorial in 1 second.
+
+| Input constraints         | Memory limit | Execution time |
+| ------------------------- | ------------ | -------------- |
+| $\|S\|\le 450$, $n\le 26$ | 125MB        | 1.0s           |
+
+</Question>
+
+## Solution
+
+The bashing solution is obviously enumerating all permutations and checking if they are subsequences. You get 30% of the score from this method, but the program is pretty meaningless, and the factorial time complexity prohibits further optimization, so we don't discuss further on this attempt.
+
+Now consider the rest 70% marks. For $n\le 20$ we may consider an $\mathcal{O}(2^n)$ algorithm. Since a full enumeration is not possible, we shall turn to state compression dynamic programming, and enumerate if a letter exists in the state. Since we need to find if all permutations of the first $n$ letters exist in $S$, we will keep track of the earliest occurence of $x$ in $S$.
+
+The state transfer equation:
+
+$$
+  \begin{aligned}
+    f(a,b,c,e)=\max(&\text{first }\texttt{`e'}\text{ from }f(a,b,c), \\
+    &\text{first }\texttt{`c'}\text{ from }f(a,b,e), \\
+    &\text{first }\texttt{`b'}\text{ from }f(a,c,e), \\
+    &\text{first }\texttt{`a'}\text{ from }f(b,c,e))
+  \end{aligned}
+$$
+
+But if every lookup is done by a loop, we would exceed the time limit and only get 50 points, so we need some preprocessing. We can conduct binary search after preprocessing, but for the sake of convenience, it may be better to maintain another array that marks the position of the next target letter at every position. The time for this is just $450\times 26$.
+
+Now, consider the remaining marks. We notice that for large enough $n$, we can just output `"No"`. But how do we determine the exact threshold? If the construction is like $n=3\implies S=\mathtt{abcbab}$，$n=4\implies S=\mathtt{abcdcbabcdcba}$, the length of $S$ is about $n^2-n+1$，$n\le 21$, but we weren't able to prove it rigorously. To be on the safer side, because the runtime is still acceptable for $n=22$, we choose to output `"No"` for $n\ge 23$.
+
+## Program
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        string s;
+        cin >> s;
+        if (n >= 23) {
+            cout << "NO" << endl;
+        } else {
+            short NEXT[26][450];
+            for (int i = s.length() - 1; i >= 0; i--) {
+                if (i == s.length() - 1) {
+                    for (int j = 0; j < 26; j++)
+                        NEXT[j][i] = -1;
+                } else {
+                    for (int j = 0; j < 26; j++)
+                        NEXT[j][i] = NEXT[j][i + 1];
+                }
+                NEXT[s[i] - 'a'][i] = i;
+            }
+            short *f = new short[1 << n];
+            for (int i = 0; i < (1 << n); i++) {
+                f[i] = 0;
+                for (int j = 0; (1 << j) <= i; j++) {
+                    if (i & (1 << j)) {
+                        if (NEXT[j][f[i - (1 << j)]] == -1) {
+                            cout << "NO" << endl;
+                            return 0;
+                        }
+                        f[i] = max(f[i], NEXT[j][f[i - (1 << j)]]);
+                    }
+                }
+            }
+            cout << "YES" << endl;
+        }
+    }
+}
+```

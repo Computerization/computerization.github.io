@@ -57,6 +57,7 @@ module.exports = {
       files: ['*.js', '*.jsx'],
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
         // may need to add more rules
       },
     },

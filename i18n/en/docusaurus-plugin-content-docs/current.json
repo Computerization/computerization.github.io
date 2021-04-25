@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.关于我们": {
+    "message": "About us",
+    "description": "The label for category 关于我们 in sidebar docs"
+  },
+  "sidebar.docs.category.我们的活动": {
+    "message": "Our activities",
+    "description": "The label for category 我们的活动 in sidebar docs"
+  },
+  "sidebar.docs.category.Enspire": {
+    "message": "Enspire",
+    "description": "The label for category Enspire in sidebar docs"
+  }
+}

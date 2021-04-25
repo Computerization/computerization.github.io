@@ -1,0 +1,141 @@
+---
+title: Fibonacci sequence
+author: Josh Cena
+authorTitle: Leader of Computerization
+authorURL: https://github.com/Josh-Cena
+authorImageURL: https://avatars2.githubusercontent.com/u/55398995?s=400&u=88dc0dcb0691877524dd8739db9fde7ed4fa9721&v=4
+tags: [algorithm]
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+This is the first activity of Computerization algorithm team. We introduced the method to find the $n$th term of the Fibonacci sequence, which mainly uses matrix exponentiation.
+
+<!--truncate-->
+
+export const Question = ({ children, color }) => (
+  <div
+    style={{
+      backgroundColor: color,
+      borderRadius: '10px',
+      color: '#fff',
+      padding: '1em',
+      marginBottom: '1em',
+      marginTop: '1em',
+    }}
+  >
+    {children}
+  </div>
+);
+
+## Problem
+
+<Question color="#1d85c2">
+  The Fibonacci sequence:
+
+$$
+F_{n}=
+\begin{cases}
+  0,&n=0\\
+  1,&n=1\\
+  F_{n-2}+F_{n-1},&n>1
+\end{cases}
+$$
+
+Given $n$, find $F_{n}\text{ mod }10^9+7$。
+
+| Input constraints   | Memory limit | Execution time |
+| ------------------- | ------------ | -------------- |
+| $0\le n\le 10^{19}$ | 64MB         | 1.0s           |
+
+</Question>
+
+## Solution
+
+The input size of $10^{19}$ obviously prohibits any attempt to solve it with loops. Is there a better way than a simple $\mathcal{O}(n)$? It turns out that with **matrix exponentiation**, we can achieve $\mathcal{O}(\log n)$. We observe that:
+
+$$\begin{pmatrix}F_{n+1}\\F_{n+2}\end{pmatrix}=\begin{pmatrix}F_{n+1}\\F_{n}+F_{n+1}\end{pmatrix}=\begin{pmatrix}0&1\\1&1\end{pmatrix}\begin{pmatrix}F_{n}\\F_{n+1}\end{pmatrix}$$
+
+This step is applicable to all recursive sequences, so it should be easily reached for an experienced candidate. Generally, for $F_{n+2}=aF_{n}+bF_{n+1}$, we have
+
+$$\begin{pmatrix}F_{n+1}\\F_{n+2}\end{pmatrix}=\begin{pmatrix}F_{n+1}\\aF_{n}+bF_{n+1}\end{pmatrix}=\begin{pmatrix}0&1\\a&b\end{pmatrix}\begin{pmatrix}F_{n}\\F_{n+1}\end{pmatrix}$$
+
+From the recursive definition,
+
+$$\begin{pmatrix}F_{n+m}\\F_{n+m+1}\end{pmatrix}=\begin{pmatrix}0&1\\1&1\end{pmatrix}^m\begin{pmatrix}F_{n}\\F_{n+1}\end{pmatrix}$$
+
+Substituting $n=0$,
+
+$$\begin{pmatrix}F_{m}\\F_{m+1}\end{pmatrix}=\begin{pmatrix}0&1\\1&1\end{pmatrix}^m\begin{pmatrix}F_0\\F_1\end{pmatrix}$$
+
+Now the problem is transformed into finding the matrix raised to the $m$th power. If $m=2^0a_0+2^1a_1+2^2a_2+\dots$ (representation in binary), then
+
+$$\begin{pmatrix}0&1\\1&1\end{pmatrix}^m=\left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{1}\right)^{a_0}\times \left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2}\right)^{a_1}\times \left(\begin{pmatrix}0&1\\1&1\end{pmatrix}^{4}\right)^{a_2}\dots$$
+
+The $2^k$th powers of the original matrix can, in fact, be preprocessed. When $m<10^{19}$, $k<\log_2 10^{19}<64$, so we only need to store at most 63 matrices. In addition,
+
+$$\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^k}=\begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^{k-1}}\times \begin{pmatrix}0&1\\1&1\end{pmatrix}^{2^{k-1}}$$
+
+which implies that the powers can be attained within $\mathcal{O}(\log m)$ time. This is the idea of fast matrix exponentiation: compute all $2^k$th powers, and put those needed together.
+
+## Program
+
+Below is the C++ code, where the most intractable part is probably implementation of matrix multiplication:
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+struct mat {
+    unsigned long long a[4];
+    mat operator *(mat o) {
+        mat t;
+        t.a[0] = (this->a[0] * o.a[0] + this->a[1] * o.a[2]) % 1000000007;
+        t.a[1] = (this->a[0] * o.a[1] + this->a[1] * o.a[3]) % 1000000007;
+        t.a[2] = (this->a[2] * o.a[0] + this->a[3] * o.a[2]) % 1000000007;
+        t.a[3] = (this->a[2] * o.a[1] + this->a[3] * o.a[3]) % 1000000007;
+        return t;
+    }
+};
+
+// Preprocessed matrices raised to the 2^k power
+mat mat_pow[64];
+
+int fib(unsigned long long k) {
+    // Temporary matrix; each time multiply it by some term in mat_pow
+    mat tmp;
+    tmp.a[0] = 1;
+    tmp.a[1] = 0;
+    tmp.a[2] = 0;
+    tmp.a[3] = 1;
+    for (int i = 0; i < 64; i++) {
+        // If a_i is 1
+        if (k & (1ull << i)) {
+            tmp = tmp * mat_pow[i];
+        }
+    }
+    return tmp.a[1];
+}
+
+int main() {
+    mat_pow[0].a[0] = 0;
+    mat_pow[0].a[1] = 1;
+    mat_pow[0].a[2] = 1;
+    mat_pow[0].a[3] = 1;
+    for (int i = 1; i < 64; i++) {
+        mat_pow[i] = mat_pow[i-1] * mat_pow[i-1];
+    }
+    unsigned long long n;
+    cin >> n;
+    cout << fib(n) << endl;
+    return 0;
+}
+```
+
+The formulae for matrix multiplication are:
+
+$$\begin{pmatrix}a_0&a_1\\a_2&a_3\end{pmatrix}\times\begin{pmatrix}b_0&b_1\\b_2&b_3\end{pmatrix}=\begin{pmatrix}a_0b_0+a_1b_2&a_0b_1+a_1b_3\\a_2b_0+a_3b_2&a_2b_1+a_3b_3\end{pmatrix}$$
+
+$$\begin{pmatrix}a_0&a_1\\a_2&a_3\end{pmatrix}\times\begin{pmatrix}b_0\\b_1\end{pmatrix}=\begin{pmatrix}a_0b_0+a_1b_1\\a_2b_0+a_3b_1\end{pmatrix}$$

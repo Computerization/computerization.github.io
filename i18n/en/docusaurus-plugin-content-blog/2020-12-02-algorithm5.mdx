@@ -1,0 +1,170 @@
+---
+title: Livestock Lineup
+author: Josh Cena
+authorTitle: Leader of Computerization
+authorURL: https://github.com/Josh-Cena
+authorImageURL: https://avatars2.githubusercontent.com/u/55398995?s=400&u=88dc0dcb0691877524dd8739db9fde7ed4fa9721&v=4
+tags: [algorithm]
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+This is the fifth activity of Computerization algorithm team. Because the December USACO contest is almost there, we had some targeted practicing, starting with Bronze problems. Because members already have decent understanding, we chose a tough one. Bronze division problems only require mastery of loops, so a brute-force enumaration will always work, with no requirement of algorithms or data structures.
+
+<!--truncate-->
+
+export const Question = ({ children, color }) => (
+  <div
+    style={{
+      backgroundColor: color,
+      borderRadius: '10px',
+      color: '#fff',
+      padding: '1em',
+      marginBottom: '1em',
+      marginTop: '1em',
+    }}
+  >
+    {children}
+  </div>
+);
+
+## Problem
+
+<Question color="#1d85c2">
+
+**Problem source: **<a href="http://www.usaco.org/index.php?page=viewproblem2&cpid=965">**USACO 2019 December Bronze 3**</a>
+
+Every day, Farmer John milks his 8 dairy cows, named Bessie, Buttercup, Belinda, Beatrice, Bella, Blue, Betsy, and Sue.
+
+The cows are rather picky, unfortunately, and require that Farmer John milks them in an order that respects $N$ constraints. Each constraint is of the form "$X$ must be milked beside $Y$", stipulating that cow $X$ must appear in the milking order either directly after cow $Y$ or directly before cow $Y$.
+
+Please help Farmer John determine an ordering of his cows that satisfies all of these required constraints. It is guaranteed that an ordering is always possible. If several orderings work, then please output the one that is alphabetically first. That is, the first cow should have the alphabetically lowest name of all possible cows that could appear first in any valid ordering. Among all orderings starting with this same alphabetically-first cow, the second cow should be alphabetically lowest among all possible valid orderings, and so on.
+
+| Input constraints | Memory limit | Execution time |
+| ----------------- | ------------ | -------------- |
+| $1\le N\le 7$     | 256MB        | 2.0s           |
+
+</Question>
+
+## Solution
+
+Once we understand what the problem asks for—generating a permutation with the smallest lexicographical order that satisfies the given constraints—it should not be too hard. We can generate all permutations in lexicographical order (there are $8!=40320$ of them), and output the first that satisfies all constraints. If you don't know about backtracking algorithm, you can still get assistance from the `next_permutation` function provided by `algorithm`. This is a typical Bronze solution: because of the small input size, we can _choose_ a solution after an enumeration instead of _constructing_ one.
+
+However, this approach may be less obvious to some experienced candidates. These candidates will attempt to construct a solution through the constraints. This needs some greedy strategy: to achieve the lowest lexicographical order, we need to have the smallest cow possible at every position. We can view an ordering as a "constraint chain", where every cow has only one possible location due to the cows that it must be adjacent to. After joining each chain, we can choose the smallest cow that hasn't been settled yet—but this cow cannot have two unmet constraints, since the cows at both ends of a chain can only be connected to one neighboring cow. After fixing the chain's head, we can naturally generate the entire chain. Repeat the same process until all cows have been settled.
+
+## Program
+
+Brute-force enumeration:
+
+```cpp
+/**
+ * Adopted from official solution at
+ * http://www.usaco.org/current/data/sol_lineup_bronze_dec19.html
+ */
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+string names[8] = {"Beatrice", "Belinda", "Bella", "Bessie", "Betsy", "Blue", "Buttercup", "Sue"};
+// beside_a[i] and beside_b[i] denote one pair of neighboring cows
+vector<string> beside_a, beside_b;
+int n;
+
+int getID(string name) {
+    for (int i = 0; i < 8; i++)
+        if (names[i] == name)
+            return i;
+    return -1;
+}
+
+bool satisfies_constraints() {
+    for (int i = 0; i < n; i++)
+        if (abs(getID(beside_a[i]) - getID(beside_b[i])) != 1)
+            return false;
+    return true;
+}
+
+int main() {
+    ifstream fin("lineup.in");
+    ofstream fout("lineup.out");
+    fin >> n;
+    string a, b;
+    for (int i = 0; i < n; i++) {
+        fin >> a >> b >> b >> b >> b >> b;
+        beside_a.push_back(a);
+        beside_b.push_back(b);
+    }
+    // Iterate over all permutations of the 8 cows, and output the first valid solution
+    do {
+        if (satisfies_constraints()) {
+            for (int i = 0; i < 8; i++)
+                fout << names[i] << endl;
+            return 0;
+        }
+    } while (next_permutation(names.begin(), names.end()));
+    return 0;
+}
+```
+
+Construction:
+
+```cpp
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+struct cow {
+    int adj[2];  // ID(s) of the cow(s) that need to be neighboring this cow
+    int adjcnt;  // Number of constraints for this cow; decides if this cow can be put at the head of a constraint chain.
+    bool chosen; // If already in the ordering
+} cows[8];
+string names[8] = {"Beatrice", "Belinda", "Bella", "Bessie", "Betsy", "Blue", "Buttercup", "Sue"};
+
+int getID(string name) {
+    for(int i = 0; i < 8; i++)
+        if(names[i] == name)
+            return i;
+    return -1;
+}
+
+int main() {
+    ifstream fin("lineup.in");
+    ofstream fout("lineup.out");
+    int n;
+    fin >> n;
+    string a, b;
+    for (int i = 0; i < n; i++) {
+        fin >> a >> b >> b >> b >> b >> b;
+        cows[getID(a)].adj[cows[getID(a)].adjcnt++] = getID(b);
+        cows[getID(b)].adj[cows[getID(b)].adjcnt++] = getID(a);
+    }
+    int prev = -1;
+    // On every iteration add a cow to the ordering. If the last cow has no additional constraints, we may choose a new one; otherwise, we need to choose the one that the constraint requires.
+    for (int _ = 0; _ < 8; _++) {
+        if (_ == 0 || cows[prev].adjcnt == 0) {
+            for (int i = 0; i < 8; i++) {
+                if (!cows[i].chosen && cows[i].adjcnt < 2) {
+                    cows[i].chosen = true;
+                    fout << names[i] << endl;
+                    prev = i;
+                    break;
+                }
+            }
+        } else if (cows[prev].adjcnt == 1) {
+            int i = cows[prev].adj[0];
+            cows[i].chosen = true;
+            // Add cow[i] to the ordering, and "delete" the constraint already satisfied
+            cows[i].adjcnt--;
+            if(cows[i].adj[0] == prev)
+                cows[i].adj[0] = cows[i].adj[1];
+            fout << names[i] << endl;
+            prev = i;
+        }
+    }
+    return 0;
+}
+```
