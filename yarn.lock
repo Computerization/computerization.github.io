@@ -1218,10 +1218,10 @@
     webpack-merge "^4.2.2"
     webpackbar "^5.0.0-3"
 
-"@docusaurus/core@^2.0.0-alpha.73":
-  version "2.0.0-alpha.73"
-  resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-alpha.73.tgz#b00a4b3bee82bbe42535f5035d1f5767c1647207"
-  integrity sha512-gUF5UOcy/5XmPWFOpLdiilI+7FEEYtvunB62xnvwEp/SNRvoL9PAs9dI2mFaDkme1RmUtPMXKzPZxwlntFnA9A==
+"@docusaurus/core@^2.0.0-alpha.74":
+  version "2.0.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-alpha.74.tgz#8df816c27fca5c11ae6f0eb3e31cd9802646b564"
+  integrity sha512-haN6B8+5I9mol31NBuehF0ZmtgbqOzrUsWCMRw4Q5ZMplJsuRHQb6IIE8Qz67xmjLQvHsqJXVzHQZNWsTsfDSg==
   dependencies:
     "@babel/core" "^7.12.16"
     "@babel/generator" "^7.12.15"
@@ -1235,11 +1235,11 @@
     "@babel/runtime" "^7.12.5"
     "@babel/runtime-corejs3" "^7.12.13"
     "@babel/traverse" "^7.12.13"
-    "@docusaurus/cssnano-preset" "2.0.0-alpha.73"
+    "@docusaurus/cssnano-preset" "2.0.0-alpha.74"
     "@docusaurus/react-loadable" "5.5.0"
-    "@docusaurus/types" "2.0.0-alpha.73"
-    "@docusaurus/utils" "2.0.0-alpha.73"
-    "@docusaurus/utils-validation" "2.0.0-alpha.73"
+    "@docusaurus/types" "2.0.0-alpha.74"
+    "@docusaurus/utils" "2.0.0-alpha.74"
+    "@docusaurus/utils-validation" "2.0.0-alpha.74"
     "@endiliey/static-site-generator-webpack-plugin" "^4.0.0"
     "@svgr/webpack" "^5.5.0"
     autoprefixer "^10.2.5"
@@ -1311,10 +1311,10 @@
     postcss "^7.0.2"
     postcss-sort-media-queries "^1.7.26"
 
-"@docusaurus/cssnano-preset@2.0.0-alpha.73":
-  version "2.0.0-alpha.73"
-  resolved "https://registry.yarnpkg.com/@docusaurus/cssnano-preset/-/cssnano-preset-2.0.0-alpha.73.tgz#af3275376836c6f128efeae8bf7c69c60620098a"
-  integrity sha512-8DregwCCcKl5h3WAwK/NuTQ8BpXiKUnF8owVE4XAS7OnHXSobKfxz0wpF2Jzi0G8TdVfnZzPrXelnWWDL1mc3g==
+"@docusaurus/cssnano-preset@2.0.0-alpha.74":
+  version "2.0.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@docusaurus/cssnano-preset/-/cssnano-preset-2.0.0-alpha.74.tgz#e666fa042c9c5fbbc68cc7b9d57395f86ba72382"
+  integrity sha512-Fd1csUAnB9XwzJ0v+IANgxhueNlUEdqnS3fd4Wb56KzgHiJ9/1ozvJ/lfpyWpwxNNqIOaVILYeR/A/NIbeFmmQ==
   dependencies:
     cssnano-preset-advanced "^4.0.7"
     postcss "^7.0.2"
@@ -1542,10 +1542,10 @@
     querystring "0.2.0"
     webpack-merge "^4.2.2"
 
-"@docusaurus/types@2.0.0-alpha.73":
-  version "2.0.0-alpha.73"
-  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.73.tgz#d19947ab0b86586191025069cefbe84cfd77cfbd"
-  integrity sha512-+q7q178LS2mMTGD/U5KgloLGKtG8yzpqj+NOp2QprjFVqTfkwTFcMhN33PTZTUcDunMDuUt+LOo9hi9Vz9+r5Q==
+"@docusaurus/types@2.0.0-alpha.74":
+  version "2.0.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.74.tgz#43f3fdf61ace34de527775d9238d5a449cc6f8ff"
+  integrity sha512-ZJO2vZMwwHH2EbwOLPg0TERpgaAULQkNEI8cu1wfmqFm7gWaN4wIg6nbV+c2ifGMJxAT9eExjs7fDrAfbmrbKQ==
   dependencies:
     "@types/webpack" "^4.41.0"
     commander "^5.1.0"
@@ -1562,12 +1562,12 @@
     chalk "^4.1.0"
     joi "^17.4.0"
 
-"@docusaurus/utils-validation@2.0.0-alpha.73":
-  version "2.0.0-alpha.73"
-  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.0.0-alpha.73.tgz#d18708a681361ecd08f1628538358146a893c521"
-  integrity sha512-A36kKC+tCy/MGXdaK7emH2CHyHKru/+Td9zCm6fvNdNbu+dDNvEddTZ3ecjB0zNdDZM25Er4+KIo9GV3vnJ8Rg==
+"@docusaurus/utils-validation@2.0.0-alpha.74":
+  version "2.0.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.0.0-alpha.74.tgz#212325ba639c96a2ef862ebfcbb60669972e2caf"
+  integrity sha512-VCuTN8en6Vl476ypQPSxOoizFxhjBrin805sGkrRRGXHX8azG1K+1rLhchvYmQBrdGAcvDHKcaLrIglD2VRhcQ==
   dependencies:
-    "@docusaurus/utils" "2.0.0-alpha.73"
+    "@docusaurus/utils" "2.0.0-alpha.74"
     chalk "^4.1.0"
     joi "^17.4.0"
     tslib "^2.1.0"
@@ -1586,12 +1586,12 @@
     lodash "^4.17.20"
     resolve-pathname "^3.0.0"
 
-"@docusaurus/utils@2.0.0-alpha.73":
-  version "2.0.0-alpha.73"
-  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.73.tgz#eeca700e888e41961c9d06febed2256064e859e4"
-  integrity sha512-kUHnE1b/3yNWNAn0V8owLgCrxqyxfolkCbkPFfnRT+4m+agyn3riEcr+ZVObs7K9nxCla8oklX5RKSJGzyqWww==
+"@docusaurus/utils@2.0.0-alpha.74":
+  version "2.0.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.74.tgz#45ec29cd4bed0ee63a81fa1a6ac81df0573e6ff6"
+  integrity sha512-ybmCJ6Jimm74X2U54efE6thZ7Vo3ih1YQr/ZpSsEl8evl319fe0SVErPpp/wi2DhbK03bc/3jxIElC9d9mn2YQ==
   dependencies:
-    "@docusaurus/types" "2.0.0-alpha.73"
+    "@docusaurus/types" "2.0.0-alpha.74"
     "@types/github-slugger" "^1.3.0"
     chalk "^4.1.0"
     escape-string-regexp "^4.0.0"
