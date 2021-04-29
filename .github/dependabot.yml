@@ -1,0 +1,53 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "16:00"
+    timezone: Asia/Shanghai
+  open-pull-requests-limit: 10
+  target-branch: master
+  reviewers:
+  - Josh-Cena
+  - GeMini-220
+  labels:
+  - dependencies
+  ignore:
+  - dependency-name: remark-math
+    versions:
+    - ">= 4.a, < 5"
+  - dependency-name: "@docusaurus/preset-classic"
+    versions:
+    - 2.0.0-alpha.71
+    - 2.0.0-alpha.73
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.20.0
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.20.0
+  - dependency-name: classnames
+    versions:
+    - 2.3.0
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.0
+  - dependency-name: "@docusaurus/module-type-aliases"
+    versions:
+    - 2.0.0-alpha.71
+  - dependency-name: "@docusaurus/core"
+    versions:
+    - 2.0.0-alpha.71
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.1
+    - 17.0.3
+  - dependency-name: typescript
+    versions:
+    - 4.1.4
+    - 4.1.5
+    - 4.2.3
+  commit-message:
+    prefix: Dependencies
+    include: scope
