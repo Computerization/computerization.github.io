@@ -23,11 +23,11 @@ const features = [
         id="frontpage.sec1.item1"
         values={{
           link1: <a href="https://vuejs.org/">Vue</a>,
-          link2: <a href="https://v2.docusaurus.io">Docusaurus</a>,
+          link2: <a href="https://docusaurus.io">Docusaurus</a>,
         }}
       >
         {
-          '在C社，学习 {link1}, {link2}等多个前端框架，使用 GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，参与社团平台搭建，充分展现你的创意与才智！'
+          '在C社，学习 {link1}, {link2} 等多个前端框架，使用 GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，参与社团平台搭建，充分展现你的创意与才智！'
         }
       </Translate>
     ),
@@ -118,7 +118,7 @@ function Home() {
                 <div className="col text--center">
                   <div className={classnames(styles.caption)}>
                     <Translate id="frontpage.sec1.imgsrc">图片来源：</Translate>
-                    <a href="https://v2.docusaurus.io/">
+                    <a href="https://docusaurus.io/">
                       <Translate id="frontpage.sec1.imgsrc.link">
                         Docusaurus 官方文档
                       </Translate>
