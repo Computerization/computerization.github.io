@@ -6,34 +6,34 @@ license: Creative Commons Attribution 4.0 International License
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
 
-SAM 是一个校内信息化平台。它目前的地址是[https://sam.shuye02.com](https://sam.shuye02.com)
+SAM is a campus platform. Its current site is at [https://sam.shuye02.com](https://sam.shuye02.com)
 
-SAM 主要由以下三大部分组成：
+SAM is mainly constructed by the following 3 sections
 
-## 社团
+## Clubs
 
-社团部分是对于所有校内社团的索引和搜索。
+The community section is an index and search engine for all the clubs in school.
 
-目前正在开发中的功能有：
+Functions still under development:
 
-- 发布文章/公告
-- 社团成员系统
-- 发布作业并追踪成员完成进度
+- Post / announcement
+- Club member system
+- Issue jobs and track members' progress
 
 <img alt="Organization" src={useBaseUrl('img/doc/org.png')} />
 
-### 教室预约
+### Appointments
 
-这部分是社团活动教室的预约，只有社长有权限访问。这个功能是在 2018 年 9 月份为学生会社团部定做的，在 2018 年 9 月份中旬开放，目前处于关闭状态
+This part is for the appointment of the club activity classroom, only the leader of club has the right of access. This function was customized for the club Department of the student union in September 2018, opened in mid September, 2018, but is currently closed
 
-### 投票
+### Voting
 
-投票系统作为多功能用途的表单提交系统，可以进行多种用途的使用。
+As a multi-functional form submission system, voting system can be used for many purposes.
 
-如下图，“世外杯”辩论赛曾通过投票系统进行观众报名，并统计观众报名场次
+As shown in the figure below, the "WFLA Cup" debate competition has registered the audience through this voting system, and counted the number of entries
 
 <img alt="debate voting" src={useBaseUrl('img/doc/vote_debate.png')} />
 
-此外，学生会和 CAS 组也使用投票平台进行五星社团、新社团、末位社团的答辩和投票
+In addition, the student union and CAS group also used the voting system to vote for five-star clubs, new clubs and last club Q&As.
 
 <img alt="Organization Defense Voting" src={useBaseUrl('img/doc/vote_org.png')} />
