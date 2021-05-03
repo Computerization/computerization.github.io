@@ -1,0 +1,1 @@
+(self.webpackChunkcomputerization=self.webpackChunkcomputerization||[]).push([[727],{6347:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"git","name":"git","count":1,"permalink":"/blog/tags/git"}')}}]);

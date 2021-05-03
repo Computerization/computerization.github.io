@@ -1,0 +1,1 @@
+(self.webpackChunkcomputerization=self.webpackChunkcomputerization||[]).push([[65],{7590:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"welcome","name":"welcome","count":1,"permalink":"/en/blog/tags/welcome"}')}}]);

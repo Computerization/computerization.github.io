@@ -1,0 +1,1 @@
+(self.webpackChunkcomputerization=self.webpackChunkcomputerization||[]).push([[424],{2431:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"guide","name":"guide","count":1,"permalink":"/en/blog/tags/guide"}')}}]);

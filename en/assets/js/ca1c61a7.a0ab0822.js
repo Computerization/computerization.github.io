@@ -1,0 +1,1 @@
+(self.webpackChunkcomputerization=self.webpackChunkcomputerization||[]).push([[373],{9499:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"algorithm","name":"algorithm","count":3,"permalink":"/en/blog/tags/algorithm"}')}}]);
