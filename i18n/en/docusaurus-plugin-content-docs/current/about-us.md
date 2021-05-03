@@ -20,25 +20,25 @@ It's algorithms that made computer scientists who he/she is, not codes.
 
 Besides, this also leads to our community culture of conveying ideas about program designing.
 
-### What does C-club do?
+### What does Compuetrization do?
 
 Our main job is to **Provide services to various clubs, communities and the student union**.
 For example, we wrote the [SAM platfrom](https://github.com/Computerization/SAM/), it has already undertaken the following tasks:
 
--Registration of "WFLA Cup"
--Scoring and statistical work of new clubs / five star clubs / club Q&As
--"2017 Why Charity" online auction
--Appointment of club activity classroom in 2018
--The display of WFLA CAS club list
--……
+- Registration of "WFLA Cup"
+- Scoring and statistical work of new clubs / five star clubs / club Q&As
+- "2017 Why Charity" online auction
+- Appointment of club activity classroom in 2018
+- The display of WFLA CAS club list
+- ……
 
 ### What else?
 
 In addition to cooperating with various other clubs to complete projects, we also:
 
--Organize program designing sharing sessions
--Prepare for National Olympiad in Informatics in Provinces (NOIP)
--Learn discrete mathematics, linear algebra and other tools
+- Organize program designing sharing sessions
+- Prepare for National Olympiad in Informatics in Provinces (NOIP)
+- Learn discrete mathematics, linear algebra and other tools
 
 In addition, we also carry out a series of courses, such as MATLAB, latex, or python, R
 
