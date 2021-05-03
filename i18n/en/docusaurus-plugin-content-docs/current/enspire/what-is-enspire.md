@@ -1,42 +1,43 @@
 ---
 id: what-is-enspire
-title: Enspire是什么
+title: What is Enspire?
 license: Creative Commons Attribution 4.0 International License
 ---
 
-Enspire 是一个初生的企划，旨在为**校内 CAS 活动**提供一个**技术支持平台**
+Enspire is a newly born project, aimed to provide a **technical support platform** for **the school's CAS activities**.
 
-### 为什么要做这个项目？
+### Why Enspire?
 
-保持初心 :fire:
+Stay original :fire:
 
-C 社是服务类社团，其创始初心是为学校生活提供便利（即 SAM 平台）
+Computerization is a service club created in the hope of providing convenience to school life (which SAM demonstrated).
 
-如今我们发现，校内同学们 CAS 活动中遇到的管理、技术、宣传问题，是比作业上传和教室预约更大的需求缺口
+And now we discover that students have a bigger demand for management, technical, and advertising during CAS activities, compared with assignment uploads and classroom reservation.
 
-enspire 的目标很简单，**make CAS life easier for every one** (in WFLA, at least for now)
-当然，如果能做到让各个社团能从我们的 enspire 中 inspired，就更好啦
+The goal of Enspire is simple: **make CAS life easier for every one** (in WFLA, at least for now)
 
-### 作为一个 C 社社员，我一定要参加 Enspire 开发吗？
+Of course, if the clubs can be inspired by Enspire, it would be even greater :P
 
-**不一定**
+### As a Computerization member, do I have to participate in development?
 
-如果你觉得 enspire 是一个**有价值的 project**，你**愿意投入自己的时间和精力**去开发，那就来吧
+**Not necessarily**
 
-Enspire 是**C 社所属的开源项目**，但你可以选择不参加，可以选择做出很少的贡献，也可以选择爆肝 :boom:
+If you think Enspire is **a valuable project**, and you are **willing to devote your time and effort**, then come!
 
-如果你不了解**开源项目**是什么，可以参考这个网站 https://opensource.guide/
+Enspire is an **open-source project** of Computerization, but you can choose to not participate, to make very little contribution, or to work 24/7 :boom:
 
-如果你想来参与这个项目的话，请一定好好读上述网站中的 https://opensource.guide/how-to-contribute/
-其中写了很多很基础但是每个 contributor 都必须知道的东西
+If you are not familiar with **open-source projects**, you can refer to this website: https://opensource.guide/.
 
-### 卫星放了这么多，Enspire 到底会有哪些功能？
+If you want to take part, please read the https://opensource.guide/how-to-contribute/ section carefully.
+It includes a lot of fundamental but essential information that every contributor needs to know.
 
-基于前文提到的**社团管理、技术、宣传问题**，这是目前的想法：
+### What functions will Enspire provide?
 
-- 每个社团的 blog post 和成员 contacts
-- 按照标签搜索社团
-- “我对这个社团感兴趣”以及“我想加入”
-- 其他社团对 C 社的技术问题 FAQ
-- 全校社团各项排名？！
-- …… （欢迎继续 commit 你的想法:bulb:）
+As aforementioned, the basic ideas are **club administration, technology, and advertising**. Proposed functions include:
+
+- Blog posts and member contacts
+- Search for clubs by labels
+- "I am interested" and "I want to join"
+- FAQ from other clubs for Computerization on technical issues
+- School ranking of clubs?!
+- ... (You are welcome to commit any other ideas :bulb:)

@@ -4,36 +4,34 @@ title: SAM是什么
 license: Creative Commons Attribution 4.0 International License
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
+SAM is a campus information platform. It is currently hosted at [https://sam.shuye02.com](https://sam.shuye02.com).
 
-SAM is a campus platform. Its current site is at [https://sam.shuye02.com](https://sam.shuye02.com)
-
-SAM is mainly constructed by the following 3 sections
+SAM is mainly composed of the following 3 sections:
 
 ## Clubs
 
-The community section is an index and search engine for all the clubs in school.
+The clubs section is an indexing and search engine for all the school clubs.
 
 Functions still under development:
 
-- Post / announcement
+- Article / announcement posting
 - Club member system
-- Issue jobs and track members' progress
+- Issue assignments and track members' progress
 
-<img alt="Organization" src={useBaseUrl('img/doc/org.png')} />
+<img alt="Organization" src='img/doc/org.png' />
 
-### Appointments
+### Classroom reservation
 
-This part is for the appointment of the club activity classroom, only the leader of club has the right of access. This function was customized for the club Department of the student union in September 2018, opened in mid September, 2018, but is currently closed
+This part is for reserving classrooms for club activities, and only the club leaders have the right of access. This function was developed upon request of the club department of the student union in September 2018, and opened in mid September 2018, but is currently closed.
 
 ### Voting
 
-As a multi-functional form submission system, voting system can be used for many purposes.
+As a multi-functional form submission system, the voting system can be used for multiple purposes.
 
-As shown in the figure below, the "WFLA Cup" debate competition has registered the audience through this voting system, and counted the number of entries
+The "WFLA Cup" debate tournament registered the audience through this voting system, and counted the number of entries.
 
-<img alt="debate voting" src={useBaseUrl('img/doc/vote_debate.png')} />
+<img alt="debate voting" src='img/doc/vote_debate.png' />
 
-In addition, the student union and CAS group also used the voting system to vote for five-star clubs, new clubs and last club Q&As.
+In addition, the student union and CAS group also used the voting system to vote for five-star clubs, new clubs and bottom-out defense.
 
-<img alt="Organization Defense Voting" src={useBaseUrl('img/doc/vote_org.png')} />
+<img alt="Organization Defense Voting" src='img/doc/vote_org.png' />
