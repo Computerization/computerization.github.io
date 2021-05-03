@@ -6,7 +6,7 @@ license: Creative Commons Attribution 4.0 International License
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
 
-SAM is a campus platform. its current site is at [https://sam.shuye02.com](https://sam.shuye02.com)
+SAM is a campus platform. Its current site is at [https://sam.shuye02.com](https://sam.shuye02.com)
 
 SAM is mainly constructed by the following 3 sections
 
@@ -24,7 +24,7 @@ Functions still under development:
 
 ### Appointments
 
-This part is for the appointment of the club activity classroom, only the leader of club has the right to access. This function was customized for the club Department of the student union in September 2018, opened in mid September, 2018, but is currently closed
+This part is for the appointment of the club activity classroom, only the leader of club has the right of access. This function was customized for the club Department of the student union in September 2018, opened in mid September, 2018, but is currently closed
 
 ### Voting
 
