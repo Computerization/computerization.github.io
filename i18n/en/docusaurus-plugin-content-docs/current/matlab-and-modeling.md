@@ -4,37 +4,37 @@ title: MATLAB与数学建模
 license: Creative Commons Attribution 4.0 International License
 ---
 
-MATLAB 的教学是 C 社与数学社合作开展的**数学建模系列课程**中的一部分
+MATLAB is a part of the the **course series on mathematical modeling** carried out by C-club and math club cooperatively
 
-### 你为什么应该学习 MATLAB
+### Why should you learn MATLAB?
 
-MATLAB 是一门**面向科学计算和工程计算**的高级计算机语言。
+Matlab is a senior language for **scientific computing** and **engineering computing**.
 
-相比它的同行来说，MATLAB 具有以下的优势：
+when compared with other similar languages, MATLAB has the following advantages:
 
-- 易于使用和学习
-- 拥有丰富的原生函数，尤其是矩阵方面
-- 拥有强大的图形处理功能，可以轻松画出复杂的图形
-- 许多功能函数可以自适应算法，自动选择最优算法，避免错误，提高效率
+- easier to be learned and used
+- Has a wealth of native methods/functions, especially for those about matrix
+- It is powerful on graphics processing and can easily draw complex graphics
+- Many functions are adaptive, they automatically select the optimal algorithm, avoid errors and improve efficiency
 
-### 你能学到什么
+### What can you learn
 
-在完成基础语法学习后，你将主要通过实践的方式，在学习数学模型的同时，通过 MATLAB 对数学模型进行程序实现，学习 MATLAB 在数学建模中的用法
+After completed the studing on basics, you can program mathematical models through MATLAB to learn the usage of MATLAB in mathematical modeling
 
-以下是我们的基础课程大纲：
+Course syllabus:
 
-1. MATLAB: 运算符，程序逻辑
-2. 常见函数拟合
-3. 线性规划
-4. 统计回归模型
-5. 概率模型
-6. 离散模型（层次分析法）
-7. LaTeX 入门
+1. MATLAB: Operator, program logic
+2. Common function fitting
+3. Linear programming
+4. Statistical regression model
+5. Probability model
+6. Discrete model (analytic hierarchy process; AHP)
+7. Basic LaTeX
 
-### 课程大纲（supplementary）
+### supplementary course syllabus
 
-我们还提供以下内容供有兴趣的学生选修：
+We also offer the following contents for the students who are interested:
 
-1. 神经网络，聚类分析
-2. 微分方程模型
-3. LaTeX 进阶使用
+1. Neural network, cluster analysis
+2. Differential equation model
+3. Advanced LaTeX
