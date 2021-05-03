@@ -42,7 +42,7 @@ The leader should focus on the page layout and design, logic planning, and code 
 
 Our [Enspire](./enspire/what-is-enspire.md) platform is developed by Vue, thus, it is very important to learn Vue syntax for participating in the project development.
 
-Thoroughly read [Vue document](https://vuejs.org/v2/guide/) **And use Vue to reconfigure your To-do-list website**, we recommend to use only one Vue app defined in the JavaScript file, without any global variables or functions. The whole html should also be wrapped with Vue root element '<div id = "app">', so that you can experience the full Vue logic.
+Thoroughly read [Vue document](https://vuejs.org/v2/guide/) **And use Vue to reconfigure your To-do-list website**, we recommend to use only one Vue app defined in the JavaScript file, without any global variables or functions. The whole html should also be wrapped with Vue root element `<div id = "app">`, so that you can experience the full Vue logic.
 
 Members might need to understand the following Vue syntax:
 
