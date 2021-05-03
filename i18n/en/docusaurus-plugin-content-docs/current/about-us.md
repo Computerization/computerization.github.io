@@ -22,7 +22,7 @@ Besides, this also leads to our community culture of conveying ideas about progr
 
 ### What does C-club do?
 
-Our main job is to **Provide services to various clubs, communities and the student union**。
+Our main job is to **Provide services to various clubs, communities and the student union**.
 For example, we wrote the [SAM platfrom](https://github.com/Computerization/SAM/), it has already undertaken the following tasks:
 
 -Registration of "WFLA Cup"

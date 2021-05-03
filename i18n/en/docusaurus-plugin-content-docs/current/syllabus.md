@@ -17,10 +17,10 @@ All of C-club's projects are open sourced on GitHub, to achieve version control,
 we prepared a [playground](https://github.com/Computerization/New-member-practice-commit) for new members. Every year, the club leader will create a new folder named after the year, for the members to complete the following tasks:
 
 1. **installing git** Unix system originally have git, but for Windows you can downlaod it from [here](https://git-scm.com/download/win).
-2. **Get Familiar with command line tools** On Windows, use PowerShell; On MacOS, use Terminal。
+2. **Get Familiar with command line tools** On Windows, use PowerShell; On MacOS, use Terminal.
    - Learn to use `cd` and `ls` commands.
    - Use `git --version` to check the installation of git. Almost every command line tools provides `--version` data, to check the installation status.
-3. **Create Github Account** send your email or GitHub id to the leader, so the leader could add the new member into the organization, and grant reading or writing permissions。
+3. **Create Github Account** send your email or GitHub id to the leader, so the leader could add the new member into the organization, and grant reading or writing permissions.
 4. Refering to the [git guide](https://github.com/Computerization/New-member-practice-commit/blob/master/README.md) written by us and **Choose a suitable git tool for you**. We recommend everyone to use Visual Studio Code as the editor and git management tool.
 5. after Cloning the repo (repository), **create a new branch**
 6. **Create a new folder named after your GitHub id in the folder of corresponding year** and upload any code file into the folder, using any language, as long as it can show your programming ability;
