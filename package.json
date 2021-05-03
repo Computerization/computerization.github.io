@@ -17,7 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.74",
+    "@docusaurus/core": "^2.0.0-alpha.75",
     "@docusaurus/module-type-aliases": "^2.0.0-alpha.74",
     "@docusaurus/preset-classic": "^2.0.0-alpha.74",
     "classnames": "^2.3.1",
