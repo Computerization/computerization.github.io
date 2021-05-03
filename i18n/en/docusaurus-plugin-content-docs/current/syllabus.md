@@ -6,25 +6,25 @@ license: Creative Commons Attribution 4.0 International License
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Every year, after joining the front-end development (WEB) department, the new studentsb have to go through a series of training. Since joining the Department does not require any prior knowledge, it is a challenge for some students with zero basis. But even if you have certain programming knowleage, you still need to face **completely new specifications and tools**, so the training is essential.
+Every year, after joining the front-end development (WEB) department, the new studentsb have to go through a series of training. Since joining the Department does not require any prior programming knowledge, it is a challenge for some students with zero basis. But even if you have certain programming knowleage beforehand, you still need to face **completely new specifications and tools**, so the training is essential.
 
-## Phase 1：Get familiar with the basic Tools（10 Weeks）
+## Phase 1: Get familiar with the basic Tools（10 Weeks）
 
 ### Git（3 Weeks）
 
 All of C-club's projects are open sourced on GitHub, to achieve version control, continuous deployment, code management, etc. Therefore, learning git skills is the first step to become a developer.
 
-we pre pared a [playground](https://github.com/Computerization/New-member-practice-commit) for new members. Every year, the club leader will create a new folder named after the year, for the members to complete the following tasks：
+we prepared a [playground](https://github.com/Computerization/New-member-practice-commit) for new members. Every year, the club leader will create a new folder named after the year, for the members to complete the following tasks:
 
-1. **installing git** Unix system originally have git, but for Windows you can dowlaod it from [here](https://git-scm.com/download/win)。
+1. **installing git** Unix system originally have git, but for Windows you can downlaod it from [here](https://git-scm.com/download/win).
 2. **Get Familiar with command line tools** On Windows, use PowerShell; On MacOS, use Terminal。
-   - Learn to use `cd` and `ls` commamds.
+   - Learn to use `cd` and `ls` commands.
    - Use `git --version` to check the installation of git. Almost every command line tools provides `--version` data, to check the installation status.
 3. **Create Github Account** send your email or GitHub id to the leader, so the leader could add the new member into the organization, and grant reading or writing permissions。
-4. Reffering to the [git giude](https://github.com/Computerization/New-member-practice-commit/blob/master/README.md) written by us and **Choose a suitable git tool for you**. We recommend everyone to use Visual Studio Code as the editor and git management tool.
-5. after Cloning the repo (repository)，**create a new branch**
-6. **Create a new folder named after your GitHub id in the folder of corresponding year** and upload any code file into the folder, using any language, as long as it can show your progarmming ability；
-7. **Writedown your GitHub id** in the `Signatures.txt`
+4. Refering to the [git guide](https://github.com/Computerization/New-member-practice-commit/blob/master/README.md) written by us and **Choose a suitable git tool for you**. We recommend everyone to use Visual Studio Code as the editor and git management tool.
+5. after Cloning the repo (repository), **create a new branch**
+6. **Create a new folder named after your GitHub id in the folder of corresponding year** and upload any code file into the folder, using any language, as long as it can show your programming ability;
+7. **Write down your GitHub id** in the `Signatures.txt`
 8. Commit, publish branch, and create pull request!
 
 This part is often the most challenging. If GitHub connection is not smooth, the leader **should** provide corresponding technical help. We also recommend to use proxy connection. This part of the operation will be carried out during the club activities, so that the leader can give one-to-one guidance. Since new member practice commit is only a playground, even if there is confusion (such as direct commit to the main branch), it will not lead to serious consequences. However, please ensure that similar problems will not occur in the subsequent works on GitHub.
@@ -35,21 +35,21 @@ The basic for front-end are HTML / CSS / JavaScript. They are responsible for th
 
 If you need help, you can refer to all the things in repo., or use search engines to find the answer. To use search engines and online technology communities is a necessary skill for developers.
 
-In this section, most members will use DOM operation ('document.innerHTML = ...'), but this should to be avoided in subsequent works.
+In this section, most members will use DOM operation (`document.innerHTML = ...`), but this should to be avoided in subsequent works.
 The leader should focus on the page layout and design, logic planning, and code specification, but not on specific programming.
 
 ### Vue（4 Weeks）
 
 Our [Enspire](./enspire/what-is-enspire.md) platform is developed by Vue, thus, it is very important to learn Vue syntax for participating in the project development.
 
-Thoroughly read [Vue document](https://vuejs.org/v2/guide/) **And use Vue to reconfigurate your To-do-list website**, we recommand to use only one Vue app defined in the JavaScript file, without any global variables or functions. The whole html should also be wrapped with Vue root element '<div id = "app">', so that you can experience the full Vue logic.
+Thoroughly read [Vue document](https://vuejs.org/v2/guide/) **And use Vue to reconfigure your To-do-list website**, we recommend to use only one Vue app defined in the JavaScript file, without any global variables or functions. The whole html should also be wrapped with Vue root element '<div id = "app">', so that you can experience the full Vue logic.
 
 Members might need to understand the following Vue syntax:
 
-- Bidirectional data binding `v-model`；
-- List rendering `v-for`；
-- Event binding `v-on`；
-- Component life cycle `created` / `mounted`；
+- Bidirectional data binding `v-model`;
+- List rendering `v-for`;
+- Event binding `v-on`;
+- Component life cycle `created` / `mounted`;
 - Monitors `watch`
 - etc.
 
@@ -63,15 +63,15 @@ In this stage, a total of 8 hours of activities **should** be arranged, with a t
 
 ### Vue-CLI（4 Weeks）
 
-[Vue-CLI](https://cli.vuejs.org/zh/guide/) is a command line tool，It can quickly build Vue projects, and provide functions such as parsing, integration, and deployment. in order to participate in Enspire development, Vue-CLI is needed.
+[Vue-CLI](https://cli.vuejs.org/zh/guide/) is a command line tool, It can quickly build Vue projects, and provide functions such as parsing, integration, and deployment. in order to participate in Enspire development, Vue-CLI is needed.
 
-First，install the package management software [npm](https://www.npmjs.com/get-npm)；and use npm to install yarn：
+First, install the package management software [npm](https://www.npmjs.com/get-npm); and use npm to install yarn:
 
 ```bash
 $ npm -g install yarn
 ```
 
-At last，install Vue-CLI：
+At last, install Vue-CLI:
 
 ```bash
 $ yarn global add @vue/cli
@@ -83,22 +83,22 @@ In this part, members will have greater opportunities for independent exploratio
 
 Members would also need to know something about code specification tools, such as Eslint and Prettier.
 
-### Unserstand source codes（4 weeks）
+### Understand source codes（4 weeks）
 
-During the winter holiday，members would need to clone the tweo repos of [Enspire](https://github.com/Computerization/Enspire) and [docusaurus](https://github.com/Computerization/docusaurus). Run them and understand the code.
+During the winter holiday, members would need to clone the two repos of [Enspire](https://github.com/Computerization/Enspire) and [docusaurus](https://github.com/Computerization/docusaurus). Run them and understand the code.
 
 Docusaurus is the source code of our club website (which you are browsing now). It uses the docusaurus framework, which is a static web page generator based on react. If you want to contribute, such as by writing a doc or blog, you just need to create a new markdown file in the corresponding folder; If you want to make a page like <a href={useBaseUrl("/Alumni")}>Alumni</a> , you need to learn the react syntax. But this is not a must.
 
-Enspire used TypeScript，This is a JavaScript with type annotation and static checking. When the school started, the leader will introduce TS syntax and its advantages.
+Enspire used TypeScript, This is a JavaScript with type annotation and static checking. When the school started, the leader will introduce TS syntax and its advantages.
 
 ### GitHub Development, integration and deployment（2 weeks）
 
-The C-club project has installed a series of GitHub tools to help complete the integration and deployment. In this step, members should have a deeper understanding of GitHub's functions. includes：
+The C-club project has installed a series of GitHub tools to help complete the integration and deployment. In this step, members should have a deeper understanding of GitHub's functions. includes:
 
-- how to review and merge pull requests (plus you also need to learn about Markdown if you still don't know how it works) ；
-- GitHub actions (build, check...) which are responsible for integration and inspection；
-- Netlify, CircleCI which are responsible for deplyments；
-- Dependabot which is responsible for dependency updates.
+- how to review and merge pull requests (plus you also need to learn about Markdown if you still don't know how it works) ;
+- GitHub actions (build, check...) which are responsible for integration and inspection;
+- Netlify, CircleCI which are responsible for deployments;
+- Dependabot which are responsible for dependency updates.
 
 ---
 
@@ -107,8 +107,8 @@ After 60% of the school year, all members should grow into experienced developer
 - Search for information through search engines and communities;
 - Invoke, configure, and execute programs in the command line;
 - Complete collaborative developments through GitHub;
-- Understand and master the technology stack of front-end development, such as Vue, TypeScript, and Webpack；
-- Familiarred with code writing standard；
+- Understand and master the technology stack of front-end development, such as Vue, TypeScript, and Webpack;
+- Be more Familiar with code writing standard;
 - Be able to complete small projects independently, providing solutions.
 
 Next, members not only need to take up the daily technical maintenance affairs in the community, but also need to participate in the development of the projects.
