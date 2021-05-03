@@ -4,8 +4,6 @@ title: C社前端开发培训
 license: Creative Commons Attribution 4.0 International License
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 每年，社团的新同学们在加入前端开发部门后，都要经过一系列的培训。由于加入部门并不要求任何前置知识，因此对于一些零基础的同学们来说，是个挑战。但即使有一定编程基础，也同样要面对**完全崭新的规范和工具**，因此系统的教学必不可少。
 
 ## 第一阶段：熟悉基础工具（10 周）

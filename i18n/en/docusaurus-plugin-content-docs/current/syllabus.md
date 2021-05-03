@@ -4,8 +4,6 @@ title: Front-end developer training syllabus
 license: Creative Commons Attribution 4.0 International License
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 Every year, after joining the front-end development (WEB) department, the new students have to go through a series of training. Since joining the department does not require any prior programming knowledge, it is a challenge for starters. But even if you have some programming knowledge beforehand, you still need to face **completely new conventions and tools**, so systematic training is essential.
 
 ## Phase 1: Getting familiar with the basic Tools（10 Weeks）

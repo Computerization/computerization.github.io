@@ -11,7 +11,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
@@ -73,7 +72,7 @@ function Home() {
                 styles.getStarted
               )}
               id={styles.getStarted}
-              to={useBaseUrl('docs/about-us')}
+              to="docs/about-us"
             >
               <Translate id="frontpage.button">了解更多</Translate>
             </Link>
@@ -104,7 +103,7 @@ function Home() {
                       <div className="text--center">
                         <img
                           className={styles.featureImage}
-                          src={useBaseUrl(imageUrl)}
+                          src={imageUrl}
                           alt={title}
                         />
                       </div>
