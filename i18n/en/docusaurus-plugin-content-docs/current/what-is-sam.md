@@ -1,6 +1,6 @@
 ---
 id: what-is-sam
-title: SAM是什么
+title: What is SAM?
 license: Creative Commons Attribution 4.0 International License
 ---
 
@@ -18,7 +18,7 @@ Functions still under development:
 - Club member system
 - Issue assignments and track members' progress
 
-<img alt="Organization" src='img/doc/org.png' />
+<img alt="Organization" src='/img/doc/org.png' />
 
 ### Classroom reservation
 
@@ -30,8 +30,8 @@ As a multi-functional form submission system, the voting system can be used for 
 
 The "WFLA Cup" debate tournament registered the audience through this voting system, and counted the number of entries.
 
-<img alt="debate voting" src='img/doc/vote_debate.png' />
+<img alt="debate voting" src='/img/doc/vote_debate.png' />
 
 In addition, the student union and CAS group also used the voting system to vote for five-star clubs, new clubs and bottom-out defense.
 
-<img alt="Organization Defense Voting" src='img/doc/vote_org.png' />
+<img alt="Organization Defense Voting" src='/img/doc/vote_org.png' />

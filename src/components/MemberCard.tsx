@@ -13,7 +13,7 @@ const MemberCard = ({
   <div className={styles.card}>
     <div className={styles.header}>
       <a href={links[favoredLink]}>
-        <img src={image ?? 'img/alumni/Default.svg'} alt={name} title={name} />
+        <img src={image ?? '/img/alumni/Default.svg'} alt={name} title={name} />
       </a>
       <h3 className={styles.name}>{name}</h3>
     </div>
