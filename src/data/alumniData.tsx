@@ -40,8 +40,7 @@ const alumni: alumniData = [
       {
         name: 'Ye Shu',
         image: 'https://avatars3.githubusercontent.com/u/49149993',
-        bio:
-          "Williams College '24, Interested in information security, network, and Linux kernel",
+        bio: "Williams College '24, Interested in information security, network, and Linux kernel",
         links: {
           website: 'https://blog.shuye.dev/',
           github: 'https://github.com/yechs',
@@ -67,8 +66,7 @@ const alumni: alumniData = [
       {
         name: 'Jimmy Gan',
         image: '/img/alumni/Jimmy_Gan.jpg',
-        bio:
-          'Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack',
+        bio: 'Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack',
         links: {
           email: 'mailto:jimmygan1012@gmail.com',
         },
@@ -91,8 +89,7 @@ const alumni: alumniData = [
       {
         name: 'Rachel Gu',
         image: '/img/alumni/Rachel_Gu.png',
-        bio:
-          "UPenn Engineering '2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist",
+        bio: "UPenn Engineering '2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist",
         links: {
           email: 'mailto:gubeini@seas.upenn.edu',
         },
@@ -126,8 +123,7 @@ const alumni: alumniData = [
       {
         name: '张秦子',
         image: '/img/alumni/Qinzi_Zhang.jpg',
-        bio:
-          'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
+        bio: 'Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning',
         links: {
           email: 'mailto:zhangbcu@bc.edu',
         },
@@ -144,8 +140,7 @@ const alumni: alumniData = [
       {
         name: 'Tim Zhu H.Maru',
         image: '/img/alumni/Tim_Zhu.jpg',
-        bio:
-          'Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement',
+        bio: 'Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement',
         links: {
           email: 'mailto:hmaru8088@gmail.com',
         },
