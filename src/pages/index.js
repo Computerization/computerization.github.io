@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
@@ -61,13 +61,13 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="C社 << Computerization << 世外信息化社"
     >
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={classnames(
+              className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
@@ -97,7 +97,7 @@ function Home() {
                     // Anyway we're going to implement our own index [age] some day later
                     // eslint-disable-next-line react/no-array-index-key
                     key={idx}
-                    className={classnames('col col--4', styles.feature)}
+                    className={clsx('col col--4', styles.feature)}
                   >
                     {imageUrl && (
                       <div className="text--center">
@@ -115,7 +115,7 @@ function Home() {
               </div>
               <div className="row">
                 <div className="col text--center">
-                  <div className={classnames(styles.caption)}>
+                  <div className={clsx(styles.caption)}>
                     <Translate id="frontpage.sec1.imgsrc">图片来源：</Translate>
                     <a href="https://docusaurus.io/">
                       <Translate id="frontpage.sec1.imgsrc.link">
