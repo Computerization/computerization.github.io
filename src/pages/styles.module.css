@@ -62,3 +62,29 @@ html[data-theme='dark'] #getStarted {
 html[data-theme='dark'] .caption {
   color: #aaaaaa;
 }
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+html[data-theme='dark'] .card {
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card .header {
+  width: auto;
+  height: auto;
+  padding: 30px 20px 10px 20px;
+  display: block;
+  text-align: center;
+  flex-grow: 2;
+}

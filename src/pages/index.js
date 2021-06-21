@@ -137,11 +137,38 @@ function Home() {
                 </h2>
               </div>
             </div>
-            <div className="row">
-              <div className="col">
-                <Translate id="frontpage.sec2.item1">
-                  我们的主页正式上线了！
-                </Translate>
+            <div style={{ textAlign: 'center' }} className="row">
+              <div className="col col--6">
+                <div className={styles.card}>
+                  <h3 className={styles.header}>
+                    <Translate id="frontpage.sec2.item1">
+                      2021 届圆满落幕 🥳
+                    </Translate>
+                  </h3>
+                  <div>
+                    <img
+                      style={{ maxWidth: '400px', width: '100%' }}
+                      alt="all club members"
+                      src="/img/club_photo.jpeg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col col--6">
+                <div className={styles.card}>
+                  <h3 className={styles.header}>
+                    <Translate id="frontpage.sec2.item2">
+                      C 社 2022 届开始招新，欢迎你的加入！
+                    </Translate>
+                  </h3>
+                  <div>
+                    <img
+                      style={{ maxWidth: '400px', width: '100%' }}
+                      alt="poster"
+                      src="/img/poster.png"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
