@@ -14,6 +14,6 @@ module.exports = {
       'matlab-and-modeling',
       'syllabus',
     ],
-    Enspire: ['enspire/what-is-enspire'],
+    Enspire: ['enspire/what-is-enspire', 'enspire/techstack'],
   },
 };
