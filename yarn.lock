@@ -1329,10 +1329,10 @@
     url-loader "^4.1.1"
     webpack "^5.28.0"
 
-"@docusaurus/module-type-aliases@^2.0.0-beta.0":
-  version "2.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.0.tgz#e018adfe3c8834c526ca687eed3cbc87569a47a7"
-  integrity sha512-Yj+7hjy5pCK4DQ3l2JDGBF4bMY63MV/z18WK7REHniyqC66IJQT+0Gpb6Q+Oz8e2Og8AsyWIbfTXvsFWK0UhJA==
+"@docusaurus/module-type-aliases@^2.0.0-beta.2":
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.2.tgz#06a1aa9acb3ce1b93b59459aae48e9b57d620570"
+  integrity sha512-mRAojZIx8ST+bL2O4i+QoVN9RQA93HT3Ki8/6buKsg3Nikat7wZIB27/9wpjHLb86xHR4TmumAYF5KlkPNeANg==
 
 "@docusaurus/plugin-content-blog@2.0.0-beta.0":
   version "2.0.0-beta.0"
@@ -6502,7 +6502,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
