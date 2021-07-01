@@ -15,5 +15,6 @@ module.exports = {
       'syllabus',
     ],
     Enspire: ['enspire/what-is-enspire', 'enspire/techstack'],
+    Infrastructure: ['infra/CI-CD'],
   },
 };
