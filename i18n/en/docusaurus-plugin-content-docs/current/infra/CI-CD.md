@@ -10,7 +10,7 @@ CI/CD is the abbereviation for [Continuous Integration](https://en.wikipedia.org
 
 They are a system of software engineering philosophy and is used in large collaborative projects to ensure that everyone's commits could be frequently and efficiently merged into the base branch (usually `main` or `master`). It also keeps the software main branch in a stable, compilable state so that it can be released whenever necessary.
 
-TODO...
+<!-- TODO -->
 
 ## Why do we use CI/CD
 
@@ -21,7 +21,7 @@ Throughout Computerization's projects, we've extensively made use of Automated B
 
 Besides, we also make use of Automated Dependency Update to keep all dependencies in our codebase at the newest version, so we can fix security vulnerabilities introduced by dependencies as soon as possible.
 
-TODO...
+<!-- TODO -->
 
 ## What CI/CD toolsets do we use
 
