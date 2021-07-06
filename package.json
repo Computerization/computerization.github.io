@@ -24,7 +24,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rehype-katex": "^5.0.0",
-    "remark-math": "^3.0.1"
+    "remark-math": "3.0.1"
   },
   "browserslist": {
     "production": [
@@ -42,8 +42,8 @@
     "@docusaurus/module-type-aliases": "^2.0.0-beta.3",
     "@tsconfig/docusaurus": "^1.0.2",
     "@types/react": "^17.0.13",
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "@typescript-eslint/parser": "^4.28.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
