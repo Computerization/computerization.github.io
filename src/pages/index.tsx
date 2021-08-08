@@ -15,7 +15,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <Translate id="frontpage.sec1.item1.title">Web 开发</Translate>,
+    title: 'Web 开发',
     imageUrl: 'img/undraw_version_control.svg',
     description: (
       <Translate
@@ -32,7 +32,7 @@ const features = [
     ),
   },
   {
-    title: <Translate id="frontpage.sec1.item2.title">算法竞赛</Translate>,
+    title: '算法竞赛',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <Translate id="frontpage.sec1.item2">
@@ -42,7 +42,7 @@ const features = [
     ),
   },
   {
-    title: <Translate id="frontpage.sec1.item3.title">人工智能探索</Translate>,
+    title: '人工智能探索',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <Translate id="frontpage.sec1.item3">
@@ -53,7 +53,7 @@ const features = [
   },
 ];
 
-function Home() {
+function Home(): JSX.Element {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
@@ -108,7 +108,11 @@ function Home() {
                         />
                       </div>
                     )}
-                    <h3>{title}</h3>
+                    <h3>
+                      <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
+                        {title}
+                      </Translate>
+                    </h3>
                     <p>{description}</p>
                   </div>
                 ))}
