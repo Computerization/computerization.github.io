@@ -16,8 +16,7 @@ const features = [
         values={{
           link1: <a href="https://vuejs.org/">Vue</a>,
           link2: <a href="https://docusaurus.io">Docusaurus</a>,
-        }}
-      >
+        }}>
         {
           '在C社，学习 {link1}, {link2} 等多个前端框架，使用 GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，参与社团平台搭建，充分展现你的创意与才智！'
         }
@@ -52,8 +51,7 @@ function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="C社 << Computerization << 世外信息化社"
-    >
+      description="C社 << Computerization << 世外信息化社">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -65,8 +63,7 @@ function Home(): JSX.Element {
                 styles.getStarted
               )}
               id={styles.getStarted}
-              to="docs/about-us"
-            >
+              to="docs/about-us">
               <Translate id="frontpage.button">了解更多</Translate>
             </Link>
           </div>
@@ -90,8 +87,7 @@ function Home(): JSX.Element {
                     // Anyway we're going to implement our own index [age] some day later
                     // eslint-disable-next-line react/no-array-index-key
                     key={idx}
-                    className={clsx('col col--4', styles.feature)}
-                  >
+                    className={clsx('col col--4', styles.feature)}>
                     {imageUrl && (
                       <div className="text--center">
                         <img

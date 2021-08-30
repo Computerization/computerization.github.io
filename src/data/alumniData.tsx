@@ -17,9 +17,9 @@ export type Member = {
   // Below 4 are contact methods; Each should be a link ("href" attribute in <a>)
   readonly links: {
     readonly website?: string;
-    readonly github?: string;
-    readonly linkedin?: string;
-    readonly email?: string;
+    readonly github?: `https://github.com/${string}`;
+    readonly linkedin?: `https://www.linkedin.com/in/${string}`;
+    readonly email?: `mailto:${string}`;
   };
   // Below is the preferred contact method;
   // clicking the profile image leads to this type of link

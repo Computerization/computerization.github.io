@@ -10,8 +10,7 @@ export default function Alumni(): ReactElement {
   return (
     <Layout
       title="Our Alumni"
-      description="The alumni directory of Computerization club"
-    >
+      description="The alumni directory of Computerization club">
       <main>
         <div className="container margin-vert--lg">
           <div className={styles.content}>
@@ -27,8 +26,7 @@ export default function Alumni(): ReactElement {
                       Computerization/docusaurus
                     </a>
                   ),
-                }}
-              >
+                }}>
                 {
                   '如果你是信息化社的过往成员，并且希望我们更新你的个人信息或链接，请在 {link} 仓库中提交 issue 或 pull request。你也可以微信联系我们。'
                 }
