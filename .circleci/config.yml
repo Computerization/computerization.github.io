@@ -44,11 +44,13 @@ jobs:
           at: .
       - run:
           name: Deploy to GitHub Pages
-          command: GIT_USER=computerization-bot yarn run deploy
-          # Set environment variables so that project is deployed correctly
+          command: yarn deploy
           environment:
+            GIT_USER: computerization-bot
             ORGANIZATION_NAME: Computerization
             PROJECT_NAME: computerization.github.io
+            DEPLOYMENT_BRANCH: master
+            CURRENT_BRANCH: master
 
 
 workflows:
