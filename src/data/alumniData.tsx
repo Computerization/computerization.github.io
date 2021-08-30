@@ -35,6 +35,36 @@ export type alumniData = alumniOfYear[];
 
 const alumni: alumniData = [
   {
+    classOf: 2022,
+    members: [
+      {
+        name: 'Chen Sida',
+        image: 'https://github.com/Josh-Cena.png',
+        bio: 'Current 12th grade student at SWFLA; all-rounded computer science enthusiast',
+        links: {
+          website: 'https://joshcena.com/',
+          github: 'https://github.com/Josh-Cena',
+          linkedin: 'https://www.linkedin.com/in/sida-joshua-chen/',
+        },
+        favoredLink: 'website',
+      },
+    ],
+  },
+  {
+    classOf: 2021,
+    members: [
+      {
+        name: 'Can Yang',
+        image: 'https://github.com/madaomax.png',
+        bio: "UC Berkeley CS '25",
+        links: {
+          github: 'https://github.com/madaomax',
+        },
+        favoredLink: 'github',
+      },
+    ],
+  },
+  {
     classOf: 2020,
     members: [
       {
