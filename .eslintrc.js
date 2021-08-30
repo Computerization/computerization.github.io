@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: {
     es6: true,
   },
@@ -20,7 +21,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', '@typescript-eslint'],
+  plugins: ['prettier', 'react', 'react-hooks', '@typescript-eslint'],
   rules: {
     'prettier/prettier': 'error',
     // Allow JSX appearance in files with these extensions
