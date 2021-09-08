@@ -72,11 +72,11 @@ const alumni: alumniData = [
         image: 'https://avatars3.githubusercontent.com/u/49149993',
         bio: "Williams College '24, Interested in information security, network, and Linux kernel",
         links: {
-          website: 'https://blog.shuye.dev/',
+          website: 'https://shuye.dev/',
           github: 'https://github.com/yechs',
           linkedin: 'https://www.linkedin.com/in/yechs/',
         },
-        favoredLink: 'github',
+        favoredLink: 'website',
       },
     ],
   },
@@ -86,7 +86,7 @@ const alumni: alumniData = [
       {
         name: 'Yuchen Zhong',
         image: '/img/alumni/Yuchen_Zhong.jpg',
-        bio: "ex-OIer / UTSG Math+CS 23'",
+        bio: "ex-OIer / CUHK Pure Math 23'",
         links: {
           website: 'https://davidzyc.github.io/',
           github: 'https://github.com/davidzyc',
