@@ -8,7 +8,7 @@
 
 - classOf: 2020
   members:
-    - name: Ye Shu
+    - name: 舒烨
       image: https://avatars3.githubusercontent.com/u/49149993
       bio: Williams College '24, Interested in information security, network, and Linux kernel
       links:
@@ -18,14 +18,14 @@
       favoredLink: github
 - classOf: 2019
   members:
-    - name: Yuchen Zhong
+    - name: 仲宇辰
       image: /img/alumni/Yuchen_Zhong.jpg
       bio: ex-OIer / UTSG Math+CS 23'
       links:
         website: https://davidzyc.github.io/
         github: https://github.com/davidzyc
       favoredLink: github
-    - name: Jimmy Gan
+    - name: 甘佳旻
       image: /img/alumni/Jimmy_Gan.jpg
       bio: |
         Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack
@@ -34,20 +34,20 @@
       favoredLink: email
 - classOf: 2018
   members:
-    - name: Yudi Yang
+    - name: 杨雨笛
       image: /img/alumni/Yudi_Yang.jpg
       bio: UR MATH+CS 22'
       links:
         github: https://github.com/2000jedi
       favoredLink: github
-    - name: Rachel Gu
+    - name: 顾贝妮
       image: /img/alumni/Rachel_Gu.png
       bio: |
         UPenn Engineering '2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist
       links:
         email: mailto:gubeini@seas.upenn.edu
       favoredLink: email
-    - name: Eric Zhang
+    - name: 张扬
       image: /img/alumni/Eric_Zhang.jpg
       bio: NYU, Math & CS double major
       links:
@@ -55,7 +55,7 @@
       favoredLink: email
 - classOf: 2017
   members:
-    - name: Sam Zhou
+    - name: 周天祎
       image: https://avatars3.githubusercontent.com/u/4290500
       bio: Facebook SWE Intern | Cornell Engineering '21
       links:

@@ -8,7 +8,7 @@
 
 - classOf: 2020
   members:
-    - name: 舒烨
+    - name: Ye Shu
       image: https://avatars3.githubusercontent.com/u/49149993
       bio: Williams College '24, Interested in information security, network, and Linux kernel
       links:
@@ -18,7 +18,7 @@
       favoredLink: github
 - classOf: 2019
   members:
-    - name: 仲宇辰
+    - name: Yuchen Zhong
       image: /img/alumni/Yuchen_Zhong.jpg
       bio: ex-OIer / UTSG Math+CS 23'
       links:
@@ -63,7 +63,7 @@
         github: https://github.com/SamChou19815
         linkedin: https://www.linkedin.com/in/sam-zhou-30b91610b/
       favoredLink: website
-    - name: 张秦子
+    - name: Qinzi Zhang
       image: /img/alumni/Qinzi_Zhang.jpg
       bio: |
         Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning
@@ -84,19 +84,19 @@
       favoredLink: email
 - classOf: 2016
   members:
-    - name: 杜佳梦
+    - name: Jiameng Du
       image: /img/alumni/Jiameng_Du.jpg
       bio: CMU ECE+CS Class of 2020
       links:
         linkedin: https://www.linkedin.com/in/jiameng-lily-du/
       favoredLink: linkedin
-    - name: 昂国昊
+    - name: Guohao Ang
       image: /img/alumni/Guohao_Ang.jpg
       bio: UCB CS+Applied Math Class of 2020 / Googler
       links:
         linkedin: https://www.linkedin.com/in/guohao-ang-b35a32118/
       favoredLink: linkedin
-    - name: 杨霁初
+    - name: Jichu Yang
       image: /img/alumni/Jichu_Yang.jpg
       bio: Duke 2020'
       links:
