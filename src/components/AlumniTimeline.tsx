@@ -18,14 +18,17 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
             <div className={styles.iconWrap}>
               <span className={styles.icon} />
             </div>
-            <div className={styles.body}>
-              <p className={styles.date}>
+            <section className={styles.body}>
+              <a
+                id={String(classOf)}
+                href={`#${classOf}`}
+                className={styles.date}>
                 <Translate id="alumni.classOf" values={{ classOf }}>
                   {'{classOf} 届'}
                 </Translate>
-              </p>
+              </a>
               <MemberList members={members} />
-            </div>
+            </section>
           </li>
         )
       )}
