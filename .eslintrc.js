@@ -41,7 +41,13 @@ module.exports = {
     // These are deemed unnecessary
     'react/jsx-one-expression-per-line': 'off',
     'import/extensions': 'off',
-    'react/jsx-closing-bracket-location': ['error', 'after-props'],
+    'react/jsx-closing-bracket-location': [
+      'error',
+      { nonEmpty: 'after-props', selfClosing: 'line-aligned' },
+    ],
+    'react/jsx-props-no-spreading': 'off',
+    // Conflicts with Prettier
+    'object-curly-newline': 'off',
   },
   settings: {
     'import/resolver': {

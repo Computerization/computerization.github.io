@@ -1,6 +1,6 @@
 /// <reference types="@docusaurus/module-type-aliases" />
 
-declare module 'plugin-alumni' {
+declare module 'docusaurus-plugin-alumni' {
   export type Member = {
     readonly name: string;
     readonly bio?: string; // ideally ≤ 120 characters
@@ -29,7 +29,7 @@ declare module 'plugin-alumni' {
 
 declare module '@theme/AlumniTimeline' {
   // eslint-disable-next-line import/no-unresolved
-  import type { AlumniData } from 'plugin-alumni';
+  import type { AlumniData } from 'docusaurus-plugin-alumni';
 
   export type Props = {
     readonly alumni: AlumniData;
@@ -39,7 +39,7 @@ declare module '@theme/AlumniTimeline' {
 
 declare module '@theme/Members' {
   // eslint-disable-next-line import/no-unresolved
-  import type { Member } from 'plugin-alumni';
+  import type { Member } from 'docusaurus-plugin-alumni';
 
   export type Props = {
     readonly members: readonly Member[];
@@ -49,7 +49,7 @@ declare module '@theme/Members' {
 
 declare module '@theme/MemberCard' {
   // eslint-disable-next-line import/no-unresolved
-  import type { Member } from 'plugin-alumni';
+  import type { Member } from 'docusaurus-plugin-alumni';
 
   export type Props = Member;
   export default function MemberCard(props: Props): JSX.Element;
@@ -57,7 +57,7 @@ declare module '@theme/MemberCard' {
 
 declare module '@theme/AlumniPage' {
   // eslint-disable-next-line import/no-unresolved
-  import type { AlumniData } from 'plugin-alumni';
+  import type { AlumniData } from 'docusaurus-plugin-alumni';
 
   export type Props = {
     alumni: AlumniData;

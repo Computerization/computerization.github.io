@@ -6,7 +6,8 @@ import {
   posixPath,
 } from '@docusaurus/utils';
 import type { LoadContext, Plugin } from '@docusaurus/types';
-import type { AlumniData } from 'plugin-alumni';
+// eslint-disable-next-line import/no-unresolved
+import type { AlumniData } from 'docusaurus-plugin-alumni';
 
 import getAlumni from './alumni';
 
@@ -17,9 +18,12 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
     generatedFilesDir,
     i18n: { currentLocale },
   } = context;
-  const pluginDataDirRoot = path.join(generatedFilesDir, 'plugin-alumni');
+  const pluginDataDirRoot = path.join(
+    generatedFilesDir,
+    'docusaurus-plugin-alumni',
+  );
   return {
-    name: 'plugin-alumni',
+    name: 'docusaurus-plugin-alumni',
     getThemePath() {
       return path.resolve(__dirname, './theme');
     },
@@ -29,7 +33,7 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
         contentPathLocalized: getPluginI18nPath({
           siteDir,
           locale: currentLocale,
-          pluginName: 'plugin-alumni',
+          pluginName: 'docusaurus-plugin-alumni',
           pluginId: 'default',
         }),
       };
@@ -40,15 +44,15 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
       const url = normalizeUrl([baseUrl, 'alumni']);
       const alumniData = await createData(
         `${docuHash('alumni')}.json`,
-        JSON.stringify(content, null, 2)
+        JSON.stringify(content, null, 2),
       );
       addRoute({
         path: url,
         component: '@theme/AlumniPage',
         exact: true,
         modules: {
-          alumni: `./plugin-alumni/${posixPath(
-            path.relative(pluginDataDirRoot, alumniData)
+          alumni: `./docusaurus-plugin-alumni/${posixPath(
+            path.relative(pluginDataDirRoot, alumniData),
           )}`,
         },
       });

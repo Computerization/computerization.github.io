@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 const features = [
@@ -60,7 +59,7 @@ function Home(): JSX.Element {
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
-                styles.getStarted
+                styles.getStarted,
               )}
               id={styles.getStarted}
               to="docs/about-us">

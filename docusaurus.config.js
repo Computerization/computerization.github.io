@@ -24,7 +24,7 @@ module.exports = {
       },
     },
   },
-  plugins: ['plugin-alumni'],
+  plugins: ['docusaurus-plugin-alumni'],
   themeConfig: {
     navbar: {
       title: '世外信息化社',

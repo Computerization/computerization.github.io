@@ -1,5 +1,5 @@
 import React from 'react';
-import { Website, GitHub, LinkedIn, Email } from '@theme/logos';
+import { Website, GitHub, LinkedIn, Email } from '@theme/icons';
 import type { Props } from '@theme/MemberCard';
 
 import styles from './styles.module.css';
@@ -30,14 +30,11 @@ export default function MemberCard({
         <h3 className={styles.name}>{name}</h3>
       </div>
 
-      {
-        // If `bio` exists
-        bio && (
-          <div className={styles.bio}>
-            <p>{bio}</p>
-          </div>
-        )
-      }
+      {bio && (
+        <div className={styles.bio}>
+          <p>{bio}</p>
+        </div>
+      )}
 
       <ul className={styles.links}>
         {Object.keys(links).map((key) => (

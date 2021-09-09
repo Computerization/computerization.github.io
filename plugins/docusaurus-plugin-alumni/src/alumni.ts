@@ -4,7 +4,8 @@ import { load } from 'js-yaml';
 import { Joi, URISchema } from '@docusaurus/utils-validation';
 import { findFolderContainingFile } from '@docusaurus/utils';
 import type { ContentPaths } from '@docusaurus/utils/lib/markdownLinks';
-import type { Member, AlumniData } from 'plugin-alumni';
+// eslint-disable-next-line import/no-unresolved
+import type { Member, AlumniData } from 'docusaurus-plugin-alumni';
 
 const AlumniDataSchema = Joi.array().items(
   Joi.object({
@@ -16,28 +17,28 @@ const AlumniDataSchema = Joi.array().items(
         image: URISchema,
         links: Joi.object({
           website: Joi.string(),
-          github: Joi.string().pattern(/^https:\/\/github.com\//),
-          linkedin: Joi.string().pattern(/^https:\/\/www.linkedin.com\/in\//),
+          github: Joi.string().pattern(/^https:\/\/github\.com\//),
+          linkedin: Joi.string().pattern(/^https:\/\/www\.linkedin\.com\/in\//),
           email: Joi.string().pattern(/^mailto:/),
         }),
         favoredLink: Joi.string().equal(
           'website',
           'github',
           'linkedin',
-          'email'
+          'email',
         ),
-      })
+      }),
     ),
-  })
+  }),
 );
 
 export default async function getAlumni(
   alumniPath: string,
-  contentPaths: ContentPaths
+  contentPaths: ContentPaths,
 ): Promise<AlumniData | undefined> {
   const contentPath = await findFolderContainingFile(
     [contentPaths.contentPathLocalized, contentPaths.contentPath],
-    alumniPath
+    alumniPath,
   );
   const filePath = path.join(contentPath, alumniPath);
   if (await fs.pathExists(filePath)) {

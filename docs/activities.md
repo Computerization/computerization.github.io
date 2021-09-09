@@ -16,4 +16,4 @@ license: Creative Commons Attribution 4.0 International License
 
 我们还承办各类学校内的社团信息化工作，比如我们曾为 Techomedia 联合主办的[THE Hack 创客马拉松 ](https://thehack.org.cn)提供技术支持，主要工作为负责各类功能性网站的编写，比如选手报名平台、[选手提问平台](https://github.com/hackinit/helpq)、[硬件预约/追踪平台](https://github.com/hackinit/cog)等等。
 
-目前正处于 [Enspire](enspire/what-is-enspire) 平台的开发初期，我们也不定时地会从学生会或者校内老师那里获得一些新功能需求，这个时候可能会短期内进行比较高强度的开发。
+目前正处于 [Enspire](./enspire/what-is-enspire.md) 平台的开发初期，我们也不定时地会从学生会或者校内老师那里获得一些新功能需求，这个时候可能会短期内进行比较高强度的开发。
