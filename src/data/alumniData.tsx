@@ -62,6 +62,16 @@ const alumni: alumniData = [
         },
         favoredLink: 'github',
       },
+      {
+        name: 'Jiale Xu',
+        image: 'https://github.com/feizaile.png',
+        bio: '',
+        links: {
+          github: 'https://github.com/feizaile',
+          email: 'mailto:feizaile@163.com',
+        },
+        favoredLink: 'github',
+      },
     ],
   },
   {
