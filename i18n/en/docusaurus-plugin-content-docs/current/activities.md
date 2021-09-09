@@ -16,4 +16,4 @@ In 2020, the three departments of Computerization have their own activity schedu
 
 We also undertake the informatization work of other clubs. For example, we once provided technological support for [THE Hack Hackathon](https://thehack.org.cn) hosted by Techomedia, during which we were responsible for the preparation of various websites, such as the contestant registration platform, [Questioning platform](https://github.com/hackinit/helpq), [Hardware reservation / tracking platform](https://github.com/hackinit/cog), etc.
 
-Currently, we are in the early stage of development of [Enspire](enspire/what-is-enspire). We occasionally get some new demands from the student union or school teachers, after which we will develop intensively.
+Currently, we are in the early stage of development of [Enspire](./enspire/what-is-enspire.md). We occasionally get some new demands from the student union or school teachers, after which we will develop intensively.
