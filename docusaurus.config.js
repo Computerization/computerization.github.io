@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const remarkMath = require('remark-math');
 const rehypeKatex = require('rehype-katex');
 const githubTheme = require('prism-react-renderer/themes/github');
@@ -10,8 +9,9 @@ module.exports = {
   url: 'https://computerization.io',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
-  organizationName: 'Computerization', // Usually your GitHub org/user name.
-  projectName: 'computerization.github.io', // Usually your repo name.
+  organizationName: 'Computerization',
+  projectName: 'computerization.github.io',
+  trailingSlash: true,
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans', 'en'],
