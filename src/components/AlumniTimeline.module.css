@@ -95,6 +95,11 @@ html[data-theme='dark'] .icon {
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
+}
+
+.date:hover {
+  text-decoration: none;
 }
 
 html[data-theme='dark'] .date {
