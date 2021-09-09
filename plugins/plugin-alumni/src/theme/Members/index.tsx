@@ -1,12 +1,10 @@
 import React, { ReactElement } from 'react';
-import styles from './Members.module.css';
+import MemberCard from '@theme/MemberCard';
+import type { Props } from '@theme/Members';
 
-import type { Member } from '../data/alumniData';
-import MemberCard from './MemberCard';
+import styles from './styles.module.css';
 
-type MembersProps = { readonly members: readonly Member[] };
-
-const MemberList = ({ members }: MembersProps): ReactElement => (
+const MemberList = ({ members }: Props): ReactElement => (
   <div className={styles.alumnusContainer}>
     {members.map((member) => (
       // Assume "name" will be unique here

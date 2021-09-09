@@ -46,16 +46,16 @@ const features = [
 ];
 
 function Home(): JSX.Element {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title="Hello from Computerization"
       description="C社 << Computerization << 世外信息化社">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">Computerization</h1>
+          <p className="hero__subtitle">
+            {'C社 << Computerization << 世外信息化社'}
+          </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
