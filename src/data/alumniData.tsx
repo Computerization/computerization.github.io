@@ -65,7 +65,7 @@ const alumni: alumniData = [
       {
         name: 'Jiale Xu',
         image: 'https://github.com/feizaile.png',
-        bio: '',
+        bio: '日本留学生、情報工学方面、東工大目指します、オタク。',
         links: {
           github: 'https://github.com/feizaile',
           email: 'mailto:feizaile@163.com',
