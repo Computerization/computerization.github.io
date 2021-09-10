@@ -1,0 +1,129 @@
+# This file keeps track of all alumni listed in the alumni page.
+#
+# It is used strictly for building the alumni network for WFLA Computerization Club
+# and has received consent for publishing these information on our website.
+#
+# However, we do appreciate if you ask for consent from these people
+# first, before re-using their personal information elsewhere.
+
+- classOf: 2022
+  members:
+    - name: 陈思达
+      image: https://github.com/Josh-Cena.png
+      bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
+      links:
+        website: https://joshcena.com/
+        github: https://github.com/Josh-Cena
+        linkedin: https://www.linkedin.com/in/sida-joshua-chen/
+      favoredLink: website
+- classOf: 2021
+  members:
+    - name: 杨灿
+      image: https://github.com/madaomax.png
+      bio: UC Berkeley CS '25
+      links:
+        github: https://github.com/madaomax
+      favoredLink: github
+    - name: 许甲乐
+      image: https://github.com/feizaile.png
+      bio: 日本留学生、情報工学方面、東工大目指します、オタク。
+      links:
+        github: https://github.com/feizaile
+        email: mailto:feizaile@163.com
+      favoredLink: github
+- classOf: 2020
+  members:
+    - name: 舒烨
+      image: https://avatars3.githubusercontent.com/u/49149993
+      bio: Williams College '24, Interested in information security, network, and Linux kernel
+      links:
+        website: https://shuye.dev/
+        github: https://github.com/yechs
+        linkedin: https://www.linkedin.com/in/yechs/
+      favoredLink: website
+- classOf: 2019
+  members:
+    - name: 仲宇辰
+      image: /img/alumni/Yuchen_Zhong.jpg
+      bio: ex-OIer / CUHK Pure Math 23'
+      links:
+        website: https://davidzyc.github.io/
+        github: https://github.com/davidzyc
+      favoredLink: github
+    - name: 甘佳旻
+      image: /img/alumni/Jimmy_Gan.jpg
+      bio: |
+        Rochester 2023 | Intended ECE & CS double major | Currently working on Hardware Security, Side-channel Attack
+      links:
+        email: mailto:jimmygan1012@gmail.com
+      favoredLink: email
+- classOf: 2018
+  members:
+    - name: 杨雨笛
+      image: /img/alumni/Yudi_Yang.jpg
+      bio: UR MATH+CS 22'
+      links:
+        github: https://github.com/2000jedi
+      favoredLink: github
+    - name: 顾贝妮
+      image: /img/alumni/Rachel_Gu.png
+      bio: |
+        UPenn Engineering '2022, Digital Media Design, Interest: Computer Graphics, Interactive Technologies, CG generalist
+      links:
+        email: mailto:gubeini@seas.upenn.edu
+      favoredLink: email
+    - name: 张扬
+      image: /img/alumni/Eric_Zhang.jpg
+      bio: NYU, Math & CS double major
+      links:
+        email: mailto:yz4801@nyu.edu
+      favoredLink: email
+- classOf: 2017
+  members:
+    - name: 周天祎
+      image: https://avatars3.githubusercontent.com/u/4290500
+      bio: Facebook SWE Intern | Cornell Engineering '21
+      links:
+        website: https://developersam.com
+        github: https://github.com/SamChou19815
+        linkedin: https://www.linkedin.com/in/sam-zhou-30b91610b/
+      favoredLink: website
+    - name: 张秦子
+      image: /img/alumni/Qinzi_Zhang.jpg
+      bio: |
+        Boston College, Math (+CS Phys minor) | Interest: Applied Math, Analysis; Distributed System, Machine Learning
+      links:
+        email: mailto:zhangbcu@bc.edu
+      favoredLink: email
+    - name: Sam Hu
+      bio: Brandeis / CoSi & Math Major
+      links:
+        email: mailto:huruiyangsam@gmail.com
+      favoredLink: email
+    - name: Tim Zhu H.Maru
+      image: /img/alumni/Tim_Zhu.jpg
+      bio: |
+        Psychology / Philosophy | Interest: Positive Psychology; Self-help (and its discontents); Piano Performing and Arrangement
+      links:
+        email: mailto:hmaru8088@gmail.com
+      favoredLink: email
+- classOf: 2016
+  members:
+    - name: 杜佳梦
+      image: /img/alumni/Jiameng_Du.jpg
+      bio: CMU ECE+CS Class of 2020
+      links:
+        linkedin: https://www.linkedin.com/in/jiameng-lily-du/
+      favoredLink: linkedin
+    - name: 昂国昊
+      image: /img/alumni/Guohao_Ang.jpg
+      bio: UCB CS+Applied Math Class of 2020 / Googler
+      links:
+        linkedin: https://www.linkedin.com/in/guohao-ang-b35a32118/
+      favoredLink: linkedin
+    - name: 杨霁初
+      image: /img/alumni/Jichu_Yang.jpg
+      bio: Duke 2020'
+      links:
+        website: https://benjester.github.io/
+      favoredLink: website

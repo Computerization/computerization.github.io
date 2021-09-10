@@ -61,12 +61,14 @@ You may want to read the [Docusaurus v2 documentation](https://docusaurus.io/) b
 .
 ├── .circleci
 │       # Configuration file for Continuous Integration & Testing
-├── .dependabot
-│       # Configuration file for auto-bumping dependencies
 ├── .github
 │       # GitHub workflows to run checks on commit / pull request
 ├── .husky
 │       # The pre-commit hook script run by husky; used for linting
+├── .yarn
+│       # The vendored version of yarn (berry)
+├── alumni
+│       # The alumni data file, used by our own docusaurus-plugin-alumni
 ├── blog
 │       # Markdown files for blog contents
 │       # Refer to https://docusaurus.io/docs/blog#adding-posts for help
@@ -79,19 +81,36 @@ You may want to read the [Docusaurus v2 documentation](https://docusaurus.io/) b
 │   │   # Internationalization support
 │   └── en
 │       │   # All data needed for the English translation
+│       ├── docusaurus-plugin-alumni
+│       │       # The translated alumni data file
 │       ├── docusaurus-plugin-content-blog
-│       │       # All blog pages translated in English; for best tracking, the directory structure should be the same as /blog/
+│       │       # All blog pages translated in English; for maintenance purposes, the directory structure should be the same as /blog/
 │       ├── docusaurus-plugin-content-docs
-│       │       # All docs pages translated in English; for best tracking, the directory structure should be the same as /docs/
+│       │       # All docs pages translated in English; for maintenance purposes, the directory structure should be the same as /docs/
 │       └── docusaurus-theme-classic
-│               # Json files providing translation to the navbar and footer
+│               # JSON files providing translation to the navbar and footer
 ├── node_modules
 │       # Stores the dependency files installed by `yarn`
 │       # Required for testing & deploying
+├── plugins
+│   └── docusaurus-plugin-alumni
+│       │   # Our custom plugin that renders the alumni data to the /alumni route
+│       ├── lib
+│       │       # Compiler output after running `yarn build`
+│       └── src
+│           │   # Source code of the plugin
+│           └── theme
+│               ├── AlumniPage
+│               │     # The root component (page layout) used at the /alumni route
+│               ├── AlumniTimeline
+|               |     # The main component to render the alumni timeline
+│               ├── MemberCard
+|               |     # Each alumni's card
+│               ├── Members
+|               |     # The series of cards within each "class of"
+│               └── icons
+|                     # SVG icons, e.g. LinkedIn, website
 ├── src
-│   │   # All pages except those in docs or blog goes here
-│   ├── components
-│   │       # React components that are reused
 │   ├── css
 │   │       # Global CSS files for theming
 │   │       # (though most of the CSS are written at the component-level)

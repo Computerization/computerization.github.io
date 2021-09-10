@@ -1,19 +1,15 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import Translate from '@docusaurus/Translate';
-import styles from './AlumniTimeline.module.css';
-import MemberList from './Members';
+import type { Props } from '@theme/AlumniTimeline';
+import MemberList from '@theme/Members';
 
-import type { alumniData } from '../data/alumniData';
+import styles from './styles.module.css';
 
-type AlumniProps = {
-  readonly alumni: alumniData;
-};
-
-const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
-  <div className={styles.container}>
-    <ul className={styles.timeline}>
-      {alumni.map(
-        ({ classOf, members }): ReactElement => (
+export default function AlumniTimeline({ alumni }: Props): JSX.Element {
+  return (
+    <div className={styles.container}>
+      <ul className={styles.timeline}>
+        {alumni.map(({ classOf, members }) => (
           <li className={styles.event} key={classOf}>
             <div className={styles.iconWrap}>
               <span className={styles.icon} />
@@ -30,10 +26,8 @@ const AlumniTimeline = ({ alumni }: AlumniProps): ReactElement => (
               <MemberList members={members} />
             </section>
           </li>
-        )
-      )}
-    </ul>
-  </div>
-);
-
-export default AlumniTimeline;
+        ))}
+      </ul>
+    </div>
+  );
+}
