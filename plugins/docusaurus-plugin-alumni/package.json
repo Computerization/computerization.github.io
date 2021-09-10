@@ -12,8 +12,8 @@
   "dependencies": {
     "@docusaurus/utils": "2.0.0-beta.6",
     "@docusaurus/utils-validation": "2.0.0-beta.6",
-    "fs-extra": "^10.0.0",
-    "js-yaml": "^4.1.0"
+    "fs-extra": "10.0.0",
+    "js-yaml": "4.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.6",
