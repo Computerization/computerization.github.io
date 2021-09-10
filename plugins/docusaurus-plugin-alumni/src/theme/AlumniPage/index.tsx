@@ -1,12 +1,11 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import Translate from '@docusaurus/Translate';
-import AlumniTimeline from '../components/AlumniTimeline';
-import styles from './alumni.module.css';
+import AlumniTimeline from '@theme/AlumniTimeline';
+import type { Props } from '@theme/AlumniPage';
+import styles from './styles.module.css';
 
-import alumni from '../data/alumniData';
-
-export default function Alumni(): ReactElement {
+export default function Alumni({ alumni }: Props): JSX.Element {
   return (
     <Layout
       title="Our Alumni"

@@ -37,7 +37,7 @@ jobs:
             - yarn-packages-v1-
       - run:
           name: Install dependencies
-          command: yarn install || true # Temporary until TS errors are fixed in docusaurus
+          command: yarn install
       - save_cache:
           paths:
             - ~/.cache/yarn

@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: [
     'airbnb',
-    'prettier',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -21,9 +20,8 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', 'react-hooks', '@typescript-eslint'],
+  plugins: ['react', 'react-hooks', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': 'error',
     // Allow JSX appearance in files with these extensions
     'react/jsx-filename-extension': [
       'error',
@@ -39,9 +37,17 @@ module.exports = {
         ignore: ['^@theme', '^@docusaurus'],
       },
     ],
+    'import/no-duplicates': 'off',
     // These are deemed unnecessary
     'react/jsx-one-expression-per-line': 'off',
     'import/extensions': 'off',
+    'react/jsx-closing-bracket-location': [
+      'error',
+      { nonEmpty: 'after-props', selfClosing: 'line-aligned' },
+    ],
+    'react/jsx-props-no-spreading': 'off',
+    // Conflicts with Prettier
+    'object-curly-newline': 'off',
   },
   settings: {
     'import/resolver': {
