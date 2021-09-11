@@ -20,8 +20,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "0.0.0-3997",
-    "@docusaurus/preset-classic": "0.0.0-3997",
+    "@docusaurus/core": "0.0.0-3999",
+    "@docusaurus/preset-classic": "0.0.0-3999",
     "clsx": "1.1.1",
     "prism-react-renderer": "1.2.1",
     "react": "17.0.2",
