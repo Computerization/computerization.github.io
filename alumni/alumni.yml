@@ -8,6 +8,14 @@
 
 - classOf: 2022
   members:
+    - name: 陈思达
+      image: https://github.com/Josh-Cena.png
+      bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
+      links:
+        website: https://joshcena.com/
+        github: https://github.com/Josh-Cena
+        linkedin: https://www.linkedin.com/in/sida-joshua-chen/
+      favoredLink: website
     - name: 郭培扬
       image: https://github.com/ETwilight.png
       bio: Current 12th grade student at SWFLA; maths and machine learning researcher, composer and piano performer
@@ -21,14 +29,6 @@
       links:
         github: https://github.com/Will-WHT
       favoredLink: github
-    - name: 陈思达
-      image: https://github.com/Josh-Cena.png
-      bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
-      links:
-        website: https://joshcena.com/
-        github: https://github.com/Josh-Cena
-        linkedin: https://www.linkedin.com/in/sida-joshua-chen/
-      favoredLink: website
 - classOf: 2021
   members:
     - name: 杨灿
