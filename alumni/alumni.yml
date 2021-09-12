@@ -8,6 +8,12 @@
 
 - classOf: 2022
   members:
+    - name: 王昊天
+      image: https://github.com/Will-WHT.png
+      bio: Current 12th grade student at SWFLA; life-long environmental science and computer science studier
+      links:
+        github: https://github.com/Will-WHT
+      favoredLink: github
     - name: 陈思达
       image: https://github.com/Josh-Cena.png
       bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
