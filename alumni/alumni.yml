@@ -6,21 +6,59 @@
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
 
+- classOf: 2022
+  members:
+    - name: 陈思达
+      image: https://github.com/Josh-Cena.png
+      bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
+      links:
+        website: https://joshcena.com/
+        github: https://github.com/Josh-Cena
+        linkedin: https://www.linkedin.com/in/sida-joshua-chen/
+      favoredLink: website
+    - name: 郭培扬
+      image: https://github.com/ETwilight.png
+      bio: Current 12th grade student at SWFLA; maths and machine learning researcher, composer and piano performer
+      links:
+        github: https://github.com/ETwilight
+        email: mailto:hellobrian18@163.com
+      favoredLink: github
+    - name: 王昊天
+      image: https://github.com/Will-WHT.png
+      bio: Current 12th grade student at SWFLA; life-long environmental science and computer science studier
+      links:
+        github: https://github.com/Will-WHT
+      favoredLink: github
+- classOf: 2021
+  members:
+    - name: 杨灿
+      image: https://github.com/madaomax.png
+      bio: UC Berkeley CS '25
+      links:
+        github: https://github.com/madaomax
+      favoredLink: github
+    - name: 许甲乐
+      image: https://github.com/feizaile.png
+      bio: 日本留学生、情報工学方面、東工大目指します、オタク。
+      links:
+        github: https://github.com/feizaile
+        email: mailto:feizaile@163.com
+      favoredLink: github
 - classOf: 2020
   members:
     - name: 舒烨
       image: https://avatars3.githubusercontent.com/u/49149993
       bio: Williams College '24, Interested in information security, network, and Linux kernel
       links:
-        website: https://blog.shuye.dev/
+        website: https://shuye.dev/
         github: https://github.com/yechs
         linkedin: https://www.linkedin.com/in/yechs/
-      favoredLink: github
+      favoredLink: website
 - classOf: 2019
   members:
     - name: 仲宇辰
       image: /img/alumni/Yuchen_Zhong.jpg
-      bio: ex-OIer / UTSG Math+CS 23'
+      bio: ex-OIer / CUHK Pure Math 23'
       links:
         website: https://davidzyc.github.io/
         github: https://github.com/davidzyc
