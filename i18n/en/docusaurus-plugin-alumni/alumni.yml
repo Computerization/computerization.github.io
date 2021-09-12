@@ -8,6 +8,12 @@
 
 - classOf: 2022
   members:
+    - name: Wang Haotian
+      image: https://github.com/Will-WHT.png
+      bio: Current 12th grade student at SWFLA; life-long environmental science and computer science studier
+      links:
+        github: https://github.com/Will-WHT
+      favoredLink: github
     - name: Chen Sida
       image: https://github.com/Josh-Cena.png
       bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
