@@ -211,6 +211,18 @@
     "message": "If you are an alumnus or an alumna of the Computerization club and would like us to update your listing or link to your homepage, please open an issue or pull request at the {link} repository, or drop us a WeChat message.",
     "description": "The description of the alumni page"
   },
+  "alumni.description2": {
+    "message": "Please take note that there are two places to make edits: {link1} and {link2}.",
+    "description": "The second paragraph of description of the alumni page"
+  },
+  "alumni.description2.link1": {
+    "message": "the Chinese version",
+    "description": "The first link"
+  },
+  "alumni.description2.link2": {
+    "message": "the English one",
+    "description": "The second link"
+  },
   "alumni.classOf": {
     "message": "Class of {classOf}",
     "description": "The section label for each class"

@@ -31,6 +31,34 @@ export default function Alumni({ alumni }: Props): JSX.Element {
                 }
               </Translate>
             </p>
+            <p style={{ fontSize: '80%' }}>
+              <Translate
+                id="alumni.description2"
+                values={{
+                  link1: (
+                    <a
+                      href="https://github.com/Computerization/Computerization-website/edit/master/alumni/alumni.yml"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Translate id="alumni.description2.link1">
+                        中文版
+                      </Translate>
+                    </a>
+                  ),
+                  link2: (
+                    <a
+                      href="https://github.com/Computerization/Computerization-website/edit/master/i18n/en/docusaurus-plugin-alumni/alumni.yml"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Translate id="alumni.description2.link2">
+                        英文版
+                      </Translate>
+                    </a>
+                  ),
+                }}>
+                {'注意，有两处文件需要修改：{link1}和{link2}。'}
+              </Translate>
+            </p>
           </div>
           <AlumniTimeline alumni={alumni} />
         </div>
