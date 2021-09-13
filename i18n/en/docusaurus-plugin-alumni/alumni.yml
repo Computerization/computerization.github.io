@@ -10,7 +10,7 @@
   members:
     - name: Chen Sida
       image: https://github.com/Josh-Cena.png
-      bio: Current 12th grade student at SWFLA; all-rounded computer science enthusiast
+      bio: All-rounded computer science enthusiast
       links:
         website: https://joshcena.com/
         github: https://github.com/Josh-Cena
@@ -18,26 +18,26 @@
       favoredLink: website
     - name: Guo Peiyang
       image: https://github.com/ETwilight.png
-      bio: Current 12th grade student at SWFLA; maths and machine learning researcher, composer and piano performer
+      bio: Math and machine learning researcher, composer and piano performer
       links:
         github: https://github.com/ETwilight
         email: mailto:hellobrian18@163.com
       favoredLink: github
     - name: Wang Haotian
       image: https://github.com/Will-WHT.png
-      bio: Current 12th grade student at SWFLA; life-long environmental science and computer science studier
+      bio: Life-long environmental science and computer science studier
       links:
         github: https://github.com/Will-WHT
       favoredLink: github
     - name: Shu Yang
       image: https://github.com/edgexyz.png
-      bio: Current 12th grade student at SWFLA; Enjoying STEM study and research, but not necessarily work in this field
+      bio: Enjoying STEM study and research, but not necessarily working in this field
       links:
         github: https://github.com/edgexyz
         linkedin: https://www.linkedin.com/in/shu-y-2004/
     - name: Lecheng Qu
       image: https://github.com/JoyceQu.png
-      bio: Current 12th grade student at SWFLA; interested in cryptography, human-computer interaction, graphics design
+      bio: Interested in cryptography, human-computer interaction, graphics design
       links:
         github: https://github.com/JoyceQu
         email: mailto:qulecheng2004@163.com
