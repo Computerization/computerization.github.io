@@ -29,6 +29,13 @@
       links:
         github: https://github.com/Will-WHT
       favoredLink: github
+    - name: Shu Yang
+      image: https://github.com/edgexyz.png
+      bio: Current 12th grade student at SWFLA; Enjoying STEM study and research, but not necessarily work in this field
+      links:
+        github: https://github.com/edgexyz
+        linkedin: https://www.linkedin.com/in/shu-y-2004/
+      favoredLink: github
 - classOf: 2021
   members:
     - name: Can Yang
