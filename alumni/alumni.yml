@@ -29,6 +29,13 @@
       links:
         github: https://github.com/Will-WHT
       favoredLink: github
+    - name: 曲乐成
+      image: https://github.com/JoyceQu.png
+      bio: Current 12th grade student at SWFLA; interested in cryptography, human-computer interaction, graphics design
+      links:
+        github: https://github.com/JoyceQu
+        mail: qulecheng2004@163.com
+      favoredLink: github
 - classOf: 2021
   members:
     - name: 杨灿
