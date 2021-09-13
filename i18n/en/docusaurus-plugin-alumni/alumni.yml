@@ -29,12 +29,18 @@
       links:
         github: https://github.com/Will-WHT
       favoredLink: github
+    - name: Shu Yang
+      image: https://github.com/edgexyz.png
+      bio: Current 12th grade student at SWFLA; Enjoying STEM study and research, but not necessarily work in this field
+      links:
+        github: https://github.com/edgexyz
+        linkedin: https://www.linkedin.com/in/shu-y-2004/
     - name: Lecheng Qu
       image: https://github.com/JoyceQu.png
       bio: Current 12th grade student at SWFLA; interested in cryptography, human-computer interaction, graphics design
       links:
         github: https://github.com/JoyceQu
-        mail: qulecheng2004@163.com
+        email: mailto:qulecheng2004@163.com
       favoredLink: github
 - classOf: 2021
   members:
