@@ -103,13 +103,13 @@ You may want to read the [Docusaurus v2 documentation](https://docusaurus.io/) b
 │               ├── AlumniPage
 │               │     # The root component (page layout) used at the /alumni route
 │               ├── AlumniTimeline
-|               |     # The main component to render the alumni timeline
+│               │     # The main component to render the alumni timeline
 │               ├── MemberCard
-|               |     # Each alumni's card
+│               │     # Each alumni's card
 │               ├── Members
-|               |     # The series of cards within each "class of"
+│               │     # The series of cards within each "class of"
 │               └── icons
-|                     # SVG icons, e.g. LinkedIn, website
+│                     # SVG icons, e.g. LinkedIn, website
 ├── src
 │   ├── css
 │   │       # Global CSS files for theming
