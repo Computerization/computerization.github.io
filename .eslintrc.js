@@ -7,6 +7,7 @@ module.exports = {
     'airbnb',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:eslint-comments/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -20,7 +21,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'react-hooks', '@typescript-eslint'],
+  plugins: ['react', 'react-hooks', '@typescript-eslint', 'eslint-comments'],
   rules: {
     // Allow JSX appearance in files with these extensions
     'react/jsx-filename-extension': [

@@ -25,7 +25,10 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
   return {
     name: 'docusaurus-plugin-alumni',
     getThemePath() {
-      return path.resolve(__dirname, './theme');
+      return path.resolve(__dirname, 'js-theme');
+    },
+    getTypeScriptThemePath() {
+      return path.resolve(__dirname, '..', 'src', 'theme');
     },
     async loadContent() {
       const contentPaths = {
