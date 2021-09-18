@@ -2,7 +2,7 @@ import React from 'react';
 
 // Website icon
 // Downloaded from Downloaded from https://iconmonstr.com/globe-3-svg/
-export default function LinkedInIcon(): JSX.Element {
+export default function WebsiteIcon(): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
