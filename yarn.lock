@@ -2928,7 +2928,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.20":
+"@types/react@npm:*":
   version: 17.0.20
   resolution: "@types/react@npm:17.0.20"
   dependencies:
@@ -2936,6 +2936,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: e342bfaa4fe052fc3a445ea49f746f3fd82cfc9c8028eae139a3e0763ead1871f353bd40da2a472f23d2b52544d2781d40e3159c0703e7e2ff08c13f067a3b9c
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:17.0.30":
+  version: 17.0.30
+  resolution: "@types/react@npm:17.0.30"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: e3aaac1b8fda6e3622b75db0bd7d8dc412c2f2b77a00afdd32cae8c71fb0b1ca6926ab1fbe1c536dd51d96c0ba372738993837a8df1637637aaab7b86e421b7f
   languageName: node
   linkType: hard
 
@@ -4644,7 +4655,7 @@ __metadata:
     "@docusaurus/module-type-aliases": 2.0.0-beta.6
     "@docusaurus/preset-classic": 0.0.0-3997
     "@tsconfig/docusaurus": 1.0.4
-    "@types/react": 17.0.20
+    "@types/react": 17.0.30
     "@types/react-router-dom": 5.1.8
     "@typescript-eslint/eslint-plugin": 4.31.0
     "@typescript-eslint/parser": 4.31.0
