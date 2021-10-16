@@ -4,7 +4,6 @@ import { load } from 'js-yaml';
 import { Joi, URISchema } from '@docusaurus/utils-validation';
 import { findFolderContainingFile } from '@docusaurus/utils';
 import type { ContentPaths } from '@docusaurus/utils/lib/markdownLinks';
-// eslint-disable-next-line import/no-unresolved
 import type { Member, AlumniData } from 'docusaurus-plugin-alumni';
 
 const AlumniDataSchema = Joi.array().items(

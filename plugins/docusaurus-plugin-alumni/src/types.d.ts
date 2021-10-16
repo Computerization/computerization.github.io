@@ -28,7 +28,6 @@ declare module 'docusaurus-plugin-alumni' {
 }
 
 declare module '@theme/AlumniTimeline' {
-  // eslint-disable-next-line import/no-unresolved
   import type { AlumniData } from 'docusaurus-plugin-alumni';
 
   export type Props = {
@@ -38,7 +37,6 @@ declare module '@theme/AlumniTimeline' {
 }
 
 declare module '@theme/Members' {
-  // eslint-disable-next-line import/no-unresolved
   import type { Member } from 'docusaurus-plugin-alumni';
 
   export type Props = {
@@ -48,7 +46,6 @@ declare module '@theme/Members' {
 }
 
 declare module '@theme/MemberCard' {
-  // eslint-disable-next-line import/no-unresolved
   import type { Member } from 'docusaurus-plugin-alumni';
 
   export type Props = Member;
@@ -56,7 +53,6 @@ declare module '@theme/MemberCard' {
 }
 
 declare module '@theme/AlumniPage' {
-  // eslint-disable-next-line import/no-unresolved
   import type { AlumniData } from 'docusaurus-plugin-alumni';
 
   export type Props = {

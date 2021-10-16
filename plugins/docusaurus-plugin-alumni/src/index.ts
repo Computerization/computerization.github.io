@@ -6,7 +6,6 @@ import {
   posixPath,
 } from '@docusaurus/utils';
 import type { LoadContext, Plugin } from '@docusaurus/types';
-// eslint-disable-next-line import/no-unresolved
 import type { AlumniData } from 'docusaurus-plugin-alumni';
 
 import getAlumni from './alumni';
@@ -25,7 +24,7 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
   return {
     name: 'docusaurus-plugin-alumni',
     getThemePath() {
-      return path.resolve(__dirname, 'js-theme');
+      return path.resolve(__dirname, 'theme');
     },
     getTypeScriptThemePath() {
       return path.resolve(__dirname, '..', 'src', 'theme');
