@@ -9,8 +9,6 @@ module.exports = {
   url: 'https://computerization.io',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
-  organizationName: 'Computerization',
-  projectName: 'computerization.github.io',
   trailingSlash: true,
   i18n: {
     defaultLocale: 'zh-Hans',
