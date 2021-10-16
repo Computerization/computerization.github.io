@@ -12,7 +12,7 @@
   "dependencies": {
     "@docusaurus/utils": "2.0.0-beta.6",
     "@docusaurus/utils-validation": "2.0.0-beta.6",
-    "@joshcena/docusaurus-plugin-utils": "0.0.1",
+    "@joshcena/docusaurus-plugin-utils": "0.1.2",
     "fs-extra": "10.0.0",
     "js-yaml": "4.1.0"
   },
