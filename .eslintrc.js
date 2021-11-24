@@ -8,6 +8,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:eslint-comments/recommended',
+    'prettier',
   ],
   globals: {
     Atomics: 'readonly',
@@ -21,7 +22,13 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'react-hooks', '@typescript-eslint', 'eslint-comments'],
+  plugins: [
+    'react',
+    'react-hooks',
+    '@typescript-eslint',
+    'eslint-comments',
+    'prettier',
+  ],
   rules: {
     // Allow JSX appearance in files with these extensions
     'react/jsx-filename-extension': [
@@ -35,7 +42,7 @@ module.exports = {
       'error',
       {
         // built-in imports in Docusaurus v2
-        ignore: ['^@theme', '^@docusaurus'],
+        ignore: ['^@theme', '^@docusaurus', '^@site'],
       },
     ],
     'import/no-duplicates': 'off',
@@ -47,8 +54,8 @@ module.exports = {
       { nonEmpty: 'after-props', selfClosing: 'line-aligned' },
     ],
     'react/jsx-props-no-spreading': 'off',
-    // Conflicts with Prettier
-    'object-curly-newline': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true }],
   },
   settings: {
     'import/resolver': {

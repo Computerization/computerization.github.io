@@ -11,25 +11,11 @@ tags: [algorithm]
 
 <!--truncate-->
 
-export const Question = ({ children, color }) => (
-  <div
-    style={{
-      backgroundColor: color,
-      borderRadius: '10px',
-      color: '#fff',
-      padding: '1em',
-      marginBottom: '1em',
-      marginTop: '1em',
-    }}
-  >
-    {children}
-  </div>
-);
-
 ## 题目
 
-<Question color="#1d85c2">
-  <a href="https://www.luogu.com.cn/problem/P3989">原题链接</a>
+<question>
+
+**题目来源：[洛谷 P3989](https://www.luogu.com.cn/problem/P3989)**
 
 给定一个由前$n$个小写字母组成的串$S$。串$S$是阶乘字符串当且仅当前$n$个小写字母的全排列（共$n!$种）都作为的子序列（可以不连续）出现。
 
@@ -39,7 +25,7 @@ export const Question = ({ children, color }) => (
 | ------------------------- | -------- | -------- |
 | $\|S\|\le 450$, $n\le 26$ | 125MB    | 1.0s     |
 
-</Question>
+</question>
 
 ## 题解
 
