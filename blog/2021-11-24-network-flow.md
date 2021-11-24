@@ -1,7 +1,10 @@
-title: Network Flow Inroduction
-author: 顾淇元 Alex
-authorURL: https://github.com/phoeniiix1203
+---
+authors:
+  name: 顾淇元 Alex
+  url: https://github.com/phoeniiix1203
+  image_url: https://github.com/phoeniiix1203.png
 tags: [algorithm]
+---
 
 # OI 部活动-网络流问题介绍
 
