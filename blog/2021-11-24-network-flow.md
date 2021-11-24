@@ -1,8 +1,5 @@
 ---
-authors:
-  name: 顾淇元 Alex
-  url: https://github.com/phoeniiix1203
-  image_url: https://github.com/phoeniiix1203.png
+authors: alex-gu
 tags: [algorithm]
 ---
 
@@ -13,6 +10,8 @@ tags: [algorithm]
 之后，我们挑选了最感兴趣的网络流这一类算法问题进行详细的讲解。我们从网络流图的基本概念开始，例如**源，汇点**，**剩余容量**，**最大流**，**最小割** 等等。其中最为趣味的是**最小割**，其定义为删去若干条边使得某两点 $(u,v)$ 不互通，这若干条边边权和的最小值。
 
 接下来通过不断优化算法，例如灵活运用 `Edmond-Karp` 动能算法（复杂度 $O(nm^2)$ ）， `Dinic` 算法（复杂度 $O(n^2m)$ ）和 `ISAP` 算法（复杂度 $O(n^2m)$ ，不需 BFS 多次）。此外还讲解了一个优美的定理：**最大流最小割定理**。这一定理在一些图论问题中有着有趣的应用：
+
+<!-- truncate -->
 
 ## 例题
 
