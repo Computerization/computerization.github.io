@@ -4829,11 +4829,11 @@ __metadata:
     clsx: 1.1.1
     eslint: 8.1.0
     eslint-config-airbnb: 18.2.1
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: 8.3.0
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.25.3
     eslint-plugin-jsx-a11y: 6.5.1
-    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.27.0
     eslint-plugin-react-hooks: 4.2.0
     husky: 7.0.2
@@ -5996,7 +5996,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.3.0":
   version: 8.3.0
   resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
@@ -6085,7 +6085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
