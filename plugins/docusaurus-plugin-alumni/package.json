@@ -10,15 +10,15 @@
     "postinstall": "yarn build"
   },
   "dependencies": {
-    "@docusaurus/utils": "2.0.0-beta.9",
-    "@docusaurus/utils-validation": "2.0.0-beta.9",
+    "@docusaurus/utils": "2.0.0-beta.10",
+    "@docusaurus/utils-validation": "2.0.0-beta.10",
     "@joshcena/docusaurus-plugin-utils": "0.1.3",
     "fs-extra": "10.0.0",
     "js-yaml": "4.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.9",
-    "typescript": "4.4.4"
+    "@docusaurus/module-type-aliases": "2.0.0-beta.10",
+    "typescript": "4.5.2"
   },
   "peerDependencies": {
     "react": "17.x"

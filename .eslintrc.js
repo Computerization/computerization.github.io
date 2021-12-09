@@ -56,6 +56,13 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true }],
+    'react/function-component-definition': [
+      'warn',
+      {
+        namedComponents: 'function-declaration',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
   settings: {
     'import/resolver': {
