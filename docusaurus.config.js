@@ -22,7 +22,7 @@ module.exports = {
       },
     },
   },
-  plugins: ['docusaurus-plugin-alumni'],
+  plugins: ['alumni'],
   themeConfig: {
     navbar: {
       title: '世外信息化社',
@@ -108,7 +108,7 @@ module.exports = {
   ],
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),

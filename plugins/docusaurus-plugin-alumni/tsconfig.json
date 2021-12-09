@@ -1,10 +1,13 @@
 {
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": ["src"],
   "compilerOptions": {
+    "jsx": "react",
     "outDir": "lib",
     "tsBuildInfoFile": "lib/.tsbuildinfo",
     "incremental": true,
-    "noEmit": false
+    "noEmit": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "react"]
   }
 }

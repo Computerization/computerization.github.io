@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "types": "src/types.d.ts",
   "scripts": {
-    "build": "docusaurus-plugin build",
-    "watch": "docusaurus-plugin watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "postinstall": "yarn build"
   },
   "dependencies": {
@@ -18,6 +18,12 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.10",
+    "@docusaurus/types": "2.0.0-beta.10",
+    "@types/fs-extra": "9.0.6",
+    "@types/js-yaml": "4.0.0",
+    "@types/node": "16.11.12",
+    "@types/react": "17.0.20",
+    "react": "17.0.2",
     "typescript": "4.5.2"
   },
   "peerDependencies": {
