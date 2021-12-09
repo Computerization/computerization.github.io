@@ -1745,18 +1745,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:2.0.0-beta.9":
-  version: 2.0.0-beta.9
-  resolution: "@docusaurus/module-type-aliases@npm:2.0.0-beta.9"
-  dependencies:
-    "@types/react": "*"
-    "@types/react-helmet": "*"
-    "@types/react-router-config": "*"
-    "@types/react-router-dom": "*"
-  checksum: f15c666d32080ec3b50bb17452d67dec4eb3511cb71804efb540c106e9e99f37435ed8500142dde9f2e4780f55b23ccab9b740ef27f2fe054aadcca2bd047c01
-  languageName: node
-  linkType: hard
-
 "@docusaurus/plugin-content-blog@npm:2.0.0-beta.10":
   version: 2.0.0-beta.10
   resolution: "@docusaurus/plugin-content-blog@npm:2.0.0-beta.10"
@@ -2209,6 +2197,15 @@ __metadata:
     unist-builder: 2.0.3
     unist-util-visit: 2.0.3
   checksum: 0839b4a3899416326ea6578fe9e470af319da559bc6d3669c60942e456b49a98eebeb3358c623007b4786a2175a450d2c51cd59df64639013c5a3d22366931a6
+  languageName: node
+  linkType: hard
+
+"@mdx-js/react@npm:1.6.21":
+  version: 1.6.21
+  resolution: "@mdx-js/react@npm:1.6.21"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+  checksum: 4b3ae40b954cb0a0a5e7240f3cb53bc35c0b004a1cbf4a5ca5f3656d03bb9685fffbce498935bc3f69c71f74b3e96d07630aa86ff466790025b65b3c12468ff0
   languageName: node
   linkType: hard
 
@@ -4228,9 +4225,9 @@ __metadata:
   resolution: "computerization-website@workspace:."
   dependencies:
     "@docusaurus/core": 2.0.0-beta.10
-    "@docusaurus/module-type-aliases": 2.0.0-beta.9
+    "@docusaurus/module-type-aliases": 2.0.0-beta.10
     "@docusaurus/preset-classic": 2.0.0-beta.10
-    "@mdx-js/react": ^1.6.21
+    "@mdx-js/react": 1.6.21
     "@tsconfig/docusaurus": 1.0.4
     "@typescript-eslint/eslint-plugin": 5.6.0
     "@typescript-eslint/parser": 5.6.0
@@ -4239,13 +4236,13 @@ __metadata:
     eslint: 8.4.1
     eslint-config-airbnb: 19.0.2
     eslint-config-prettier: ^8.3.0
-    eslint-import-resolver-node: ^0.3.6
+    eslint-import-resolver-node: 0.3.6
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.25.3
     eslint-plugin-jsx-a11y: 6.5.1
-    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.27.1
-    eslint-plugin-react-hooks: 4.2.0
+    eslint-plugin-react-hooks: 4.3.0
     husky: 7.0.2
     lint-staged: 11.2.3
     prettier: 2.5.1
@@ -5331,7 +5328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -5409,7 +5406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -5424,12 +5421,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:4.2.0":
-  version: 4.2.0
-  resolution: "eslint-plugin-react-hooks@npm:4.2.0"
+"eslint-plugin-react-hooks@npm:4.3.0":
+  version: 4.3.0
+  resolution: "eslint-plugin-react-hooks@npm:4.3.0"
   peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: ead5c5be3ded82a0cf295b064376adb1998a43e2262b605eecc0efc88283dec4e159ca39307fafb3d8e661dd08e5a4c8cdfed97eea78f923954f72bad6e20397
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: 0ba1566ba0780bbc75a5921f49188edf232db2085ab32c8d3889592f0db9d6fadc97fcf639775e0101dec6b5409ca3c803ec44213b90c8bacaf0bdf921871c2e
   languageName: node
   linkType: hard
 
