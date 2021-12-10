@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "types": "src/types.d.ts",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
+    "build": "tsc && node copyUntypedFiles",
+    "watch": "node copyUntypedFiles && tsc --watch",
     "postinstall": "yarn build"
   },
   "dependencies": {
