@@ -2500,12 +2500,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/fs-extra@npm:9.0.6":
-  version: 9.0.6
-  resolution: "@types/fs-extra@npm:9.0.6"
+"@types/fs-extra@npm:9.0.13":
+  version: 9.0.13
+  resolution: "@types/fs-extra@npm:9.0.13"
   dependencies:
     "@types/node": "*"
-  checksum: 440a3775454a150c5b5d7cd85ebe31b96bf212bdca292c18005c412976cb3e9b40a10d44419d2fa99ed76c43459e4624de42cd6b2dabefbfe0604ae7fa83ee62
+  checksum: add79e212acd5ac76b97b9045834e03a7996aef60a814185e0459088fd290519a3c1620865d588fa36c4498bf614210d2a703af5cf80aa1dbc125db78f6edac3
   languageName: node
   linkType: hard
 
@@ -4848,7 +4848,7 @@ __metadata:
     "@docusaurus/types": 2.0.0-beta.13
     "@docusaurus/utils": 2.0.0-beta.13
     "@docusaurus/utils-validation": 2.0.0-beta.13
-    "@types/fs-extra": 9.0.6
+    "@types/fs-extra": 9.0.13
     "@types/js-yaml": 4.0.0
     "@types/node": 16.11.12
     "@types/react": 17.0.20
