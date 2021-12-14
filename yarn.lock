@@ -4157,7 +4157,7 @@ __metadata:
     docusaurus-plugin-alumni: 0.0.0
     eslint: 8.4.1
     eslint-config-airbnb: 19.0.2
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.25.3
@@ -5238,7 +5238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.3.0":
   version: 8.3.0
   resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
