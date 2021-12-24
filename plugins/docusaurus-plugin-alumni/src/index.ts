@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs/promises';
 import {
   getPluginI18nPath,
   normalizeUrl,
@@ -14,13 +15,8 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
   const {
     siteDir,
     siteConfig: { baseUrl },
-    generatedFilesDir,
     i18n: { currentLocale },
   } = context;
-  const pluginDataDirRoot = path.join(
-    generatedFilesDir,
-    'docusaurus-plugin-alumni',
-  );
   return {
     name: 'docusaurus-plugin-alumni',
     getThemePath() {
@@ -53,11 +49,16 @@ export default function pluginAlumni(context: LoadContext): Plugin<AlumniData> {
         component: '@theme/AlumniPage',
         exact: true,
         modules: {
-          alumni: `./docusaurus-plugin-alumni/${posixPath(
-            path.relative(pluginDataDirRoot, alumniData),
-          )}`,
+          alumni: alumniData,
         },
       });
+    },
+    async getDefaultCodeTranslationMessages() {
+      const file = path.join(
+        __dirname,
+        `../translations/${context.i18n.currentLocale}.json`,
+      );
+      return JSON.parse((await fs.readFile(file)).toString());
     },
   };
 }

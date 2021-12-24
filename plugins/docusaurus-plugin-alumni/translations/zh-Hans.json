@@ -1,0 +1,8 @@
+{
+  "alumni.title": "我们的过往成员",
+  "alumni.description": "如果你是信息化社的过往成员，并且希望我们更新你的个人信息或链接，请在 {link} 仓库中提交 issue 或 pull request。你也可以微信联系我们。",
+  "alumni.description2": "注意，有两处文件需要修改：{link1}和{link2}。",
+  "alumni.description2.link1": "中文版",
+  "alumni.description2.link2": "英文版",
+  "alumni.classOf": "{classOf} 届"
+}

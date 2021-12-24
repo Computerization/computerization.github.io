@@ -125,7 +125,7 @@
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
-    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "latest version",
@@ -156,52 +156,94 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "frontpage.button": {
-    "message": "Read more",
-    "description": "The button that navigates to the docs"
+    "message": "Read more"
   },
   "frontpage.sec1": {
-    "message": "Our activities",
-    "description": "The first section title"
+    "message": "Our activities"
   },
   "frontpage.sec1.item1.title": {
     "message": "Web development",
     "description": "Title to the first item in the activities section"
   },
   "frontpage.sec1.item1": {
-    "message": "At Computerization, learn front-end frameworks including {link1} and {link2}, develop collaboratively on GitHub, and utilize the skills accrued to create your own personal page. Engage in the club's platform building and demonstrate your unique creativity!",
-    "description": "The first item in the activities section"
+    "message": "At Computerization, learn front-end frameworks including {link1} and {link2}, develop collaboratively on GitHub, and utilize the skills accrued to create your own personal page. Engage in the club's platform building and demonstrate your unique creativity!"
   },
   "frontpage.sec1.item2.title": {
     "message": "Algorithm contests",
     "description": "Title to the second item in the activities section"
   },
   "frontpage.sec1.item2": {
-    "message": "At Computerization, share your coding experience with other contest masters, and probe deeper into data structures and algorithms. Prepare for NOIP China, and join LeetCode or Luogu contests. Improve yourself through trials and tribulations!",
-    "description": "The second item in the activities section"
+    "message": "At Computerization, share your coding experience with other contest masters, and probe deeper into data structures and algorithms. Prepare for NOIP China, and join LeetCode or Luogu contests. Improve yourself through trials and tribulations!"
   },
   "frontpage.sec1.item3.title": {
     "message": "Explore artificial intelligence",
     "description": "Title to the third item in the activities section"
   },
   "frontpage.sec1.item3": {
-    "message": "At Computeriztaion, learn the cutting-edge technology, discover the secrets behind artificial intelligence and machine learning, design a neural network yourself, and train it to realize any kind of your craziest dreams!",
-    "description": "The third item in the activities section"
+    "message": "At Computeriztaion, learn the cutting-edge technology, discover the secrets behind artificial intelligence and machine learning, design a neural network yourself, and train it to realize any kind of your craziest dreams!"
   },
   "frontpage.sec1.imgsrc": {
-    "message": "Image source: ",
-    "description": "The declaration of image source"
+    "message": "Image source: "
   },
   "frontpage.sec1.imgsrc.link": {
-    "message": "Docusaurus official documentation",
-    "description": "The link name of image source"
+    "message": "Docusaurus official documentation"
   },
   "frontpage.sec2.title": {
-    "message": "What's new",
-    "description": "The second section title"
+    "message": "What's new"
   },
   "frontpage.sec2.item1": {
-    "message": "Our homepage is officially here!",
-    "description": "The first item in the What's new section"
+    "message": "Our homepage is officially here!"
+  },
+  "frontpage.sec2.item2": {
+    "message": "C 社 2022 届开始招新，欢迎你的加入！"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
   },
   "alumni.title": {
     "message": "Our Alumni",

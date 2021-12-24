@@ -19,7 +19,10 @@ export default function AlumniTimeline({ alumni }: Props): JSX.Element {
                 id={String(classOf)}
                 href={`#${classOf}`}
                 className={styles.date}>
-                <Translate id="alumni.classOf" values={{ classOf }}>
+                <Translate
+                  id="alumni.classOf"
+                  description="The section label for each class"
+                  values={{ classOf }}>
                   {'{classOf} 届'}
                 </Translate>
               </a>
