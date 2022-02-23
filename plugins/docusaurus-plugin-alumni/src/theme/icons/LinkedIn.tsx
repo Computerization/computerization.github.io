@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // LinkedIn icon
 // Downloaded from https://iconmonstr.com/linkedin-3-svg/

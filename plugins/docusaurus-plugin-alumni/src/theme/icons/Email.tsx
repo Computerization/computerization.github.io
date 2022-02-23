@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // Email icon
 // Downloaded from https://iconmonstr.com/email-1-svg/

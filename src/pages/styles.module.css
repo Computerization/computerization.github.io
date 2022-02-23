@@ -30,7 +30,7 @@
   color: black;
 }
 
-html[data-theme='dark'] #getStarted {
+html[data-theme="dark"] #getStarted {
   border-color: black;
   color: black;
 }
@@ -52,7 +52,7 @@ html[data-theme='dark'] #getStarted {
   font-size: 80%;
 }
 
-html[data-theme='dark'] .caption {
+html[data-theme="dark"] .caption {
   color: #aaaaaa;
 }
 
@@ -68,7 +68,7 @@ html[data-theme='dark'] .caption {
   transition: 0.3s;
 }
 
-html[data-theme='dark'] .card {
+html[data-theme="dark"] .card {
   background: rgba(255, 255, 255, 0.09);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }

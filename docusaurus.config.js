@@ -1,85 +1,85 @@
-const remarkMath = require('remark-math');
-const rehypeKatex = require('rehype-katex');
-const githubTheme = require('prism-react-renderer/themes/github');
-const draculaTheme = require('prism-react-renderer/themes/dracula');
+const remarkMath = require("remark-math");
+const rehypeKatex = require("rehype-katex");
+const githubTheme = require("prism-react-renderer/themes/github");
+const draculaTheme = require("prism-react-renderer/themes/dracula");
 
 module.exports = {
-  title: 'Computerization',
-  tagline: 'C社 << Computerization << 世外信息化社',
-  url: 'https://computerization.io',
-  baseUrl: '/',
-  favicon: 'img/favicon/favicon.ico',
+  title: "Computerization",
+  tagline: "C社 << Computerization << 世外信息化社",
+  url: "https://computerization.io",
+  baseUrl: "/",
+  favicon: "img/favicon/favicon.ico",
   trailingSlash: true,
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans", "en"],
     localeConfigs: {
-      'zh-Hans': {
-        label: '中文（简体）',
+      "zh-Hans": {
+        label: "中文（简体）",
       },
       en: {
-        label: 'English',
+        label: "English",
       },
     },
   },
-  plugins: ['alumni'],
+  plugins: ["alumni"],
   themeConfig: {
     navbar: {
-      title: '世外信息化社',
+      title: "世外信息化社",
       logo: {
-        alt: 'Computerization Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo.svg',
+        alt: "Computerization Logo",
+        src: "img/logo.svg",
+        srcDark: "img/logo.svg",
       },
       items: [
-        { to: 'alumni', label: '往届成员', position: 'left' },
-        { to: 'docs/about-us', label: '文档', position: 'left' },
-        { to: 'blog', label: '博客', position: 'left' },
+        { to: "alumni", label: "往届成员", position: "left" },
+        { to: "docs/about-us", label: "文档", position: "left" },
+        { to: "blog", label: "博客", position: "left" },
         {
-          type: 'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
         },
         {
-          href: 'https://github.com/Computerization',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/Computerization",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: '文档',
+          title: "文档",
           items: [
             {
-              label: '文档',
-              to: 'docs/about-us',
+              label: "文档",
+              to: "docs/about-us",
             },
           ],
         },
         {
-          title: '社区',
+          title: "社区",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/Computerization',
+              label: "GitHub",
+              href: "https://github.com/Computerization",
             },
           ],
         },
         {
-          title: '社交',
+          title: "社交",
           items: [
             {
-              label: '博客',
-              to: 'blog',
+              label: "博客",
+              to: "blog",
             },
           ],
         },
       ],
       logo: {
-        alt: 'Computerization Logo',
-        src: 'img/logo.svg',
+        alt: "Computerization Logo",
+        src: "img/logo.svg",
       },
       copyright: `世外信息化社 © ${new Date().getFullYear()} 版权所有. 使用 Docusaurus 搭建.`,
     },
@@ -90,28 +90,28 @@ module.exports = {
   },
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
-      type: 'text/css',
+      href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
+      type: "text/css",
       integrity:
-        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
-      crossorigin: 'anonymous',
+        "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
+      crossorigin: "anonymous",
     },
   ],
   scripts: [
     {
-      src: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js',
+      src: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js",
       integrity:
-        'sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4',
-      crossorigin: 'anonymous',
+        "sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4",
+      crossorigin: "anonymous",
       defer: true,
     },
   ],
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           remarkPlugins: [remarkMath],
           rehypePlugins: [[rehypeKatex, { strict: false }]],
         },
@@ -120,7 +120,7 @@ module.exports = {
           rehypePlugins: [[rehypeKatex, { strict: false }]],
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

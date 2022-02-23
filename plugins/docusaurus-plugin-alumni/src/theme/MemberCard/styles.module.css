@@ -9,7 +9,7 @@
   transition: 0.3s;
 }
 
-html[data-theme='dark'] .card {
+html[data-theme="dark"] .card {
   background: rgba(255, 255, 255, 0.09);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
@@ -28,7 +28,7 @@ html[data-theme='dark'] .card {
   font-size: 2em;
 }
 
-html[data-theme='dark'] .card .header .name {
+html[data-theme="dark"] .card .header .name {
   color: #64d2ff;
 }
 
@@ -54,7 +54,7 @@ html[data-theme='dark'] .card .header .name {
   overflow: hidden;
 }
 
-html[data-theme='dark'] .card .header a > img {
+html[data-theme="dark"] .card .header a > img {
   -webkit-box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.05);
   box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.05);
 }
@@ -64,7 +64,7 @@ html[data-theme='dark'] .card .header a > img {
   box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
 
-html[data-theme='dark'] .card .header a:hover > img {
+html[data-theme="dark"] .card .header a:hover > img {
   -webkit-box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.1);
   box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.1);
 }
@@ -79,7 +79,7 @@ html[data-theme='dark'] .card .header a:hover > img {
   flex-grow: 1;
 }
 
-html[data-theme='dark'] .card .bio {
+html[data-theme="dark"] .card .bio {
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -113,7 +113,7 @@ html[data-theme='dark'] .card .bio {
   width: 24px;
   height: 24px;
 }
-html[data-theme='dark'] .card .links li a svg {
+html[data-theme="dark"] .card .links li a svg {
   fill: rgba(255, 255, 255, 0.85);
   width: 24px;
   height: 24px;

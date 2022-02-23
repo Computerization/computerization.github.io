@@ -1,8 +1,8 @@
-import React from 'react';
-import { Website, GitHub, LinkedIn, Email } from '@theme/icons';
-import type { Props } from '@theme/MemberCard';
+import React from "react";
+import { Website, GitHub, LinkedIn, Email } from "@theme/icons";
+import type { Props } from "@theme/MemberCard";
 
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
 export default function MemberCard({
   name,
@@ -22,7 +22,7 @@ export default function MemberCard({
       <div className={styles.header}>
         <a href={links[favoredLink]}>
           <img
-            src={image ?? '/img/alumni/Default.svg'}
+            src={image ?? "/img/alumni/Default.svg"}
             alt={name}
             title={name}
           />

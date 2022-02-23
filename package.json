@@ -15,14 +15,13 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,html,css}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,html,css}\"",
-    "lint": "eslint . --ext=js,jsx,ts,tsx",
-    "lint:fix": "yarn lint --fix",
+    "lint": "eslint --cache  --report-unused-disable-directives \"**/*.{js,jsx,ts,tsx,mjs}\"",
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.14",
-    "@docusaurus/preset-classic": "2.0.0-beta.14",
-    "@docusaurus/theme-classic": "2.0.0-beta.14",
+    "@docusaurus/core": "2.0.0-beta.15",
+    "@docusaurus/preset-classic": "2.0.0-beta.15",
+    "@docusaurus/theme-classic": "2.0.0-beta.15",
     "@mdx-js/react": "1.6.22",
     "clsx": "1.1.1",
     "docusaurus-plugin-alumni": "0.0.0",
@@ -45,36 +44,24 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.14",
-    "@docusaurus/types": "2.0.0-beta.14",
+    "@docusaurus/module-type-aliases": "2.0.0-beta.15",
+    "@docusaurus/types": "2.0.0-beta.15",
     "@tsconfig/docusaurus": "1.0.4",
-    "@types/node": "16.11.7",
-    "@typescript-eslint/eslint-plugin": "5.9.0",
-    "@typescript-eslint/parser": "5.9.0",
-    "eslint": "8.4.1",
-    "eslint-config-airbnb": "19.0.2",
-    "eslint-config-prettier": "8.3.0",
+    "@types/node": "17.0.19",
+    "@typescript-eslint/eslint-plugin": "5.12.1",
+    "@typescript-eslint/parser": "5.12.1",
+    "eslint": "8.9.0",
+    "eslint-config-jc": "2.1.1",
     "eslint-import-resolver-node": "0.3.6",
-    "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
-    "husky": "7.0.2",
-    "lint-staged": "11.2.3",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.4",
     "prettier": "2.5.1",
-    "typescript": "4.5.4",
+    "typescript": "4.5.5",
     "unified": "9.2.1"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ],
-    "*.{md,mdx,html,css}": [
-      "prettier --write"
-    ]
   },
   "packageManager": "yarn@3.1.1"
 }

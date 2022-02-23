@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // GitHub icon
 // Downloaded from https://iconmonstr.com/github-1-svg/

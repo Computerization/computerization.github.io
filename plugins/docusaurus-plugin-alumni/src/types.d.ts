@@ -1,13 +1,13 @@
 /// <reference types="@docusaurus/module-type-aliases" />
 
-declare module 'docusaurus-plugin-alumni' {
+declare module "docusaurus-plugin-alumni" {
   export type Member = {
     readonly name: string;
     readonly bio?: string; // ideally ≤ 120 characters
     // URL of profile image ("src" attribute in <img>);
     // if null/undefined, a default image will be shown
     readonly image?: string;
-    // Below 4 are contact methods; Each should be a link ("href" attribute in <a>)
+    // Contact methods; Each should be a link ("href" attribute in <a>)
     readonly links: {
       readonly website?: string;
       readonly github?: `https://github.com/${string}`;
@@ -16,7 +16,7 @@ declare module 'docusaurus-plugin-alumni' {
     };
     // Below is the preferred contact method;
     // clicking the profile image leads to this type of link
-    readonly favoredLink: 'website' | 'github' | 'linkedin' | 'email';
+    readonly favoredLink: "website" | "github" | "linkedin" | "email";
   };
 
   type AlumniOfYear = {
@@ -27,8 +27,8 @@ declare module 'docusaurus-plugin-alumni' {
   export type AlumniData = AlumniOfYear[];
 }
 
-declare module '@theme/AlumniTimeline' {
-  import type { AlumniData } from 'docusaurus-plugin-alumni';
+declare module "@theme/AlumniTimeline" {
+  import type { AlumniData } from "docusaurus-plugin-alumni";
 
   export type Props = {
     readonly alumni: AlumniData;
@@ -36,8 +36,8 @@ declare module '@theme/AlumniTimeline' {
   export default function AlumniTimeline(props: Props): JSX.Element;
 }
 
-declare module '@theme/Members' {
-  import type { Member } from 'docusaurus-plugin-alumni';
+declare module "@theme/Members" {
+  import type { Member } from "docusaurus-plugin-alumni";
 
   export type Props = {
     readonly members: readonly Member[];
@@ -45,15 +45,15 @@ declare module '@theme/Members' {
   export default function Members(props: Props): JSX.Element;
 }
 
-declare module '@theme/MemberCard' {
-  import type { Member } from 'docusaurus-plugin-alumni';
+declare module "@theme/MemberCard" {
+  import type { Member } from "docusaurus-plugin-alumni";
 
   export type Props = Member;
   export default function MemberCard(props: Props): JSX.Element;
 }
 
-declare module '@theme/AlumniPage' {
-  import type { AlumniData } from 'docusaurus-plugin-alumni';
+declare module "@theme/AlumniPage" {
+  import type { AlumniData } from "docusaurus-plugin-alumni";
 
   export type Props = {
     alumni: AlumniData;
@@ -61,7 +61,7 @@ declare module '@theme/AlumniPage' {
   export default function MemberCard(props: Props): JSX.Element;
 }
 
-declare module '@theme/icons' {
+declare module "@theme/icons" {
   const Email: () => JSX.Element;
   const GitHub: () => JSX.Element;
   const LinkedIn: () => JSX.Element;

@@ -3,7 +3,7 @@
  */
 
 .container {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
@@ -26,7 +26,7 @@
 
 .timeline::before {
   background-color: black;
-  content: '';
+  content: "";
   margin-left: -1.5px;
   position: absolute;
   top: 0;
@@ -35,7 +35,7 @@
   height: 100%;
 }
 
-html[data-theme='dark'] .timeline::before {
+html[data-theme="dark"] .timeline::before {
   background-color: lightgray;
 }
 
@@ -54,7 +54,7 @@ html[data-theme='dark'] .timeline::before {
   height: 2.5em;
 }
 
-html[data-theme='dark'] .iconWrap {
+html[data-theme="dark"] .iconWrap {
   /* #18191a is the background color by default */
   background-color: #18191a;
 }
@@ -72,7 +72,7 @@ html[data-theme='dark'] .iconWrap {
   height: 1em;
 }
 
-html[data-theme='dark'] .icon {
+html[data-theme="dark"] .icon {
   background-color: lightgray;
 }
 
@@ -97,7 +97,7 @@ html[data-theme='dark'] .icon {
   scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
 }
 
-html[data-theme='dark'] .date {
+html[data-theme="dark"] .date {
   color: #18191a;
   background-color: lightgray;
 }

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 // Website icon
-// Downloaded from Downloaded from https://iconmonstr.com/globe-3-svg/
+// Downloaded from https://iconmonstr.com/globe-3-svg/
 export default function WebsiteIcon(): JSX.Element {
   return (
     <svg

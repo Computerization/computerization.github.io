@@ -1,9 +1,9 @@
-import React from 'react';
-import Layout from '@theme/Layout';
-import Translate from '@docusaurus/Translate';
-import AlumniTimeline from '@theme/AlumniTimeline';
-import type { Props } from '@theme/AlumniPage';
-import styles from './styles.module.css';
+import React from "react";
+import Layout from "@theme/Layout";
+import Translate from "@docusaurus/Translate";
+import AlumniTimeline from "@theme/AlumniTimeline";
+import type { Props } from "@theme/AlumniPage";
+import styles from "./styles.module.css";
 
 export default function Alumni({ alumni }: Props): JSX.Element {
   return (
@@ -32,11 +32,11 @@ export default function Alumni({ alumni }: Props): JSX.Element {
                   ),
                 }}>
                 {
-                  '如果你是信息化社的过往成员，并且希望我们更新你的个人信息或链接，请在 {link} 仓库中提交 issue 或 pull request。你也可以微信联系我们。'
+                  "如果你是信息化社的过往成员，并且希望我们更新你的个人信息或链接，请在 {link} 仓库中提交 issue 或 pull request。你也可以微信联系我们。"
                 }
               </Translate>
             </p>
-            <p style={{ fontSize: '80%' }}>
+            <p style={{ fontSize: "80%" }}>
               <Translate
                 id="alumni.description2"
                 description="The second paragraph of description of the alumni page"
@@ -66,7 +66,7 @@ export default function Alumni({ alumni }: Props): JSX.Element {
                     </a>
                   ),
                 }}>
-                {'注意，有两处文件需要修改：{link1}和{link2}。'}
+                {"注意，有两处文件需要修改：{link1}和{link2}。"}
               </Translate>
             </p>
           </div>

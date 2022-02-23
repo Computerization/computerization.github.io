@@ -1,9 +1,9 @@
-import React from 'react';
-import Translate from '@docusaurus/Translate';
-import type { Props } from '@theme/AlumniTimeline';
-import MemberList from '@theme/Members';
+import React from "react";
+import Translate from "@docusaurus/Translate";
+import type { Props } from "@theme/AlumniTimeline";
+import MemberList from "@theme/Members";
 
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
 export default function AlumniTimeline({ alumni }: Props): JSX.Element {
   return (
@@ -23,7 +23,7 @@ export default function AlumniTimeline({ alumni }: Props): JSX.Element {
                   id="alumni.classOf"
                   description="The section label for each class"
                   values={{ classOf }}>
-                  {'{classOf} 届'}
+                  {"{classOf} 届"}
                 </Translate>
               </a>
               <MemberList members={members} />
