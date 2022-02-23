@@ -4464,7 +4464,7 @@ __metadata:
     rehype-katex: 5.0.0
     remark-math: 3.0.1
     typescript: 4.5.5
-    unified: 9.2.1
+    unified: 9.2.2
   languageName: unknown
   linkType: soft
 
@@ -11802,9 +11802,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unified@npm:9.2.1":
-  version: 9.2.1
-  resolution: "unified@npm:9.2.1"
+"unified@npm:9.2.2, unified@npm:^9.0.0":
+  version: 9.2.2
+  resolution: "unified@npm:9.2.2"
   dependencies:
     bail: ^1.0.0
     extend: ^3.0.0
@@ -11812,7 +11812,7 @@ __metadata:
     is-plain-obj: ^2.0.0
     trough: ^1.0.0
     vfile: ^4.0.0
-  checksum: 786b0e1847d358fef9d262eb68997ef39446682ecfccf659784b7d06952803c6ff642fc8fb9d9d738472a20b475b95294b5b03f45e70ca1e396d75d7ba9c5abc
+  checksum: 7c24461be7de4145939739ce50d18227c5fbdf9b3bc5a29dabb1ce26dd3e8bd4a1c385865f6f825f3b49230953ee8b591f23beab3bb3643e3e9dc37aa8a089d5
   languageName: node
   linkType: hard
 
@@ -11826,20 +11826,6 @@ __metadata:
     trough: ^1.0.0
     vfile: ^4.0.0
   checksum: c2af7662d6375b14721df305786b15ba3228cd39c37da748bff00ed08ababd12ce52568f475347f270b1dea72fb0b9608563574a55c29e4f73f8be7ce0a01b4a
-  languageName: node
-  linkType: hard
-
-"unified@npm:^9.0.0":
-  version: 9.2.2
-  resolution: "unified@npm:9.2.2"
-  dependencies:
-    bail: ^1.0.0
-    extend: ^3.0.0
-    is-buffer: ^2.0.0
-    is-plain-obj: ^2.0.0
-    trough: ^1.0.0
-    vfile: ^4.0.0
-  checksum: 7c24461be7de4145939739ce50d18227c5fbdf9b3bc5a29dabb1ce26dd3e8bd4a1c385865f6f825f3b49230953ee8b591f23beab3bb3643e3e9dc37aa8a089d5
   languageName: node
   linkType: hard
 
