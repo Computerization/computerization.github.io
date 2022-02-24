@@ -2708,10 +2708,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.12":
-  version: 16.11.12
-  resolution: "@types/node@npm:16.11.12"
-  checksum: a3feb346d61a56f5a137c29bb8c63cfa3cc02e184b9dffdc18ef1528dcce55596e570575215a2e39e6ce69343eeb2a5ba71c271938f1dc8db4cc393902855412
+"@types/node@npm:16.11.26":
+  version: 16.11.26
+  resolution: "@types/node@npm:16.11.26"
+  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
   languageName: node
   linkType: hard
 
@@ -5055,7 +5055,7 @@ __metadata:
     "@docusaurus/utils-validation": 2.0.0-beta.15
     "@types/fs-extra": 9.0.13
     "@types/js-yaml": 4.0.0
-    "@types/node": 16.11.12
+    "@types/node": 16.11.26
     "@types/react": 17.0.20
     fs-extra: 10.0.0
     js-yaml: 4.1.0
