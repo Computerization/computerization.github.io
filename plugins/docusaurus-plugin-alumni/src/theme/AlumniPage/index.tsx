@@ -1,15 +1,18 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Translate from "@docusaurus/Translate";
+import { PageMetadata } from "@docusaurus/theme-common";
 import AlumniTimeline from "@theme/AlumniTimeline";
 import type { Props } from "@theme/AlumniPage";
 import styles from "./styles.module.css";
 
 export default function Alumni({ alumni }: Props): JSX.Element {
   return (
-    <Layout
-      title="Our Alumni"
-      description="The alumni directory of Computerization club">
+    <Layout>
+      <PageMetadata
+        title="Our Alumni"
+        description="The alumni directory of Computerization club"
+      />
       <main>
         <div className="container margin-vert--lg">
           <div className={styles.content}>

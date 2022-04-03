@@ -5,6 +5,7 @@
       "@site/*": ["./*"],
     },
     "baseUrl": ".",
+    "skipLibCheck": true
   },
   "include": ["src/"]
 }
