@@ -1,18 +1,17 @@
-name: Syntax linter
+name: Lint
 on: [pull_request]
 
 jobs:
   lint:
-    name: Syntax linter
+    name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 15
-      - name: Install yarn
-        run: npm install -g yarn
+          node-version: 16
+          cache: yarn
       - name: Install Dependencies
         run: yarn install
       - name: Check errors with ESLint
