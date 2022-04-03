@@ -44,7 +44,7 @@ CI/CD 是 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_inte
 
 - 是一个自动编译并搭建静态网站预览的工具。配置后，Netlify 会在 PR 下添加一条包含预览网站地址的留言，使审核者能够预览这个 PR 引入的改变
 - 由于免费版的 Netlify 只允许每个项目拥有一个管理员，需要更改项目配置的请联系
-  - [Computerization-website](https://github.com/Computerization/Computerization-website) 的管理员是 [@yechs](https://github.com/yechs)
+  - [Computerization-website](https://github.com/Computerization/computerization.github.io) 的管理员是 [@yechs](https://github.com/yechs)
   - [Enspire](https://github.com/Computerization/Enspire) 的管理员是 [@Josh-Cena](https://github.com/Josh-Cena)
 
 ### LGTM {#lgtm}

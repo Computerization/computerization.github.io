@@ -82,9 +82,9 @@ $ yarn global add @vue/cli
 
 ### 阅读源代码（4 周）
 
-在寒假中，社员们需要 clone [Enspire](https://github.com/Computerization/Enspire) 与 [社团网站](https://github.com/Computerization/Computerization-website) 两个 repo，运行它们，并理解源代码的逻辑。
+在寒假中，社员们需要 clone [Enspire](https://github.com/Computerization/Enspire) 与 [社团网站](https://github.com/Computerization/computerization.github.io) 两个 repo，运行它们，并理解源代码的逻辑。
 
-Computerization-website 是我们的社团网页（也就是你现在正在浏览的）源码。它使用了 Docusaurus 框架，这是一个基于 React 的静态网页生成器。如果想要贡献，如撰写 docs 或 blog，只需要在对应文件夹中新建 Markdown 文件即可；如果想制作像 [过往成员](/Alumni) 一样的页面，则需要学习 React 语法。这不是必学内容。
+computerization.github.io 是我们的社团网页（也就是你现在正在浏览的）源码。它使用了 Docusaurus 框架，这是一个基于 React 的静态网页生成器。如果想要贡献，如撰写 docs 或 blog，只需要在对应文件夹中新建 Markdown 文件即可；如果想制作像 [过往成员](/Alumni) 一样的页面，则需要学习 React 语法。这不是必学内容。
 
 Enspire 使用了 TypeScript，这是一种带类型标注与静态检查的 JavaScript。开学后，社长会详细介绍 TS 语法与其优势。
 

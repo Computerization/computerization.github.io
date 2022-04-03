@@ -83,7 +83,7 @@ Members will also need to know about code styling tools, such as ESLint and Pret
 
 ### Understand source codes（4 weeks）
 
-During the winter holiday, members would need to clone the two repos: [Enspire](https://github.com/Computerization/Enspire) and [Computerization website](https://github.com/Computerization/Computerization-website), run them, and understand their logic.
+During the winter holiday, members would need to clone the two repos: [Enspire](https://github.com/Computerization/Enspire) and [Computerization website](https://github.com/Computerization/computerization.github.io), run them, and understand their logic.
 
 Computerization-website is the source code of our club website (which you are browsing now). It uses the docusaurus framework, which is a static webpage generator based on React. If you want to contribute, such as by writing a doc or blog, you just need to create a new Markdown file in the corresponding folder; if you want to make a page like [Alumni](/Alumni), you need to learn the React syntax, but this is not a must.
 

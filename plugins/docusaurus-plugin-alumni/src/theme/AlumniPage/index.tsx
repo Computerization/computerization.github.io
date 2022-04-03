@@ -46,7 +46,7 @@ export default function Alumni({ alumni }: Props): JSX.Element {
                 values={{
                   link1: (
                     <a
-                      href="https://github.com/Computerization/Computerization-website/edit/master/alumni/alumni.yml"
+                      href="https://github.com/Computerization/computerization.github.io/edit/master/alumni/alumni.yml"
                       target="_blank"
                       rel="noreferrer noopener">
                       <Translate
@@ -58,7 +58,7 @@ export default function Alumni({ alumni }: Props): JSX.Element {
                   ),
                   link2: (
                     <a
-                      href="https://github.com/Computerization/Computerization-website/edit/master/i18n/en/docusaurus-plugin-alumni/alumni.yml"
+                      href="https://github.com/Computerization/computerization.github.io/edit/master/i18n/en/docusaurus-plugin-alumni/alumni.yml"
                       target="_blank"
                       rel="noreferrer noopener">
                       <Translate

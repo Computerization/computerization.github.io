@@ -44,7 +44,7 @@ In a typical web project, each of your PR will be examined by the following tool
 
 - It is a tool used to automatically build and preview static websites. With some configuration, it will comment the preview address under PRs, so that reviewers can preview the changes introduced by the PR.
 - Since the free plan of Netlify allows only one member in each organization, you should contact these people if you want to change the configurations
-  - [Computerization-website](https://github.com/Computerization/Computerization-website) ==> [@yechs](https://github.com/yechs)
+  - [Computerization-website](https://github.com/Computerization/computerization.github.io) ==> [@yechs](https://github.com/yechs)
   - [Enspire](https://github.com/Computerization/Enspire) ==> [@Josh-Cena](https://github.com/Josh-Cena)
 
 ### LGTM
