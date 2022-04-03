@@ -24,12 +24,8 @@ html[data-theme="dark"] .card {
 }
 
 .card .header .name {
-  color: #5ac8fa;
+  color: var(--ifm-color-primary);
   font-size: 2em;
-}
-
-html[data-theme="dark"] .card .header .name {
-  color: #64d2ff;
 }
 
 .card .header a {
