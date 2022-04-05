@@ -44,7 +44,7 @@ CI/CD 是 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_inte
 
 - 是一个自动编译并搭建静态网站预览的工具。配置后，Netlify 会在 PR 下添加一条包含预览网站地址的留言，使审核者能够预览这个 PR 引入的改变
 - 由于免费版的 Netlify 只允许每个项目拥有一个管理员，需要更改项目配置的请联系
-  - [Computerization-website](https://github.com/Computerization/computerization.github.io) 的管理员是 [@yechs](https://github.com/yechs)
+  - [computerization.io （本网站）](https://github.com/Computerization/computerization.github.io) 的所有者是 [@computerization-bot](https://github.com/computerization-bot) （由 [@yechs](https://github.com/yechs) 管理）
   - [Enspire](https://github.com/Computerization/Enspire) 的管理员是 [@Josh-Cena](https://github.com/Josh-Cena)
 
 ### LGTM {#lgtm}
@@ -58,10 +58,17 @@ CI/CD 是 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_inte
 - 对于仍处于未完成状态的 Pull Request，可以在标题中标注 `[WIP]`，WIP 会避免这些 PR 被合并进入主分支。
 - **注**：现在 GitHub 自己的 draft PR 功能已经非常完善了。对于仍然处于 WIP 状态的 PR，应当考虑[标注其为 draft PR](https://github.blog/changelog/2020-04-08-convert-pull-request-to-draft/)。
 
-### Dependabot {#dependabot}
+### ~~Dependabot~~ {#dependabot}
 
-- 此外，我们还通过 dependabot 来自动更新依赖
+- ~~此外，我们还通过 dependabot 来自动更新依赖~~ 我们目前已经抛弃 Dependabot 转向使用 Renovate （见 [computerization.github.io#381](https://github.com/Computerization/computerization.github.io/pull/381)）
+  - 但集成在 GitHub 中的 Dependabot 仍可能自动开 PR 更新已知漏洞的依赖项目
 - 它是一个被 GitHub 收购了的工具，会在你的依赖项目出现新版本之后开 PR 来更新这些依赖项目的版本
   - **注**：因为 dependabot 往往会提交大量的 PR，因此也会给项目的提交记录带来大量的噪音
 - Dependabot 还被用于依赖项目中漏洞的发现与自动修复
 - 它的配置文件通常位于 `.github/dependabot.yml`。可以在项目的 Insights 页面中的 Dependency graph 查看 dependabot 的当前状态。如果你是项目管理员的话，在项目的 Security 页面中也能看到 dependabot 的安全漏洞警告。
+
+### Renovate {#renovate}
+
+- Renovate 是一个类似 Dependabot 的工具，用于自动更新依赖项目
+- 但 Renovate 支持 [依赖包分组](https://docs.renovatebot.com/noise-reduction/#package-grouping)，可以在一个 PR 中同时更新多个依赖，以减少项目 PR 的噪音。
+- 它的配置文件位于 `renovate.json` 或是 `.github/renovate.json`。此外，也可以配置专门的 issue 作为 dependency dashboard （如 [computerization.github.io#422](https://github.com/Computerization/computerization.github.io/issues/422)） 以追踪所有依赖项目的版本状态

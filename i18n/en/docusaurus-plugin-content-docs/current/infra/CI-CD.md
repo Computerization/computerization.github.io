@@ -44,7 +44,7 @@ In a typical web project, each of your PR will be examined by the following tool
 
 - It is a tool used to automatically build and preview static websites. With some configuration, it will comment the preview address under PRs, so that reviewers can preview the changes introduced by the PR.
 - Since the free plan of Netlify allows only one member in each organization, you should contact these people if you want to change the configurations
-  - [Computerization-website](https://github.com/Computerization/computerization.github.io) ==> [@yechs](https://github.com/yechs)
+  - [computerization.io (this website)](https://github.com/Computerization/computerization.github.io) ==> [@computerization-bot](https://github.com/computerization-bot) (managed by [@yechs](https://github.com/yechs))
   - [Enspire](https://github.com/Computerization/Enspire) ==> [@Josh-Cena](https://github.com/Josh-Cena)
 
 ### LGTM
@@ -58,10 +58,17 @@ In a typical web project, each of your PR will be examined by the following tool
 - For unfinished Pull Requests, one can add `[WIP]` in the title, and WIP will prevent these PRs from being merged.
 - **Note**: Now that GitHub's built-in draft PR functionality is much more usable, you should consider [marking the PR as draft](https://github.blog/changelog/2020-04-08-convert-pull-request-to-draft/) instead.
 
-### Dependabot
+### ~~Dependabot~~
 
-- In addition, we use dependabot to automatically update the dependencies.
+- ~~In addition, we use dependabot to automatically update the dependencies.~~ We have now switched from Dependabot to Renovate (See [computerization.github.io#381](https://github.com/Computerization/computerization.github.io/pull/381))
+  - However, GitHub-integrated Dependabot may still open PRs to upgrade dependencies with known vulnerabilities.
 - It is a tool now acquired by (and integrated into) GitHub. It'll open PRs to update your project dependencies when they are outdated
   - **Note**：Since dependabot usually opens large amounts of PRs, it'll also bring huge amounts of noise to the project's commit history
 - It is also used to automatically detect and fix vulnerabilities introduced by dependencies.
 - The configuration file is usually located in `.github/dependabot.yml`. You can visit the dependency graph in repo's "Insights" tab to check the current status of dependabot. If you are the repo administrator, you can also view dependaboit vulnerability alert under the repo's "Security" tab.
+
+### Renovate
+
+- Renovate is a tool similar to Dependabot that automatically updates the dependencies
+- with the addition of [package grouping](https://docs.renovatebot.com/noise-reduction/#package-grouping), that allows it to update multiple dependency packages in one PR to reduce the noise in project PRs.
+- Its configuration file iis located at `renovate.json` or `.github/renovate.json`. In addition, it can be configured to open an issue as dependency dashboard (e.g. [computerization.github.io#422](https://github.com/Computerization/computerization.github.io/issues/422)) to track the status of all dependency upgrades.
