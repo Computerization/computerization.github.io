@@ -4352,7 +4352,7 @@ __metadata:
     clsx: 1.1.1
     docusaurus-plugin-alumni: 0.0.0
     eslint: 8.12.0
-    eslint-config-jc: 2.1.1
+    eslint-config-jc: 2.2.0
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.25.4
     eslint-plugin-jsx-a11y: 6.5.1
@@ -5382,25 +5382,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-jc@npm:2.1.1":
-  version: 2.1.1
-  resolution: "eslint-config-jc@npm:2.1.1"
+"eslint-config-jc@npm:2.2.0":
+  version: 2.2.0
+  resolution: "eslint-config-jc@npm:2.2.0"
   dependencies:
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: ^8.5.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.10.2
-    "@typescript-eslint/parser": ^5.10.2
-    eslint: ^8.2.0
+    "@typescript-eslint/eslint-plugin": ^5.18.0
+    "@typescript-eslint/parser": ^5.18.0
+    eslint: ^8.13.0
     eslint-plugin-header: ^3.1.1
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-jsx-a11y: ^6.5.1
-    eslint-plugin-react: ^7.27.0
-    eslint-plugin-react-hooks: ^4.3.0
-  checksum: 321e842376291013d299ff8ae4cf66dce8e30e62723946c4bf4b81f3ba8e3700b858108fbd23351198f6a05b82870cbfa7bac5d0b0ac96d50b05b758f90636fd
+    eslint-plugin-react: ^7.29.4
+    eslint-plugin-react-hooks: ^4.4.0
+  peerDependenciesMeta:
+    eslint-plugin-jsx-a11y:
+      optional: true
+    eslint-plugin-react:
+      optional: true
+    eslint-plugin-react-hooks:
+      optional: true
+  checksum: bc405cc13d952760108f77a5fb4474d3a9fa24ab1fc989c894456cff339a03a3b0139976ae69eecc311d5f0d9f2f2635d8824e7ce733f8e2723b92335a582edc
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:^8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
