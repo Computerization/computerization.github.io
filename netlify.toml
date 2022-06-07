@@ -16,4 +16,4 @@
   # Directory with the serverless Lambda functions to deploy to AWS.
   functions = ""
 
-  environment = { AWS_LAMBDA_JS_RUNTIME = "nodejs16.x", NODE_VERSION = "16.8.0" }
+  environment = { AWS_LAMBDA_JS_RUNTIME = "nodejs18.x", NODE_VERSION = "18" }

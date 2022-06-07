@@ -97,15 +97,6 @@ module.exports = {
       crossorigin: "anonymous",
     },
   ],
-  scripts: [
-    {
-      src: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js",
-      integrity:
-        "sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4",
-      crossorigin: "anonymous",
-      defer: true,
-    },
-  ],
   presets: [
     [
       "classic",
