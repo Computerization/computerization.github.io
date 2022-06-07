@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[7342],{6568:function(e){e.exports=JSON.parse('{"plugin":{"name":"docusaurus-plugin-alumni","id":"default"}}')}}]);
