@@ -4352,7 +4352,7 @@ __metadata:
     clsx: 1.1.1
     docusaurus-plugin-alumni: 0.0.0
     eslint: 8.17.0
-    eslint-config-jc: 2.3.0
+    eslint-config-jc: 2.3.3
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.26.0
     eslint-plugin-jsx-a11y: 6.5.1
@@ -5348,20 +5348,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-jc@npm:2.3.0":
-  version: 2.3.0
-  resolution: "eslint-config-jc@npm:2.3.0"
+"eslint-config-jc@npm:2.3.3":
+  version: 2.3.3
+  resolution: "eslint-config-jc@npm:2.3.3"
   dependencies:
     eslint-config-prettier: ^8.5.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.26.0
-    "@typescript-eslint/parser": ^5.26.0
-    eslint: ^8.16.0
+    "@typescript-eslint/eslint-plugin": ^5.32.0
+    "@typescript-eslint/parser": ^5.32.0
+    eslint: ^8.21.0
     eslint-plugin-header: ^3.1.1
     eslint-plugin-import: ^2.26.0
-    eslint-plugin-jsx-a11y: ^6.5.1
-    eslint-plugin-react: ^7.30.0
-    eslint-plugin-react-hooks: ^4.5.0
+    eslint-plugin-jsx-a11y: ^6.6.1
+    eslint-plugin-react: ^7.30.1
+    eslint-plugin-react-hooks: ^4.6.0
   peerDependenciesMeta:
     eslint-plugin-header:
       optional: true
@@ -5371,7 +5371,7 @@ __metadata:
       optional: true
     eslint-plugin-react-hooks:
       optional: true
-  checksum: 2d5c69d576a5c042e76639af340efabdfb5a0ab6c9ccf7abe0a260e28afb0baba010513c6eb1645532314e996fceae68cfd3d4918b09da41040c77f8022ffe10
+  checksum: 4f64542f9fe80f5bb3b1c7228d8064492c975652ee47ed2e5ecd7dd8f2679a7f672220ddbac4b590ed155fc15cd80a35446afeff38bf1d4a1a697bd5241a7bd0
   languageName: node
   linkType: hard
 
