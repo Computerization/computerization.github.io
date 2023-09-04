@@ -28,3 +28,15 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgb(28, 30, 37);
 }
+
+.content_node_modules-\@docusaurus-theme-classic-lib-theme-AnnouncementBar-Content-styles-module.announcementBarContent_node_modules-\@docusaurus-theme-classic-lib-theme-AnnouncementBar-styles-module {
+  padding-top: 7px;
+}
+
+.announcementBar_node_modules-\@docusaurus-theme-classic-lib-theme-AnnouncementBar-styles-module {
+  height: 40px !important;
+}
+
+.footer__logo {
+  width: 100px;
+}
