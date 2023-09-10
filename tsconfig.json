@@ -2,7 +2,7 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@site/*": ["./*"],
+      "@site/*": ["./*"]
     },
     "baseUrl": ".",
     "skipLibCheck": true

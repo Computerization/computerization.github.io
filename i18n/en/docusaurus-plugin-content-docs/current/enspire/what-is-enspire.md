@@ -28,8 +28,7 @@ Enspire is an **open-source project** of Computerization, but you can choose to 
 
 If you are not familiar with **open-source projects**, you can refer to this website: https://opensource.guide/.
 
-If you want to take part, please read the https://opensource.guide/how-to-contribute/ section carefully.
-It includes a lot of fundamental but essential information that every contributor needs to know.
+If you want to take part, please read the https://opensource.guide/how-to-contribute/ section carefully. It includes a lot of fundamental but essential information that every contributor needs to know.
 
 ### What functions will Enspire provide?
 
