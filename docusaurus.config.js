@@ -24,14 +24,14 @@ module.exports = {
   },
   plugins: ["alumni"],
   themeConfig: {
-    // announcementBar: {
-    //  id: 'support_us',
-    //  content:
-    //    '<b>🎉 C社2023届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="#">了解更多</a>',
-    //  backgroundColor: '#22292f',
-    //  textColor: '#FFFFFF',
-    //  isCloseable: false,
-    // },
+    announcementBar: {
+      id: 'join_us',
+      content:
+        '<b>🎉 C社2023届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/K-qGy7XPybCxq0WBl9DV0A">了解更多</a>',
+      backgroundColor: '#22292f',
+      textColor: '#FFFFFF',
+      isCloseable: false,
+    },
     navbar: {
       title: "世外信息化社",
       logo: {

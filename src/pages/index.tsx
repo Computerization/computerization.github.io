@@ -147,14 +147,14 @@ function Home(): JSX.Element {
                 <div className={styles.card}>
                   <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item2">
-                      C 社 2022 届开始招新，欢迎你的加入！
+                      C 社 2023 届开始招新，欢迎你的加入！
                     </Translate>
                   </h3>
                   <div>
                     <img
                       style={{ maxWidth: "400px", width: "100%" }}
                       alt="poster"
-                      src="/img/poster.png"
+                      src="/img/poster.jpg"
                     />
                   </div>
                 </div>
