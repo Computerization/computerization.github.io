@@ -33,8 +33,7 @@ The foundation of front-end are HTML / CSS / JavaScript. They are responsible fo
 
 If you need help, you can refer to all works in repo, or use search engines to find the answer. Using search engines and online technology communities are essential skills for developers.
 
-In this section, most members will use DOM operation (`document.innerHTML = ...`), but this should be avoided in subsequent works.
-The leader should focus on the page layout and design, logic planning, and code conventions, but not on implementations.
+In this section, most members will use DOM operation (`document.innerHTML = ...`), but this should be avoided in subsequent works. The leader should focus on the page layout and design, logic planning, and code conventions, but not on implementations.
 
 ### Vue（4 Weeks）
 
