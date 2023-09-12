@@ -6,6 +6,16 @@
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
 
+- classOf: 2023
+  members:
+    - name: 叶家炜
+      image: https://github.com/AlanYe-Dev.png
+      bio: Tech Enthusiast, Developer
+      links:
+        website: https://wrye.dev/
+        github: https://github.com/AlanYe-Dev
+        email: mailto:comment@wrye.dev
+      favoredLink: website
 - classOf: 2022
   members:
     - name: 陈思达
