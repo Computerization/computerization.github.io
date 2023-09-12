@@ -6,6 +6,21 @@
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
 
+- classOf: 2023
+  members:
+    - name: 张驰
+      image: https://github.com/GeMini-220.png
+      bio: UCI Arts '27. Interested in Digital Media Arts and CGI in general.
+      links:
+        github: https://github.com/GeMini-220
+      favoredLink: github
+    - name: 陆雨齐
+      image: https://github.com/Kanagawa-Wave.png
+      bio: Brandeis CS '27. Computer Graphics Hobbyist.
+      links:
+        github: https://github.com/Kanagawa-Wave
+        linkedin: https://www.linkedin.com/in/yuqi-lu-8131b4276/
+      favoredLink: github
 - classOf: 2022
   members:
     - name: 陈思达
