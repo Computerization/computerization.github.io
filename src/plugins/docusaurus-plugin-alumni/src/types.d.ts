@@ -3,7 +3,7 @@
 declare module "docusaurus-plugin-alumni" {
   export type Member = {
     readonly name: string;
-    readonly bio?: string; // ideally ≤ 120 characters
+    readonly bio?: string; // Ideally ≤ 120 characters
     // URL of profile image ("src" attribute in <img>);
     // if null/undefined, a default image will be shown
     readonly image?: string;

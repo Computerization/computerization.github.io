@@ -8,7 +8,7 @@ module.exports = {
       },
     },
   },
-  extends: ["jc"],
+  extends: ["jc", "plugin:@typescript-eslint/recommended"],
   rules: {
     "import/no-unresolved": [
       "error",
