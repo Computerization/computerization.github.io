@@ -4812,10 +4812,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:1.1.1":
-  version: 1.1.1
-  resolution: "clsx@npm:1.1.1"
-  checksum: ff052650329773b9b245177305fc4c4dc3129f7b2be84af4f58dc5defa99538c61d4207be7419405a5f8f3d92007c954f4daba5a7b74e563d5de71c28c830063
+"clsx@npm:2.0.0":
+  version: 2.0.0
+  resolution: "clsx@npm:2.0.0"
+  checksum: a2cfb2351b254611acf92faa0daf15220f4cd648bdf96ce369d729813b85336993871a4bf6978ddea2b81b5a130478339c20d9d0b5c6fc287e5147f0c059276e
   languageName: node
   linkType: hard
 
@@ -4983,7 +4983,7 @@ __metadata:
     "@types/react": 18.0.12
     "@typescript-eslint/eslint-plugin": 5.27.1
     "@typescript-eslint/parser": 5.27.1
-    clsx: 1.1.1
+    clsx: 2.0.0
     docusaurus-plugin-alumni: 0.0.0
     eslint: 8.17.0
     eslint-config-jc: 2.3.0
