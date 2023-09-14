@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const path = await import("path");
-const fs = await import("fs-extra");
+const path = import("path");
+const fs = import("fs-extra");
 
 /**
  * Copy all untyped and static assets files to lib.
