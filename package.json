@@ -23,7 +23,7 @@
     "@docusaurus/preset-classic": "latest",
     "@docusaurus/theme-classic": "latest",
     "@mdx-js/react": "1.6.22",
-    "clsx": "1.1.1",
+    "clsx": "2.0.0",
     "docusaurus-plugin-alumni": "0.0.0",
     "prism-react-renderer": "1.3.3",
     "react": "18.1.0",
