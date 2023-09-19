@@ -3287,10 +3287,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:17.0.40":
-  version: 17.0.40
-  resolution: "@types/node@npm:17.0.40"
-  checksum: e3b2fe876672fbe4be84ce17773944eb2f5eaba50e2c6c0536bdf6d4972ed6488581580581f154183fdc8f2d56fa42a42e3d6e83b9b71ee25adea16a84765e92
+"@types/node@npm:18.17.17":
+  version: 18.17.17
+  resolution: "@types/node@npm:18.17.17"
+  checksum: ff28f347c77723780836f9bb2ffa6db0cd72490bfd7604397c03db31db34f1f2899e82f0aaf3e825efeb09c15bd94d076ea9aca19a1407e1b56cb4603318936c
   languageName: node
   linkType: hard
 
@@ -4976,7 +4976,7 @@ __metadata:
     "@docusaurus/types": latest
     "@mdx-js/react": 1.6.22
     "@tsconfig/docusaurus": 2.0.0
-    "@types/node": 17.0.40
+    "@types/node": 18.17.17
     "@types/react": 18.0.12
     "@typescript-eslint/eslint-plugin": 5.27.1
     "@typescript-eslint/parser": 5.27.1
@@ -5669,7 +5669,7 @@ __metadata:
     "@docusaurus/utils-validation": 2.0.0-beta.21
     "@types/fs-extra": 11.0.1
     "@types/js-yaml": 4.0.5
-    "@types/node": 17.0.40
+    "@types/node": 18.17.17
     "@types/react": 18.0.12
     fs-extra: 11.1.1
     js-yaml: 4.1.0
