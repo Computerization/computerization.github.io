@@ -40,9 +40,9 @@ module.exports = async function createConfigAsync() {
         },
 
         items: [
-          {to: "alumni", label: "往届成员", position: "left"},
-          {to: "docs/about-us", label: "文档", position: "left"},
-          {to: "blog", label: "博客", position: "left"},
+          { to: "alumni", label: "往届成员", position: "left" },
+          { to: "docs/about-us", label: "文档", position: "left" },
+          { to: "blog", label: "博客", position: "left" },
           {
             type: "localeDropdown",
             position: "right",
@@ -111,12 +111,18 @@ module.exports = async function createConfigAsync() {
         {
           docs: {
             sidebarPath: require.resolve("./sidebars.js"),
-            remarkPlugins: [(await import('remark-math')).default],
-            rehypePlugins: [(await import('rehype-katex')).default, {strict: false}],
+            remarkPlugins: [(await import("remark-math")).default],
+            rehypePlugins: [
+              (await import("rehype-katex")).default,
+              { strict: false },
+            ],
           },
           blog: {
-            remarkPlugins: [(await import('remark-math')).default],
-            rehypePlugins: [(await import('rehype-katex')).default, {strict: false}],
+            remarkPlugins: [(await import("remark-math")).default],
+            rehypePlugins: [
+              (await import("rehype-katex")).default,
+              { strict: false },
+            ],
           },
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
