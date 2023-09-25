@@ -8,7 +8,7 @@ We are a refined CS community always working behind the scenes to provide commun
 
 ### Our Name
 
-**C 社 << Computerization << 世外信息化社** Our full name is the Computerization club, 世外信息化社; But we would prefer to be called Computerization (in Chinese, C 社), since it's more concise, plus it has the same name as the C Programming Language (\*Laugh\*) Our English name, though, is always Computerization.
+**C 社 {'<<'} Computerization {'<<'} 世外信息化社** Our full name is the Computerization club, 世外信息化社; But we would prefer to be called Computerization (in Chinese, C 社), since it's more concise, plus it has the same name as the C Programming Language (\*Laugh\*) Our English name, though, is always Computerization.
 
 ### Our opinion on CS
 
