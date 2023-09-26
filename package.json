@@ -66,5 +66,5 @@
     "typescript": "4.7.3",
     "unified": "11.0.3"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.6.3"
 }
