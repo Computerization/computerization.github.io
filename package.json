@@ -49,7 +49,7 @@
     "@docusaurus/tsconfig": "3.0.0-beta.0",
     "@docusaurus/types": "3.0.0-beta.0",
     "@types/node": "18.18.0",
-    "@types/react": "18.2.22",
+    "@types/react": "18.2.24",
     "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",
     "eslint": "8.50.0",
