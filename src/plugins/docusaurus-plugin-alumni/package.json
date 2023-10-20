@@ -26,7 +26,7 @@
     "@types/fs-extra": "11.0.3",
     "@types/js-yaml": "4.0.8",
     "@types/node": "18.18.4",
-    "@types/react": "18.2.29",
+    "@types/react": "18.2.30",
     "react": "18.2.0",
     "typescript": "4.9.5"
   },
