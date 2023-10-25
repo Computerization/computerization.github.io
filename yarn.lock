@@ -4175,14 +4175,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.30":
-  version: 18.2.30
-  resolution: "@types/react@npm:18.2.30"
+"@types/react@npm:18.2.32":
+  version: 18.2.32
+  resolution: "@types/react@npm:18.2.32"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 962fa67e4ff439a2eb621ad74e58cb975d2882afa06bb7c9e9823606f6dcc3cd37d5cce143ec3c95b3856549f48ee0382e8c4628267cdcc5c5343d979ad9d92f
+  checksum: dad139dd165c4ce2364d1849af4e022746adc73f1a35bb5e0c95dbfee4732637de709504440c518e0177898aaf151b7a6b34019c8e398ea2e919dcfc4d79198f
   languageName: node
   linkType: hard
 
@@ -6025,7 +6025,7 @@ __metadata:
     "@docusaurus/types": 3.0.0-beta.0
     "@mdx-js/react": 2.3.0
     "@types/node": 18.18.4
-    "@types/react": 18.2.30
+    "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
     clsx: 2.0.0
@@ -6818,7 +6818,7 @@ __metadata:
     "@types/fs-extra": 11.0.3
     "@types/js-yaml": 4.0.8
     "@types/node": 18.18.4
-    "@types/react": 18.2.30
+    "@types/react": 18.2.32
     fs-extra: 11.1.1
     js-yaml: 4.1.0
     prettier: 3.0.3
