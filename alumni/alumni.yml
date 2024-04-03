@@ -33,11 +33,13 @@
       favoredLink: website
     - name: 郭培扬
       image: https://github.com/ETwilight.png
-      bio: Math and machine learning researcher, composer and piano performer
+      bio: |
+        UIUC '26, Interest: Analysis and ML Interpretability, Classical Music Hobbyist
       links:
+        website: https://unrestrainedconcert.github.io
         github: https://github.com/ETwilight
-        email: mailto:hellobrian18@163.com
-      favoredLink: github
+        email: mailto:hellobrian18@gmail.com
+      favoredLink: website
     - name: 王昊天
       image: https://github.com/Will-WHT.png
       bio: Life-long environmental science and computer science studier
