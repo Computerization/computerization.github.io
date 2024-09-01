@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://computerization.io/en/blog</id>
     <title>Computerization Blog</title>
-    <updated>2021-11-24T00:00:00.000Z</updated>
+    <updated>2024-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://computerization.io/en/blog"/>
     <subtitle>Computerization Blog</subtitle>
     <icon>https://computerization.io/en/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[缘起 | 计算机科学社团跨校联盟 CS Clubs 成立]]></title>
+        <id>https://computerization.io/en/blog/2024/08/26/csclubs</id>
+        <link href="https://computerization.io/en/blog/2024/08/26/csclubs"/>
+        <updated>2024-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CS Clubs 成立了！]]></summary>
+        <content type="html"><![CDATA[<p>CS Clubs 成立了！</p>
+<p>CS Clubs 是一个由世外信息化社发起、一群热爱计算机科学的高中生共同组建的全球联盟。联盟的初创成员由来自 2 个国家的 6 个计算机相关社团组成。</p>
+<p>作为高中生，我们深知在计算机科学领域，一个人的力量是非常有限的，而一个高中社团的影响力也仍然十分局限。因此，我们决定联合起来，跨越地理和文化的障碍，共同学习、交流互鉴。</p>
+<p>通过各种形式的合作，我们力求让更多高中的 CS 社团得到更丰富的机会、得到互相的资源整合，将最先进的技术理念引入高中生的学习生活。</p>
+<p>官网 <a href="https://csclubs.org/" target="_blank" rel="noopener noreferrer">https://csclubs.org</a> (现由 C 社运营维护) <br>
+GitHub <a href="https://github.com/csclubs" target="_blank" rel="noopener noreferrer">@csclubs</a></p>
+<h2 class="anchor anchorWithStickyNavbar_Vdhn" id="成员">成员<a href="https://computerization.io/en/blog/2024/08/26/csclubs#%E6%88%90%E5%91%98" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<p>CS Clubs 由来自 2 个国家的 6 个高中计算机科学社团联合创立。</p>
+<blockquote>
+<p><strong>Computerization</strong> <br>
+世界外国语中学
+📍Shanghai <br>
+<a href="https://computerization.io/" target="_blank" rel="noopener noreferrer">https://computerization.io</a> <br>
+GitHub <a href="https://github.com/Computerization" target="_blank" rel="noopener noreferrer">@Computerization</a></p>
+</blockquote>
+<blockquote>
+<p><strong>星河湾 CS 社</strong> <br>
+上海星河湾双语学校
+📍Shanghai</p>
+</blockquote>
+<blockquote>
+<p><strong>Lady.Coder</strong> <br>
+YK Pao School
+📍Shanghai</p>
+</blockquote>
+<blockquote>
+<p><strong>Pomelo Bay 柚学湾</strong> <br>
+YK Pao School
+📍Shanghai</p>
+</blockquote>
+<blockquote>
+<p><strong>PHCS</strong> <br>
+上海民办平和学校
+📍Shanghai</p>
+</blockquote>
+<blockquote>
+<p><strong>CyberDragons</strong> <br>
+Dana Hall School
+📍Wellesley, MA</p>
+</blockquote>]]></content>
+        <author>
+            <name>杨其臻</name>
+            <uri>https://github.com/q1zhen</uri>
+        </author>
+        <category label="cs-clubs" term="cs-clubs"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OI 部活动-网络流问题介绍]]></title>
         <id>https://computerization.io/en/blog/2021/11/24/network-flow</id>

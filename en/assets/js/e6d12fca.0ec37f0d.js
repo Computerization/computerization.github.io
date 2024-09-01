@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[4189],{1686:function(e){e.exports=JSON.parse('{"label":"cs-clubs","permalink":"/en/blog/tags/cs-clubs","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);
