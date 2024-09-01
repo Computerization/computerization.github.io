@@ -8,37 +8,32 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: "Web 开发",
-    imageUrl: "img/undraw_version_control.svg",
     description: (
       <Translate
         id="frontpage.sec1.item1"
         values={{
-          link1: <a href="https://vuejs.org/">Vue</a>,
-          link2: <a href="https://docusaurus.io">Docusaurus</a>,
+          link1: <a href="https://vuejs.org/">Vue.js</a>,
+          link2: <a href="/docs/enspire/what-is-enspire/">Enspire</a>,
         }}>
         {
-          "在C社，学习 {link1}, {link2} 等多个前端框架，使用 GitHub 进行多人合作项目开发，并用所学的技巧创建自己的个人页面，参与社团平台搭建，充分展现你的创意与才智！"
+          "{link1} 等多个现代化前端框架 - 开发 {link2} - 学生会社团部官方合作关系"
         }
       </Translate>
     ),
   },
   {
     title: "算法竞赛",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <Translate id="frontpage.sec1.item2">
-        在C社，与大佬交流竞赛经验与技巧，深入了解各类数据结构与算法，备赛NOIP，
-        组队参加力扣周赛、洛谷月赛等算法竞赛，在磨练中提升自己的功力！
+        2024 部门全新重启 - 备考 USACO - 算法 lecture
       </Translate>
     ),
   },
   {
-    title: "人工智能探索",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    title: "AI 部",
     description: (
       <Translate id="frontpage.sec1.item3">
-        在C社，感受时代科技的前沿，探究人工智能与机器学习的奥秘，
-        亲手设计一个自己的神经网络，并训练它做一切你能想象得到的疯狂的事！
+        研讨前沿技术 - 丰富社团联动机会 - 亲手设计一个自己的神经网络 - 无限可能
       </Translate>
     ),
   },
@@ -102,18 +97,6 @@ function Home(): JSX.Element {
                   </div>
                 ))}
               </div>
-              <div className="row">
-                <div className="col text--center">
-                  <div className={clsx(styles.caption)}>
-                    <Translate id="frontpage.sec1.imgsrc">图片来源：</Translate>
-                    <a href="https://docusaurus.io/">
-                      <Translate id="frontpage.sec1.imgsrc.link">
-                        Docusaurus 官方文档
-                      </Translate>
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
         )}
@@ -127,7 +110,7 @@ function Home(): JSX.Element {
               </div>
             </div>
             <div style={{ textAlign: "center" }} className="row">
-              <div className="col col--6">
+              {/* <div className="col col--6">
                 <div className={styles.card}>
                   <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item1">
@@ -139,6 +122,22 @@ function Home(): JSX.Element {
                       style={{ maxWidth: "400px", width: "100%" }}
                       alt="all club members"
                       src="/img/club_photo.jpeg"
+                    />
+                  </div>
+                </div>
+              </div> */}
+              <div className="col col--6">
+                <div className={styles.card}>
+                  <h3 className={styles.header}>
+                    <Translate id="frontpage.sec2.item2">
+                      C 社 2024-25 届开始招新！
+                    </Translate>
+                  </h3>
+                  <div>
+                    <img
+                      style={{ maxWidth: "400px", width: "100%" }}
+                      alt="poster"
+                      src="/img/poster24.jpg"
                     />
                   </div>
                 </div>
