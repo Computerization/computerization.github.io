@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[1535],{8196:function(e){e.exports=JSON.parse('{"label":"typeset","permalink":"/blog/tags/typeset","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
