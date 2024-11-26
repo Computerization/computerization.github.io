@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://computerization.io/en/blog</id>
     <title>Computerization Blog</title>
-    <updated>2024-09-14T00:00:00.000Z</updated>
+    <updated>2024-11-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://computerization.io/en/blog"/>
     <subtitle>Computerization Blog</subtitle>
     <icon>https://computerization.io/en/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[正式发布 | c13n 社刊上线]]></title>
+        <id>https://computerization.io/en/blog/2024/11/26/c13n</id>
+        <link href="https://computerization.io/en/blog/2024/11/26/c13n"/>
+        <updated>2024-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[好久不见。]]></summary>
+        <content type="html"><![CDATA[<p>好久不见。</p>
+<p>经过长时间的筹备，我们 C 社的社刊 <code>c13n</code> 今天正式上线啦！</p>
+<p>社刊的主要内容将会涵盖 AI 技术、Web 技术、TeX 和排版相关知识、以及算法题的讲解。将从今天起不定期更新，欢迎大家收看。</p>
+<p>我们的内容会同时在网站 (<a href="https://c13n.club/" target="_blank" rel="noopener noreferrer">c13n.club</a>) 和微信公众号上发布，网站上还会提供 PDF 版本。</p>
+<p>所有的文章、网站框架和 PDF 生成的自动化工具都已开源。<br>
+GitHub: <a href="https://github.com/Computerization/c13n" target="_blank" rel="noopener noreferrer">Computerization/c13n</a></p>
+<p>(值得一提的是，我们的项目中 83% 的代码都是 C 语言，是一个我们为自动化而自制的 markdown 到 TeX 的转换器，而真正网站部分的代码则相比起这个少很多很多)</p>]]></content>
+        <author>
+            <name>杨其臻</name>
+            <uri>https://github.com/q1zhen</uri>
+        </author>
+        <category label="computerization" term="computerization"/>
+        <category label="c13n" term="c13n"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于排版]]></title>
         <id>https://computerization.io/en/blog/2024/09/14/typeset-misc</id>

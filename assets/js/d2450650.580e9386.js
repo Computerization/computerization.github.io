@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[8535],{8722:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/computerization","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

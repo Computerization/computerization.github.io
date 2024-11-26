@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[1480],{8046:function(e){e.exports=JSON.parse('{"label":"c13n","permalink":"/en/blog/tags/c-13-n","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);
