@@ -5,7 +5,14 @@
 #
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
-
+- classOf: 2024
+  members:
+    - name: Alex Gu
+      image: https://github.com/firef1y1203.png 
+      bio: UChicago '28 CS & Economics. Interested in large language models. 
+      links: 
+        github: https://github.com/firef1y1203
+        linkedin: https://www.linkedin.com/in/qiyuan-gu-24562b346/
 - classOf: 2023
   members:
     - name: Ben Zhang
