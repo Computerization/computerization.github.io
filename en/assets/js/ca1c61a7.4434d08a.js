@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcomputerization_website=self.webpackChunkcomputerization_website||[]).push([[373],{2301:function(e){e.exports=JSON.parse('{"label":"algorithm","permalink":"/en/blog/tags/algorithm","allTagsPath":"/en/blog/tags","count":4,"unlisted":false}')}}]);
