@@ -5,12 +5,22 @@
 #
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
+- classOf: 2025
+  members:
+    - name: Tom Tang
+      image: https://github.com/qwerzl.png
+      bio: UCLA '29 Design Media Arts & Cognitive Science.
+      links:
+        github: https://github.com/qwerzl
+        website: https://qwerzl.me
+        email: mailto:me@qwerzl.me
+      favoredLink: github
 - classOf: 2024
   members:
     - name: Alex Gu
-      image: https://github.com/firef1y1203.png 
-      bio: UChicago '28 CS & Economics. Interested in large language models. 
-      links: 
+      image: https://github.com/firef1y1203.png
+      bio: UChicago '28 CS & Economics. Interested in large language models.
+      links:
         github: https://github.com/firef1y1203
         linkedin: https://www.linkedin.com/in/qiyuan-gu-24562b346/
 - classOf: 2023
