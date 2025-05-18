@@ -15,6 +15,12 @@
         website: https://qwerzl.me
         email: mailto:me@qwerzl.me
       favoredLink: github
+    - name: 唐哲皓
+      image: https://github.com/VecToR-1024.png
+      bio: UW CS '29. Interested in Computer Vision and Natural Language Processing.
+      links:
+        github: https://github.com/VecToR-1024
+        linkedin: https://www.linkedin.com/in/zhehao-tang-1a0883346/
 - classOf: 2024
   members:
     - name: 顾淇元
