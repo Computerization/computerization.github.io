@@ -26,7 +26,7 @@ module.exports = async function createConfigAsync() {
       announcementBar: {
         id: "join_us",
         content:
-          '<b>🎉 C 社 2024-25 届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/K-qGy7XPybCxq0WBl9DV0A"></a>',
+          '<b>🎉 C 社 2025-26 届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/K-qGy7XPybCxq0WBl9DV0A"></a>',
         backgroundColor: "#22292f",
         textColor: "#FFFFFF",
         isCloseable: false,
