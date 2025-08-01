@@ -89,9 +89,17 @@ function Home(): JSX.Element {
                       </div>
                     )}
                     <h3>
-                      <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
-                        {title}
-                      </Translate>
+                      {title === "AI 部" ? (
+                        <a href="http://ai-lab.club/">
+                          <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
+                            {title}
+                          </Translate>
+                        </a>
+                      ) : (
+                        <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
+                          {title}
+                        </Translate>
+                      )}
                     </h3>
                     <p>{description}</p>
                   </div>
