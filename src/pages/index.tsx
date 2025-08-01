@@ -25,7 +25,7 @@ const features = [
     title: "算法竞赛",
     description: (
       <Translate id="frontpage.sec1.item2">
-        2024 部门全新重启 - 备考 USACO - 算法 lecture
+        备考 USACO - 算法 lecture
       </Translate>
     ),
   },
@@ -89,9 +89,17 @@ function Home(): JSX.Element {
                       </div>
                     )}
                     <h3>
-                      <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
-                        {title}
-                      </Translate>
+                      {title === "AI 部" ? (
+                        <a href="http://ai-lab.club/">
+                          <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
+                            {title}
+                          </Translate>
+                        </a>
+                      ) : (
+                        <Translate id={`frontpage.sec1.item${idx + 1}.title`}>
+                          {title}
+                        </Translate>
+                      )}
                     </h3>
                     <p>{description}</p>
                   </div>
@@ -130,7 +138,7 @@ function Home(): JSX.Element {
                 <div className={styles.card}>
                   <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item2">
-                      C 社 2024-25 届开始招新！
+                      C 社 2025-26 届开始招新！
                     </Translate>
                   </h3>
                   <div>
