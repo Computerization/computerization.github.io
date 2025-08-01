@@ -138,7 +138,23 @@ function Home(): JSX.Element {
                 <div className={styles.card}>
                   <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item2">
-                      C 社 2025-26 届开始招新！
+                      C 社 2025 届开始招新！
+                    </Translate>
+                  </h3>
+                  <div>
+                    <img
+                      style={{ maxWidth: "400px", width: "100%" }}
+                      alt="poster"
+                      src="/img/poster25.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col col--6">
+                <div className={styles.card}>
+                  <h3 className={styles.header}>
+                    <Translate id="frontpage.sec2.item2">
+                      2024-2025
                     </Translate>
                   </h3>
                   <div>
@@ -154,7 +170,7 @@ function Home(): JSX.Element {
                 <div className={styles.card}>
                   <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item2">
-                      C 社 2023 届开始招新，欢迎你的加入！
+                      2023-2024
                     </Translate>
                   </h3>
                   <div>
