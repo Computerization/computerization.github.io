@@ -4076,10 +4076,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.18.4":
-  version: 18.18.4
-  resolution: "@types/node@npm:18.18.4"
-  checksum: 4901e91c4cc479bb58acbcd79236a97a0ad6db4a53cb1f4ba4cf32af15324c61b16faa6e31c1b09bf538a20feb5f5274239157ce5237f5741db0b9ab71e69c52
+"@types/node@npm:18.19.123":
+  version: 18.19.123
+  resolution: "@types/node@npm:18.19.123"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: a450556143df831703fc20a96a1eff485fa425e5a6e887331991d3e00ab2d33981d36e94d4320f4961e96d22c488ced740913fed6de161daea5caf39722c5f49
   languageName: node
   linkType: hard
 
@@ -6024,7 +6026,7 @@ __metadata:
     "@docusaurus/tsconfig": 3.0.0-beta.0
     "@docusaurus/types": 3.0.0-beta.0
     "@mdx-js/react": 2.3.0
-    "@types/node": 18.18.4
+    "@types/node": 18.19.123
     "@types/react": 18.2.32
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
@@ -6817,7 +6819,7 @@ __metadata:
     "@docusaurus/utils-validation": 2.0.0-beta.21
     "@types/fs-extra": 11.0.3
     "@types/js-yaml": 4.0.8
-    "@types/node": 18.18.4
+    "@types/node": 18.19.123
     "@types/react": 18.2.32
     fs-extra: 11.1.1
     js-yaml: 4.1.0
@@ -15223,6 +15225,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
