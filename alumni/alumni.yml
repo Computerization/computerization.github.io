@@ -7,6 +7,14 @@
 # first, before re-using their personal information elsewhere.
 - classOf: 2026
   members:
+    - name: 杨其臻
+      image: https://github.com/q1zhen.png
+      bio: CMU CS '30. I love arts (and cryptocurrency).
+      links:
+        github: https://github.com/q1zhen
+        website: https://q1z.dev
+        email: mailto:qzyang.main@gmail.com
+      favoredLink: github
     - name: 黄京
       image: https://github.com/RadioNoiseE.png
       bio: UW-Madison '29 Mathematics. Ordinary magician.
