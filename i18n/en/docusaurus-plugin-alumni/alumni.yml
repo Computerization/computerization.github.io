@@ -5,6 +5,15 @@
 #
 # However, we do appreciate if you ask for consent from these people
 # first, before re-using their personal information elsewhere.
+- classOf: 2026
+  members:
+    - name: Jing Huang
+      image: https://github.com/RadioNoiseE.png
+      bio: UW-Madison '29 Mathematics. Ordinary magician.
+      links:
+        github: https://github.com/RadioNoiseE
+        website: https://kekkan.org
+      favoredLink: github
 - classOf: 2025
   members:
     - name: Tom Tang
