@@ -15,6 +15,14 @@
         website: https://q1z.dev
         email: mailto:qzyang.main@gmail.com
       favoredLink: github
+    - name: 叶家炜
+      image: https://github.com/at-wr.png
+      bio: King's Eng '29. Builder. Coder.
+      links:
+        github: https://github.com/at-wr
+        website: https://alany.dev
+        email: mailto:reach@wrye.dev
+      favoredLink: github
     - name: 黄京
       image: https://github.com/RadioNoiseE.png
       bio: UW-Madison '30 Mathematics. Ordinary magician.
