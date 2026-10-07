@@ -26,7 +26,7 @@ module.exports = async function createConfigAsync() {
       announcementBar: {
         id: "join_us",
         content:
-          '<b>🎉 C 社 2025-26 届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/K-qGy7XPybCxq0WBl9DV0A"></a>',
+          '<b>🎉 C 社 2026-27 届开始招新啦</b>！ <a target="_blank" rel="noopener noreferrer" href="https://mp.weixin.qq.com/s/K-qGy7XPybCxq0WBl9DV0A"></a>',
         backgroundColor: "#22292f",
         textColor: "#FFFFFF",
         isCloseable: false,
@@ -113,15 +113,13 @@ module.exports = async function createConfigAsync() {
             sidebarPath: require.resolve("./sidebars.js"),
             remarkPlugins: [(await import("remark-math")).default],
             rehypePlugins: [
-              (await import("rehype-katex")).default,
-              { strict: false },
+              [(await import("rehype-katex")).default, { strict: false }],
             ],
           },
           blog: {
             remarkPlugins: [(await import("remark-math")).default],
             rehypePlugins: [
-              (await import("rehype-katex")).default,
-              { strict: false },
+              [(await import("rehype-katex")).default, { strict: false }],
             ],
           },
           theme: {

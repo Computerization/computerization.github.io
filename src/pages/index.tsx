@@ -24,9 +24,7 @@ const features = [
   {
     title: "算法竞赛",
     description: (
-      <Translate id="frontpage.sec1.item2">
-        备考 USACO - 算法 lecture
-      </Translate>
+      <Translate id="frontpage.sec1.item2">备考 USACO - 算法 lecture</Translate>
     ),
   },
   {
@@ -137,6 +135,22 @@ function Home(): JSX.Element {
               <div className="col col--6">
                 <div className={styles.card}>
                   <h3 className={styles.header}>
+                    <Translate id="frontpage.sec2.recruitment2026">
+                      C 社 2026 届开始招新！
+                    </Translate>
+                  </h3>
+                  <div>
+                    <img
+                      style={{ maxWidth: "400px", width: "100%" }}
+                      alt="C 社 2026-27 届招新海报"
+                      src="/img/poster26.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col col--6">
+                <div className={styles.card}>
+                  <h3 className={styles.header}>
                     <Translate id="frontpage.sec2.item2">
                       C 社 2025 届开始招新！
                     </Translate>
@@ -153,9 +167,7 @@ function Home(): JSX.Element {
               <div className="col col--6">
                 <div className={styles.card}>
                   <h3 className={styles.header}>
-                    <Translate id="frontpage.sec2.item2">
-                      2024-2025
-                    </Translate>
+                    <Translate id="frontpage.sec2.item2">2024-2025</Translate>
                   </h3>
                   <div>
                     <img
@@ -169,9 +181,7 @@ function Home(): JSX.Element {
               <div className="col col--6">
                 <div className={styles.card}>
                   <h3 className={styles.header}>
-                    <Translate id="frontpage.sec2.item2">
-                      2023-2024
-                    </Translate>
+                    <Translate id="frontpage.sec2.item2">2023-2024</Translate>
                   </h3>
                   <div>
                     <img
